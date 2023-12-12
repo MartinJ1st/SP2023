@@ -85,6 +85,8 @@ add_executable(kTrampa Laboratoriski/6_nedela/kTrampa.cpp)
 add_executable(ParnaMatrica Laboratoriski/7_nedela/ParnaMatrica.cpp)
 add_executable(PodDijagonali Laboratoriski/7_nedela/PodDijagonali.cpp)
 add_executable(MagicnaMatrica Laboratoriski/7_nedela/MagicnaMatrica.cpp)
+add_executable(NajgolemaKolona Laboratoriski/7_nedela/NajgolemaKolona.cpp)
+add_executable(DijagonalnoPecatenje Laboratoriski/7_nedela/DijagonalnoPecatenje.cpp)
 
 
 
