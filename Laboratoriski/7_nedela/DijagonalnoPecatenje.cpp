@@ -11,7 +11,8 @@ int main()
     }
 
     for (int k = 0; k < n; ++k) {
-        for (int i = 0; i < n; ++i) {
+        for (int i = 0; i < n; ++i)
+        {
             for (int j = 0; j < m; ++j) {
                 if(i+j==k){
                     cout<<a[i][j]<<" ";
