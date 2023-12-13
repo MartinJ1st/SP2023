@@ -67,6 +67,9 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/ProstaNiza.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PogolemiNiza.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/DodavanjeNiza.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/kTrampa.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/kElement.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PolovicnoDelenje.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/ZbirIndeks.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/ParnaMatrica.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PodDijagonali.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/MagicnaMatrica.dir
@@ -174,6 +177,7 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud7.8.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud7.9.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud7.10.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Domasno7.10.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/DiplenjeZadaca.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud8.1.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud8.1.2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud8.1.3.dir

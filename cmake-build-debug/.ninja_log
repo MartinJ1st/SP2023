@@ -10,7 +10,7 @@
 2	230	7211688389663668	CMakeFiles/5ta.dir/ZadaciZaVezbanje1Kolokvium/5ta.cpp.obj	6e9458e620661d81
 1	896	7214347061315827	CMakeFiles/2ra.dir/ZadaciZaVezbanje1Kolokvium/2ra.cpp.obj	44df4f13e28ef411
 549	694	7212393547007738	KinoKategorii.exe	bfc9c54bbcbc2c56
-0	221	7241206161663725	build.ninja	1d75c3d4eff8e2ac
+0	221	7241342374635045	build.ninja	1d75c3d4eff8e2ac
 5	515	7218539555645970	CMakeFiles/Palindrom2.dir/Laboratoriski/4_nedela/Palindrom2.cpp.obj	af35f98994a6945b
 7	560	7222606598071514	CMakeFiles/7ma.dir/ZadaciZaVezbanje1Kolokvium/7ma.cpp.obj	4e1a450a7c77dc9e
 643	800	7217558490084602	FILM_TEKSA.exe	f536baeeb498eaa
@@ -83,8 +83,8 @@
 364	436	7236009395585203	PogolemiNiza.exe	9bfcdd301afe3192
 3	340	7236012427503972	CMakeFiles/DodavanjeNiza.dir/Laboratoriski/6_nedela/DodavanjeNiza.cpp.obj	40a401868bae0c76
 340	419	7236012428243670	DodavanjeNiza.exe	ccf54e115c4aa71f
-3	382	7236895750331203	CMakeFiles/kTrampa.dir/Laboratoriski/6_nedela/kTrampa.cpp.obj	af5c7db3ba2d2ec2
-383	453	7236895750991246	kTrampa.exe	85649e41ed1cbd1b
+4	550	7241307761651620	CMakeFiles/kTrampa.dir/Laboratoriski/6_nedela/kTrampa.cpp.obj	af5c7db3ba2d2ec2
+551	634	7241307762433338	kTrampa.exe	85649e41ed1cbd1b
 3	401	7236937135774805	CMakeFiles/Domasno9.8.dir/Auditoriski/9/Domasno9.8.cpp.obj	561d500dab8cbf28
 402	472	7236937136434807	Domasno9.8.exe	ceb361716ad19edb
 3	384	7240111682195729	CMakeFiles/PodDijagonali.dir/Laboratoriski/7_nedela/PodDijagonali.cpp.obj	72e14c654a748764
@@ -101,11 +101,7 @@
 4	496	7240159776094706	CMakeFiles/Aud8.5.dir/Auditoriski/8/Aud8.5.cpp.obj	80c25e8eae05ce8c
 3	363	7241204427772685	CMakeFiles/NajgolemaKolona.dir/Laboratoriski/7_nedela/NajgolemaKolona.cpp.obj	d952824e0e26781e
 363	440	7241204428487215	NajgolemaKolona.exe	d55bc6f9522a4c26
-0	447	7241206281401818	CMakeFiles/DijagonalnoPecatenje.dir/Laboratoriski/7_nedela/DijagonalnoPecatenje.cpp.obj	8f960c8edbaaf7c2
-447	521	7241206282104074	DijagonalnoPecatenje.exe	376cd09d9e0a49f0
-3	390	7241206543161503	CMakeFiles/DijagonalnoPecatenje.dir/Laboratoriski/7_nedela/DijagonalnoPecatenje.cpp.obj	8f960c8edbaaf7c2
-391	470	7241206543906329	DijagonalnoPecatenje.exe	376cd09d9e0a49f0
-3	431	7241206638077635	CMakeFiles/DijagonalnoPecatenje.dir/Laboratoriski/7_nedela/DijagonalnoPecatenje.cpp.obj	8f960c8edbaaf7c2
-432	516	7241206638873991	DijagonalnoPecatenje.exe	376cd09d9e0a49f0
 3	582	7241278184512052	CMakeFiles/DijagonalnoPecatenje.dir/Laboratoriski/7_nedela/DijagonalnoPecatenje.cpp.obj	8f960c8edbaaf7c2
 582	682	7241278185466895	DijagonalnoPecatenje.exe	376cd09d9e0a49f0
+4	446	7241295671563731	CMakeFiles/DiplenjeZadaca.dir/Auditoriski/7/DiplenjeZadaca.cpp.obj	18329f209b24c5da
+447	545	7241295672473074	DiplenjeZadaca.exe	74f2d33865652cc7
