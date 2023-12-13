@@ -70,6 +70,7 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/kTrampa.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/kElement.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PolovicnoDelenje.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/ZbirIndeks.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/AbsolutnaRazlika.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/ParnaMatrica.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PodDijagonali.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/MagicnaMatrica.dir

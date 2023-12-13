@@ -84,6 +84,7 @@ add_executable(kTrampa Laboratoriski/6_nedela/kTrampa.cpp)
 add_executable(kElement Laboratoriski/6_nedela/kElement.cpp)
 add_executable(PolovicnoDelenje Laboratoriski/6_nedela/PolovicnoPecatenje.cpp)
 add_executable(ZbirIndeks Laboratoriski/6_nedela/ZbirIndeks.cpp)
+add_executable(AbsolutnaRazlika Laboratoriski/6_nedela/AbsoultnaRazlika.cpp)
 
 add_executable(ParnaMatrica Laboratoriski/7_nedela/ParnaMatrica.cpp)
 add_executable(PodDijagonali Laboratoriski/7_nedela/PodDijagonali.cpp)
