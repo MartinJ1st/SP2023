@@ -92,8 +92,6 @@ add_executable(MagicnaMatrica Laboratoriski/7_nedela/MagicnaMatrica.cpp)
 add_executable(NajgolemaKolona Laboratoriski/7_nedela/NajgolemaKolona.cpp)
 add_executable(DijagonalnoPecatenje Laboratoriski/7_nedela/DijagonalnoPecatenje.cpp)
 
-
-
 add_executable(HelloWorld Auditoriski/1/HelloWorld.cpp)
 add_executable(Aud1.1 Auditoriski/1/Aud1.1.cpp)
 add_executable(Aud1.2 Auditoriski/1/Aud1.2.cpp)
