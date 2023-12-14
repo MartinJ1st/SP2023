@@ -25,6 +25,12 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/11taSoFunkcii.d
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/13ta.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12ta.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12taB2B.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/3ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/7ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/13ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/14ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/16ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/17ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Kombinacija3Broja.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/SredinaOperaciiNacin1.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/SredinaOperaciiNacin2.dir
@@ -68,7 +74,6 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PogolemiNiza.di
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/DodavanjeNiza.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/kTrampa.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/kElement.dir
-C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PolovicnoDelenje.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/ZbirIndeks.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/AbsolutnaRazlika.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/ParnaMatrica.dir
