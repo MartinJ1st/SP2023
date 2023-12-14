@@ -10,7 +10,7 @@
 2	230	7211688389663668	CMakeFiles/5ta.dir/ZadaciZaVezbanje1Kolokvium/5ta.cpp.obj	6e9458e620661d81
 1	896	7214347061315827	CMakeFiles/2ra.dir/ZadaciZaVezbanje1Kolokvium/2ra.cpp.obj	44df4f13e28ef411
 549	694	7212393547007738	KinoKategorii.exe	bfc9c54bbcbc2c56
-0	221	7241355016840656	build.ninja	1d75c3d4eff8e2ac
+0	221	7242168147923622	build.ninja	1d75c3d4eff8e2ac
 5	515	7218539555645970	CMakeFiles/Palindrom2.dir/Laboratoriski/4_nedela/Palindrom2.cpp.obj	af35f98994a6945b
 7	560	7222606598071514	CMakeFiles/7ma.dir/ZadaciZaVezbanje1Kolokvium/7ma.cpp.obj	4e1a450a7c77dc9e
 643	800	7217558490084602	FILM_TEKSA.exe	f536baeeb498eaa
@@ -105,3 +105,13 @@
 582	682	7241278185466895	DijagonalnoPecatenje.exe	376cd09d9e0a49f0
 4	446	7241295671563731	CMakeFiles/DiplenjeZadaca.dir/Auditoriski/7/DiplenjeZadaca.cpp.obj	18329f209b24c5da
 447	545	7241295672473074	DiplenjeZadaca.exe	74f2d33865652cc7
+1	440	7242168314449221	CMakeFiles/NegativniMatrica.dir/Laboratoriski/7_nedela/NegativniiMatrica.cpp.obj	9c455d18e4547b4c
+440	549	7242168315496653	NegativniMatrica.exe	91cab80625f85813
+5	480	7242168552588094	CMakeFiles/NegativniMatrica.dir/Laboratoriski/7_nedela/NegativniiMatrica.cpp.obj	9c455d18e4547b4c
+480	556	7242168553302597	NegativniMatrica.exe	91cab80625f85813
+6	503	7242170617950159	CMakeFiles/NegativniMatrica.dir/Laboratoriski/7_nedela/NegativniiMatrica.cpp.obj	9c455d18e4547b4c
+503	581	7242170618677213	NegativniMatrica.exe	91cab80625f85813
+5	473	7242171074121608	CMakeFiles/NegativniMatrica.dir/Laboratoriski/7_nedela/NegativniiMatrica.cpp.obj	9c455d18e4547b4c
+473	546	7242171074802213	NegativniMatrica.exe	91cab80625f85813
+5	418	7242171297753147	CMakeFiles/NegativniMatrica.dir/Laboratoriski/7_nedela/NegativniiMatrica.cpp.obj	9c455d18e4547b4c
+418	499	7242171298512040	NegativniMatrica.exe	91cab80625f85813
