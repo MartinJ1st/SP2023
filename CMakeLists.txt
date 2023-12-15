@@ -97,6 +97,9 @@ add_executable(MagicnaMatrica Laboratoriski/7_nedela/MagicnaMatrica.cpp)
 add_executable(NajgolemaKolona Laboratoriski/7_nedela/NajgolemaKolona.cpp)
 add_executable(DijagonalnoPecatenje Laboratoriski/7_nedela/DijagonalnoPecatenje.cpp)
 add_executable(NegativniMatrica Laboratoriski/7_nedela/NegativniiMatrica.cpp)
+add_executable(ZnakDijagonali Laboratoriski/7_nedela/ZnakDijagonali.cpp)
+add_executable(MinMaxNormalizacija Laboratoriski/7_nedela/MinMaxNormalizacija.cpp)
+
 
 add_executable(HelloWorld Auditoriski/1/HelloWorld.cpp)
 add_executable(Aud1.1 Auditoriski/1/Aud1.1.cpp)
@@ -208,7 +211,7 @@ add_executable(Aud7.8 Auditoriski/7/Aud7.8.cpp)
 add_executable(Aud7.9 Auditoriski/7/Aud7.9.cpp)
 add_executable(Aud7.10 Auditoriski/7/Aud7.10.cpp)
 add_executable(Domasno7.10 Auditoriski/7/Domasno7.10.cpp)
-add_executable(DiplenjeZadaca Auditoriski/7/DiplenjeZadaca.cpp)
+add_executable(DiplenjeZadaca Laboratoriski/7_nedela/DiplenjeZadaca.cpp)
 
 add_executable(Aud8.1 Auditoriski/8/Aud8.1.cpp)
 add_executable(Aud8.1.2 Auditoriski/8/Aud8.1.2.cpp)

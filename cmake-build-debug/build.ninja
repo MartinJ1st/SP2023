@@ -2813,6 +2813,72 @@ build NegativniMatrica.exe: CXX_EXECUTABLE_LINKER__NegativniMatrica_Debug CMakeF
   TARGET_PDB = NegativniMatrica.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target ZnakDijagonali
+
+
+#############################################
+# Order-only phony target for ZnakDijagonali
+
+build cmake_object_order_depends_target_ZnakDijagonali: phony || CMakeFiles/ZnakDijagonali.dir
+
+build CMakeFiles/ZnakDijagonali.dir/Laboratoriski/7_nedela/ZnakDijagonali.cpp.obj: CXX_COMPILER__ZnakDijagonali_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/ZnakDijagonali.cpp || cmake_object_order_depends_target_ZnakDijagonali
+  DEP_FILE = CMakeFiles\ZnakDijagonali.dir\Laboratoriski\7_nedela\ZnakDijagonali.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ZnakDijagonali.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZnakDijagonali.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ZnakDijagonali
+
+
+#############################################
+# Link the executable ZnakDijagonali.exe
+
+build ZnakDijagonali.exe: CXX_EXECUTABLE_LINKER__ZnakDijagonali_Debug CMakeFiles/ZnakDijagonali.dir/Laboratoriski/7_nedela/ZnakDijagonali.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ZnakDijagonali.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ZnakDijagonali.exe
+  TARGET_IMPLIB = libZnakDijagonali.dll.a
+  TARGET_PDB = ZnakDijagonali.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MinMaxNormalizacija
+
+
+#############################################
+# Order-only phony target for MinMaxNormalizacija
+
+build cmake_object_order_depends_target_MinMaxNormalizacija: phony || CMakeFiles/MinMaxNormalizacija.dir
+
+build CMakeFiles/MinMaxNormalizacija.dir/Laboratoriski/7_nedela/MinMaxNormalizacija.cpp.obj: CXX_COMPILER__MinMaxNormalizacija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/MinMaxNormalizacija.cpp || cmake_object_order_depends_target_MinMaxNormalizacija
+  DEP_FILE = CMakeFiles\MinMaxNormalizacija.dir\Laboratoriski\7_nedela\MinMaxNormalizacija.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MinMaxNormalizacija.dir
+  OBJECT_FILE_DIR = CMakeFiles\MinMaxNormalizacija.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MinMaxNormalizacija
+
+
+#############################################
+# Link the executable MinMaxNormalizacija.exe
+
+build MinMaxNormalizacija.exe: CXX_EXECUTABLE_LINKER__MinMaxNormalizacija_Debug CMakeFiles/MinMaxNormalizacija.dir/Laboratoriski/7_nedela/MinMaxNormalizacija.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MinMaxNormalizacija.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MinMaxNormalizacija.exe
+  TARGET_IMPLIB = libMinMaxNormalizacija.dll.a
+  TARGET_PDB = MinMaxNormalizacija.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target HelloWorld
 
 
@@ -6187,11 +6253,11 @@ build Domasno7.10.exe: CXX_EXECUTABLE_LINKER__Domasno7.2e10_Debug CMakeFiles/Dom
 
 build cmake_object_order_depends_target_DiplenjeZadaca: phony || CMakeFiles/DiplenjeZadaca.dir
 
-build CMakeFiles/DiplenjeZadaca.dir/Auditoriski/7/DiplenjeZadaca.cpp.obj: CXX_COMPILER__DiplenjeZadaca_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Auditoriski/7/DiplenjeZadaca.cpp || cmake_object_order_depends_target_DiplenjeZadaca
-  DEP_FILE = CMakeFiles\DiplenjeZadaca.dir\Auditoriski\7\DiplenjeZadaca.cpp.obj.d
+build CMakeFiles/DiplenjeZadaca.dir/Laboratoriski/7_nedela/DiplenjeZadaca.cpp.obj: CXX_COMPILER__DiplenjeZadaca_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/DiplenjeZadaca.cpp || cmake_object_order_depends_target_DiplenjeZadaca
+  DEP_FILE = CMakeFiles\DiplenjeZadaca.dir\Laboratoriski\7_nedela\DiplenjeZadaca.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\DiplenjeZadaca.dir
-  OBJECT_FILE_DIR = CMakeFiles\DiplenjeZadaca.dir\Auditoriski\7
+  OBJECT_FILE_DIR = CMakeFiles\DiplenjeZadaca.dir\Laboratoriski\7_nedela
 
 
 # =============================================================================
@@ -6201,7 +6267,7 @@ build CMakeFiles/DiplenjeZadaca.dir/Auditoriski/7/DiplenjeZadaca.cpp.obj: CXX_CO
 #############################################
 # Link the executable DiplenjeZadaca.exe
 
-build DiplenjeZadaca.exe: CXX_EXECUTABLE_LINKER__DiplenjeZadaca_Debug CMakeFiles/DiplenjeZadaca.dir/Auditoriski/7/DiplenjeZadaca.cpp.obj
+build DiplenjeZadaca.exe: CXX_EXECUTABLE_LINKER__DiplenjeZadaca_Debug CMakeFiles/DiplenjeZadaca.dir/Laboratoriski/7_nedela/DiplenjeZadaca.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\DiplenjeZadaca.dir
@@ -7509,6 +7575,8 @@ build Matrica3: phony Matrica3.exe
 
 build Matrica4: phony Matrica4.exe
 
+build MinMaxNormalizacija: phony MinMaxNormalizacija.exe
+
 build Morze: phony Morze.exe
 
 build NajgolemaKolona: phony NajgolemaKolona.exe
@@ -7587,6 +7655,8 @@ build ZbirPodNiza: phony ZbirPodNiza.exe
 
 build ZnaciZadaca: phony ZnaciZadaca.exe
 
+build ZnakDijagonali: phony ZnakDijagonali.exe
+
 build kElement: phony kElement.exe
 
 build kTrampa: phony kTrampa.exe
@@ -7599,7 +7669,7 @@ build kTrampa: phony kTrampa.exe
 #############################################
 # Folder: C:/Users/Media/CLionProjects/SP2023/cmake-build-debug
 
-build all: phony Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 7ta-2.exe 13ta-2.exe 14ta-2.exe 16ta-2.exe 17ta-2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.2.exe Aud9.3.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe
+build all: phony Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 7ta-2.exe 13ta-2.exe 14ta-2.exe 16ta-2.exe 17ta-2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.2.exe Aud9.3.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe
 
 # =============================================================================
 # Built-in targets

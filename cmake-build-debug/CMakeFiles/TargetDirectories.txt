@@ -82,6 +82,8 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/MagicnaMatrica.
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/NajgolemaKolona.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/DijagonalnoPecatenje.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/NegativniMatrica.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/ZnakDijagonali.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/MinMaxNormalizacija.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/HelloWorld.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud1.1.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud1.2.dir

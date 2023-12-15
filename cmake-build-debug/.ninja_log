@@ -10,7 +10,7 @@
 2	230	7211688389663668	CMakeFiles/5ta.dir/ZadaciZaVezbanje1Kolokvium/5ta.cpp.obj	6e9458e620661d81
 1	896	7214347061315827	CMakeFiles/2ra.dir/ZadaciZaVezbanje1Kolokvium/2ra.cpp.obj	44df4f13e28ef411
 549	694	7212393547007738	KinoKategorii.exe	bfc9c54bbcbc2c56
-0	221	7242729712325574	build.ninja	1d75c3d4eff8e2ac
+0	221	7243056462481699	build.ninja	1d75c3d4eff8e2ac
 5	515	7218539555645970	CMakeFiles/Palindrom2.dir/Laboratoriski/4_nedela/Palindrom2.cpp.obj	af35f98994a6945b
 7	560	7222606598071514	CMakeFiles/7ma.dir/ZadaciZaVezbanje1Kolokvium/7ma.cpp.obj	4e1a450a7c77dc9e
 643	800	7217558490084602	FILM_TEKSA.exe	f536baeeb498eaa
@@ -32,6 +32,7 @@
 343	401	7216124931045101	Glusec.exe	30dfd1b3b34dd6bf
 6	513	7222603583174570	CMakeFiles/2raB2B.dir/ZadaciZaVezbanje1Kolokvium/2raB2B.cpp.obj	972c0d21c34bee1f
 217	274	7222240574045576	Sifr_poraki.exe	72d762011027141c
+683	787	7242733490194278	17ta-2.exe	c8b37f96ccf824ed
 521	659	7234114669395107	ProsekCeni.exe	5c7e9073c8ee8923
 513	626	7222603584198803	2raB2B.exe	d822590c210ec380
 1	722	7215197355994832	CMakeFiles/8maB2B.dir/ZadaciZaVezbanje1Kolokvium/8maB2B.cpp.obj	4bc19b1ca9aaae0f
@@ -115,9 +116,8 @@
 711	814	7242703236509159	7ta-2.exe	19e4bf66abb20722
 537	644	7242711122055387	13ta-2.exe	793c1c24379a7e9f
 4	534	7242718641133649	CMakeFiles/16ta-2.dir/ZadaciZaVezbanje2Kolokvium/16ta-2.cpp.obj	4a98f83e283b0bc0
-1	732	7242729772048798	CMakeFiles/17ta-2.dir/ZadaciZaVezbanje2Kolokvium/17ta-2.cpp.obj	c4107589eec068a7
-733	832	7242729772983420	17ta-2.exe	c8b37f96ccf824ed
-5	652	7242731697746399	CMakeFiles/17ta-2.dir/ZadaciZaVezbanje2Kolokvium/17ta-2.cpp.obj	c4107589eec068a7
-652	762	7242731698751521	17ta-2.exe	c8b37f96ccf824ed
 6	682	7242733489238643	CMakeFiles/17ta-2.dir/ZadaciZaVezbanje2Kolokvium/17ta-2.cpp.obj	c4107589eec068a7
-683	787	7242733490194278	17ta-2.exe	c8b37f96ccf824ed
+4	728	7243043236498885	CMakeFiles/ZnakDijagonali.dir/Laboratoriski/7_nedela/ZnakDijagonali.cpp.obj	3a83fbd4b0ce351a
+728	866	7243043237787729	ZnakDijagonali.exe	f5675fe7f7722cf8
+6	615	7243056045281752	CMakeFiles/MinMaxNormalizacija.dir/Laboratoriski/7_nedela/MinMaxNormalizacija.cpp.obj	cafc23409e917599
+616	759	7243056046623266	MinMaxNormalizacija.exe	c50abecbe84a6a25
