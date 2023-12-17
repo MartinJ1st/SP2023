@@ -36,6 +36,7 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/15ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/16ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/17ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/18ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/2ra-D2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Kombinacija3Broja.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/SredinaOperaciiNacin1.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/SredinaOperaciiNacin2.dir
