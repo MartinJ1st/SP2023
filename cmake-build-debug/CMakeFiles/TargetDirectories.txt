@@ -26,11 +26,16 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/13ta.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12ta.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12taB2B.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/3ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/4ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/7ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/9ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/13ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/14ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/15ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/16ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/17ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/18ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Kombinacija3Broja.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/SredinaOperaciiNacin1.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/SredinaOperaciiNacin2.dir

@@ -10,7 +10,7 @@
 2	230	7211688389663668	CMakeFiles/5ta.dir/ZadaciZaVezbanje1Kolokvium/5ta.cpp.obj	6e9458e620661d81
 1	896	7214347061315827	CMakeFiles/2ra.dir/ZadaciZaVezbanje1Kolokvium/2ra.cpp.obj	44df4f13e28ef411
 549	694	7212393547007738	KinoKategorii.exe	bfc9c54bbcbc2c56
-0	221	7243056462481699	build.ninja	1d75c3d4eff8e2ac
+0	221	7245486479364015	build.ninja	1d75c3d4eff8e2ac
 5	515	7218539555645970	CMakeFiles/Palindrom2.dir/Laboratoriski/4_nedela/Palindrom2.cpp.obj	af35f98994a6945b
 7	560	7222606598071514	CMakeFiles/7ma.dir/ZadaciZaVezbanje1Kolokvium/7ma.cpp.obj	4e1a450a7c77dc9e
 643	800	7217558490084602	FILM_TEKSA.exe	f536baeeb498eaa
@@ -121,3 +121,9 @@
 728	866	7243043237787729	ZnakDijagonali.exe	f5675fe7f7722cf8
 6	615	7243056045281752	CMakeFiles/MinMaxNormalizacija.dir/Laboratoriski/7_nedela/MinMaxNormalizacija.cpp.obj	cafc23409e917599
 616	759	7243056046623266	MinMaxNormalizacija.exe	c50abecbe84a6a25
+1	718	7245477249247681	CMakeFiles/9ta-2.dir/ZadaciZaVezbanje2Kolokvium/9ta-2.cpp.obj	6dd4fa8c9754d147
+718	884	7245477250833730	9ta-2.exe	58ebef439acee967
+1	638	7245481381823679	CMakeFiles/12ta-2.dir/ZadaciZaVezbanje2Kolokvium/12ta-2.cpp.obj	aa9249512df73a83
+639	782	7245481383162588	12ta-2.exe	a33bbcb0406573ab
+1	639	7245488712382523	CMakeFiles/15ta-2.dir/ZadaciZaVezbanje2Kolokvium/15ta-2.cpp.obj	e40c61cdfa28eb16
+640	801	7245488713851900	15ta-2.exe	33d8e3858d19d841
