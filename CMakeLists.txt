@@ -47,8 +47,6 @@ add_executable(18ta-2 ZadaciZaVezbanje2Kolokvium/18ta-2.cpp)
 
 add_executable(2ra-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/2ra-D2.cpp)
 
-
-
 add_executable(Kombinacija3Broja Laboratoriski/1_nedela/Kombinacija3Broja.cpp)
 add_executable(SredinaOperaciiNacin1 Laboratoriski/1_nedela/SredinaOperaciiNacin1.cpp)
 add_executable(SredinaOperaciiNacin2 Laboratoriski/1_nedela/SredinaOperaciiNacin2.cpp)
