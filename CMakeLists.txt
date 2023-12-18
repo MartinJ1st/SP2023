@@ -35,6 +35,7 @@ add_executable(12taB2B ZadaciZaVezbanje1Kolokvium/12taB2B.cpp)
 
 add_executable(3ta-2 ZadaciZaVezbanje2Kolokvium/3ta-2.cpp)
 add_executable(4ta-2 ZadaciZaVezbanje2Kolokvium/4ta-2.cpp)
+add_executable(6ta-2 ZadaciZaVezbanje2Kolokvium/6ta-2.cpp)
 add_executable(7ta-2 ZadaciZaVezbanje2Kolokvium/7ta-2.cpp)
 add_executable(9ta-2 ZadaciZaVezbanje2Kolokvium/9ta-2.cpp)
 add_executable(12ta-2 ZadaciZaVezbanje2Kolokvium/12ta-2.cpp)
