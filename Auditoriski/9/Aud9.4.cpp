@@ -8,17 +8,17 @@
 #include <iostream>
 using namespace std;
 
-float xnn(int n) {
+float nclen(int n) {
     if (n == 1)
         return 1;
     if (n == 2)
         return 2;
-    return (n - 1) * xnn(n - 1) / n + xnn(n - 2) / n;
+    return (n - 1) * nclen(n - 1) / n + nclen(n - 2) / n;
 }
 
 int main() {
     int n;
     cin >> n;
-    cout << "xnn(" << n << ") = " <<  xnn(n) << endl;
+    cout << "nclen(" << n << ") = " << nclen(n) << endl;
     return 0;
 }

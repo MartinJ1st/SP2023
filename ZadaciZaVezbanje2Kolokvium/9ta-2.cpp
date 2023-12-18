@@ -3,8 +3,11 @@ using namespace std;
 
 float rekurzija(int niza[], int i, int n)
 {
-    if(i==n-1){return niza[i];}
-    return niza[i]+1/ rekurzija(niza,i+1,n);
+    if(i==n-1)
+    {
+        return niza[i];
+    }
+    return niza[i]+1 / rekurzija(niza,i+1,n);
 }
 int main()
 {

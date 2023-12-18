@@ -6806,6 +6806,39 @@ build Aud9.1.exe: CXX_EXECUTABLE_LINKER__Aud9.2e1_Debug CMakeFiles/Aud9.1.dir/Au
   TARGET_PDB = Aud9.1.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Aud9.1.2
+
+
+#############################################
+# Order-only phony target for Aud9.1.2
+
+build cmake_object_order_depends_target_Aud9.1.2: phony || CMakeFiles/Aud9.1.2.dir
+
+build CMakeFiles/Aud9.1.2.dir/Auditoriski/9/Aud9.1.2.cpp.obj: CXX_COMPILER__Aud9.2e1.2e2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Auditoriski/9/Aud9.1.2.cpp || cmake_object_order_depends_target_Aud9.1.2
+  DEP_FILE = CMakeFiles\Aud9.1.2.dir\Auditoriski\9\Aud9.1.2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aud9.1.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aud9.1.2.dir\Auditoriski\9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Aud9.1.2
+
+
+#############################################
+# Link the executable Aud9.1.2.exe
+
+build Aud9.1.2.exe: CXX_EXECUTABLE_LINKER__Aud9.2e1.2e2_Debug CMakeFiles/Aud9.1.2.dir/Auditoriski/9/Aud9.1.2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Aud9.1.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Aud9.1.2.exe
+  TARGET_IMPLIB = libAud9.1.2.dll.a
+  TARGET_PDB = Aud9.1.2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Aud9.2
 
 
@@ -6870,6 +6903,39 @@ build Aud9.3.exe: CXX_EXECUTABLE_LINKER__Aud9.2e3_Debug CMakeFiles/Aud9.3.dir/Au
   TARGET_FILE = Aud9.3.exe
   TARGET_IMPLIB = libAud9.3.dll.a
   TARGET_PDB = Aud9.3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Aud9.3.2
+
+
+#############################################
+# Order-only phony target for Aud9.3.2
+
+build cmake_object_order_depends_target_Aud9.3.2: phony || CMakeFiles/Aud9.3.2.dir
+
+build CMakeFiles/Aud9.3.2.dir/Auditoriski/9/Aud9.3.2.cpp.obj: CXX_COMPILER__Aud9.2e3.2e2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Auditoriski/9/Aud9.3.2.cpp || cmake_object_order_depends_target_Aud9.3.2
+  DEP_FILE = CMakeFiles\Aud9.3.2.dir\Auditoriski\9\Aud9.3.2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Aud9.3.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Aud9.3.2.dir\Auditoriski\9
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Aud9.3.2
+
+
+#############################################
+# Link the executable Aud9.3.2.exe
+
+build Aud9.3.2.exe: CXX_EXECUTABLE_LINKER__Aud9.2e3.2e2_Debug CMakeFiles/Aud9.3.2.dir/Auditoriski/9/Aud9.3.2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Aud9.3.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Aud9.3.2.exe
+  TARGET_IMPLIB = libAud9.3.2.dll.a
+  TARGET_PDB = Aud9.3.2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Aud9.4
@@ -7693,9 +7759,13 @@ build Aud8.5: phony Aud8.5.exe
 
 build Aud9.1: phony Aud9.1.exe
 
+build Aud9.1.2: phony Aud9.1.2.exe
+
 build Aud9.2: phony Aud9.2.exe
 
 build Aud9.3: phony Aud9.3.exe
+
+build Aud9.3.2: phony Aud9.3.2.exe
 
 build Aud9.4: phony Aud9.4.exe
 
@@ -7879,7 +7949,7 @@ build kTrampa: phony kTrampa.exe
 #############################################
 # Folder: C:/Users/Media/CLionProjects/SP2023/cmake-build-debug
 
-build all: phony Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 2ra-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.2.exe Aud9.3.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe
+build all: phony Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 2ra-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe
 
 # =============================================================================
 # Built-in targets
