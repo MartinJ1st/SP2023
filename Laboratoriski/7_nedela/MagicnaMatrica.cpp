@@ -31,9 +31,11 @@ int main() {
     for (int k = 0; k < n - 1; ++k) {
         if (b[k] != b[k + 1] || c[k] != c[k + 1] || b[k] != c[k]) {
             {
+                cout<<"False";
                 break;
             }
         } else {
+            cout<<"True"<<endl;
             flag = true;
             for (int i = 0; i < n; ++i) {
                 for (int j = 0; j < n; ++j) {

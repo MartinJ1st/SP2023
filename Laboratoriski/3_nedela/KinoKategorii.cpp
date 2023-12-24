@@ -34,6 +34,6 @@ int main()
             cenaNaBilet = 18;
         }
     }
-    cout<<cenaNaBilet;
+    cout<<"Price: "<<cenaNaBilet<<"$";
     return 0;
 }

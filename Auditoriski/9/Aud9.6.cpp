@@ -26,18 +26,16 @@
 #include <iostream>
 
 using namespace std;
-#define MAX 100
 
-
-int NZD(int m, int n) {
-    if (!n) {
+int NZD(int n, int m) {
+    if (n % m == 0) {
         return m;
     }
-    return NZD(n, m % n);
+    return NZD(n, n % m);
 }
 
 int main() {
-    int i, n, a[MAX];
+    int i, n, a[100];
 
     cout << "Vnesi ja goleminata na nizata: ";
     cin >> n;
@@ -47,8 +45,9 @@ int main() {
         cin >> a[i];
     }
 
-    int nzd = NZD(a[0], a[1]);
-    for (i = 2; i < n; ++i) {
+    int nzd = a[0];
+
+    for (i = 1; i < n; ++i) {
         nzd = NZD(nzd, a[i]);
     }
 

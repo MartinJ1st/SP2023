@@ -9,17 +9,15 @@
 
 using namespace std;
 
-int nzd(int a, int b) {
-    while (b) {
-        int temp = b;
-        b = a % b;
-        a = temp;
+int NZD(int n, int m) {
+    if (n % m == 0) {
+        return m;
     }
-    return a;
+    return NZD(n, n % m);
 }
 
 int nzs_recursive(int a, int b) {
-    return a * b / nzd(a, b);
+    return a * b / NZD(a, b);
 }
 
 int nzs_array_recursive(const int a[], int size, int i) {

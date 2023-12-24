@@ -15,10 +15,10 @@ int main(){
         }
         brojac2++;
     }
+    if(!brojac){
+        cout<<0;
+    }
+    else
     cout<<(brojac/brojac2)*100<<"%";
     return 0;
 }
-
-
-
-

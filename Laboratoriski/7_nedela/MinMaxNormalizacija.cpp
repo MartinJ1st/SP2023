@@ -24,7 +24,6 @@ int main() {
                 max = a[j][i];
             }
         }
-        cout<<min<<" "<<max<<endl;
         for (int j = 0; j < n; ++j)
         {
             b[i][j] = (float)(a[j][i] - min) / (max - min);
@@ -33,7 +32,7 @@ int main() {
 
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
-            printf("%.2f  ",b[j][i]);
+            printf("%.2f ",b[j][i]);
         }
         cout << endl;
     }

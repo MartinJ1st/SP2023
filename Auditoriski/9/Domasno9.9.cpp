@@ -10,17 +10,24 @@
 
 
 #include <iostream>
+
 using namespace std;
 
-int najgolemElement(const int a[], int n, int i, int max) {
-    if (i == n) {
-        return max;
-    } else {
-        if (a[i] > max) {
-            max = a[i];
-        }
-        return najgolemElement(a, n, i + 1, max);
-    }
+//int najgolemElement(const int a[], int n, int i, int max) {
+//    if (i == n) {
+//        return max;
+//    } else {
+//        if (a[i] > max) {
+//            max = a[i];
+//        }
+//        return najgolemElement(a, n, i + 1, max);
+//    }
+//}
+
+int najgolemElement(int a[], int n, int max) {
+    if (n == 0)return max;
+    if (a[n - 1] > max)return najgolemElement(a, n - 1, a[n - 1]);
+    return najgolemElement(a, n - 1, max);
 }
 
 int main() {
@@ -32,7 +39,8 @@ int main() {
         cin >> niza[i];
     }
 
-    cout << "Najgolem element vo nizata e " << najgolemElement(niza, n, 0, niza[0]);
+//    cout << "Najgolem element vo nizata e " << najgolemElement(niza, n, 0, niza[0]);
+    cout << "Najgolem element vo nizata e " << najgolemElement(niza, n, niza[0]);
 
     return 0;
 }

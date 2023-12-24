@@ -45,13 +45,13 @@ int main() {
     srand(time(NULL)); // Seed the random number generator
     int randomNum = 1 + rand() % 1000000; // Generate a random number between 1 and 1,000,000
 
-    // Perform linear search
+    // Perform linear broj_povtoruvanja
     int linearSearchIndex = linearSearch(arr, 1000001, randomNum);
-    cout << "Linear search: " << linearSearchIndex << endl;
+    cout << "Linear broj_povtoruvanja: " << linearSearchIndex << endl;
 
-    // Perform binary search
+    // Perform binary broj_povtoruvanja
     int binarySearchIndex = binarySearch(arr, 0, 1000000, randomNum);
-    cout << "Binary search: " << binarySearchIndex << endl;
+    cout << "Binary broj_povtoruvanja: " << binarySearchIndex << endl;
 
     return 0;
 }

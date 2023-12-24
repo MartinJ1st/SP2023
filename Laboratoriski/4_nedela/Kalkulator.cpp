@@ -29,7 +29,7 @@ int main() {
         }
     }
     cout << "Semester: " << redenBroj + 1 << endl;
-    cout << "Grade point average: " << maxProsek << ", percentage of subjects passsed: " << maxSoodnos * 100 << "%"
+    cout << "Grade point average : " << maxProsek << ", percentage of subjects passed: " << maxSoodnos * 100 << "%"
          << endl;
     return 0;
 }

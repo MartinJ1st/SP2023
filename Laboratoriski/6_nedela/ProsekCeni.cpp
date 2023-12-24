@@ -16,7 +16,7 @@ int main() {
         if (a[i] >=prosek) { a[i] = 1; }
         else { a[i] = 0; }
     }
-    cout << prosek << endl;
+    cout << "Average price: "<<prosek << endl;
     for (int i = 0; i < n; ++i) {
         cout << a[i] << " ";
     }
