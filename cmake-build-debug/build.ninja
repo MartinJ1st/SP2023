@@ -239,136 +239,136 @@ build RelativnaFrekvencija.exe: CXX_EXECUTABLE_LINKER__RelativnaFrekvencija_Debu
   TARGET_PDB = RelativnaFrekvencija.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Zad1
+# Object build statements for EXECUTABLE target ZbirNiza
 
 
 #############################################
-# Order-only phony target for Zad1
+# Order-only phony target for ZbirNiza
 
-build cmake_object_order_depends_target_Zad1: phony || CMakeFiles/Zad1.dir
+build cmake_object_order_depends_target_ZbirNiza: phony || CMakeFiles/ZbirNiza.dir
 
-build CMakeFiles/Zad1.dir/B2BV2/Agon/Zad1.cpp.obj: CXX_COMPILER__Zad1_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Agon/Zad1.cpp || cmake_object_order_depends_target_Zad1
-  DEP_FILE = CMakeFiles\Zad1.dir\B2BV2\Agon\Zad1.cpp.obj.d
+build CMakeFiles/ZbirNiza.dir/B2BV2/Agon/ZbirNiza.cpp.obj: CXX_COMPILER__ZbirNiza_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Agon/ZbirNiza.cpp || cmake_object_order_depends_target_ZbirNiza
+  DEP_FILE = CMakeFiles\ZbirNiza.dir\B2BV2\Agon\ZbirNiza.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Zad1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Zad1.dir\B2BV2\Agon
+  OBJECT_DIR = CMakeFiles\ZbirNiza.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZbirNiza.dir\B2BV2\Agon
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Zad1
+# Link build statements for EXECUTABLE target ZbirNiza
 
 
 #############################################
-# Link the executable Zad1.exe
+# Link the executable ZbirNiza.exe
 
-build Zad1.exe: CXX_EXECUTABLE_LINKER__Zad1_Debug CMakeFiles/Zad1.dir/B2BV2/Agon/Zad1.cpp.obj
+build ZbirNiza.exe: CXX_EXECUTABLE_LINKER__ZbirNiza_Debug CMakeFiles/ZbirNiza.dir/B2BV2/Agon/ZbirNiza.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Zad1.dir
+  OBJECT_DIR = CMakeFiles\ZbirNiza.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Zad1.exe
-  TARGET_IMPLIB = libZad1.dll.a
-  TARGET_PDB = Zad1.exe.dbg
+  TARGET_FILE = ZbirNiza.exe
+  TARGET_IMPLIB = libZbirNiza.dll.a
+  TARGET_PDB = ZbirNiza.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Zad2
+# Object build statements for EXECUTABLE target ZbirCifri
 
 
 #############################################
-# Order-only phony target for Zad2
+# Order-only phony target for ZbirCifri
 
-build cmake_object_order_depends_target_Zad2: phony || CMakeFiles/Zad2.dir
+build cmake_object_order_depends_target_ZbirCifri: phony || CMakeFiles/ZbirCifri.dir
 
-build CMakeFiles/Zad2.dir/B2BV2/Agon/Zad2.cpp.obj: CXX_COMPILER__Zad2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Agon/Zad2.cpp || cmake_object_order_depends_target_Zad2
-  DEP_FILE = CMakeFiles\Zad2.dir\B2BV2\Agon\Zad2.cpp.obj.d
+build CMakeFiles/ZbirCifri.dir/B2BV2/Agon/ZbirCifri.cpp.obj: CXX_COMPILER__ZbirCifri_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Agon/ZbirCifri.cpp || cmake_object_order_depends_target_ZbirCifri
+  DEP_FILE = CMakeFiles\ZbirCifri.dir\B2BV2\Agon\ZbirCifri.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Zad2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Zad2.dir\B2BV2\Agon
+  OBJECT_DIR = CMakeFiles\ZbirCifri.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZbirCifri.dir\B2BV2\Agon
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Zad2
+# Link build statements for EXECUTABLE target ZbirCifri
 
 
 #############################################
-# Link the executable Zad2.exe
+# Link the executable ZbirCifri.exe
 
-build Zad2.exe: CXX_EXECUTABLE_LINKER__Zad2_Debug CMakeFiles/Zad2.dir/B2BV2/Agon/Zad2.cpp.obj
+build ZbirCifri.exe: CXX_EXECUTABLE_LINKER__ZbirCifri_Debug CMakeFiles/ZbirCifri.dir/B2BV2/Agon/ZbirCifri.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Zad2.dir
+  OBJECT_DIR = CMakeFiles\ZbirCifri.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Zad2.exe
-  TARGET_IMPLIB = libZad2.dll.a
-  TARGET_PDB = Zad2.exe.dbg
+  TARGET_FILE = ZbirCifri.exe
+  TARGET_IMPLIB = libZbirCifri.dll.a
+  TARGET_PDB = ZbirCifri.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Zad3
+# Object build statements for EXECUTABLE target Fibonaci
 
 
 #############################################
-# Order-only phony target for Zad3
+# Order-only phony target for Fibonaci
 
-build cmake_object_order_depends_target_Zad3: phony || CMakeFiles/Zad3.dir
+build cmake_object_order_depends_target_Fibonaci: phony || CMakeFiles/Fibonaci.dir
 
-build CMakeFiles/Zad3.dir/B2BV2/Agon/Zad3.cpp.obj: CXX_COMPILER__Zad3_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Agon/Zad3.cpp || cmake_object_order_depends_target_Zad3
-  DEP_FILE = CMakeFiles\Zad3.dir\B2BV2\Agon\Zad3.cpp.obj.d
+build CMakeFiles/Fibonaci.dir/B2BV2/Agon/Fibonaci.cpp.obj: CXX_COMPILER__Fibonaci_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Agon/Fibonaci.cpp || cmake_object_order_depends_target_Fibonaci
+  DEP_FILE = CMakeFiles\Fibonaci.dir\B2BV2\Agon\Fibonaci.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Zad3.dir
-  OBJECT_FILE_DIR = CMakeFiles\Zad3.dir\B2BV2\Agon
+  OBJECT_DIR = CMakeFiles\Fibonaci.dir
+  OBJECT_FILE_DIR = CMakeFiles\Fibonaci.dir\B2BV2\Agon
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Zad3
+# Link build statements for EXECUTABLE target Fibonaci
 
 
 #############################################
-# Link the executable Zad3.exe
+# Link the executable Fibonaci.exe
 
-build Zad3.exe: CXX_EXECUTABLE_LINKER__Zad3_Debug CMakeFiles/Zad3.dir/B2BV2/Agon/Zad3.cpp.obj
+build Fibonaci.exe: CXX_EXECUTABLE_LINKER__Fibonaci_Debug CMakeFiles/Fibonaci.dir/B2BV2/Agon/Fibonaci.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Zad3.dir
+  OBJECT_DIR = CMakeFiles\Fibonaci.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Zad3.exe
-  TARGET_IMPLIB = libZad3.dll.a
-  TARGET_PDB = Zad3.exe.dbg
+  TARGET_FILE = Fibonaci.exe
+  TARGET_IMPLIB = libFibonaci.dll.a
+  TARGET_PDB = Fibonaci.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Zad4
+# Object build statements for EXECUTABLE target DecToBinKonverzija
 
 
 #############################################
-# Order-only phony target for Zad4
+# Order-only phony target for DecToBinKonverzija
 
-build cmake_object_order_depends_target_Zad4: phony || CMakeFiles/Zad4.dir
+build cmake_object_order_depends_target_DecToBinKonverzija: phony || CMakeFiles/DecToBinKonverzija.dir
 
-build CMakeFiles/Zad4.dir/B2BV2/Agon/Zad4.cpp.obj: CXX_COMPILER__Zad4_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Agon/Zad4.cpp || cmake_object_order_depends_target_Zad4
-  DEP_FILE = CMakeFiles\Zad4.dir\B2BV2\Agon\Zad4.cpp.obj.d
+build CMakeFiles/DecToBinKonverzija.dir/B2BV2/Agon/DecToBinKonverzija.cpp.obj: CXX_COMPILER__DecToBinKonverzija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Agon/DecToBinKonverzija.cpp || cmake_object_order_depends_target_DecToBinKonverzija
+  DEP_FILE = CMakeFiles\DecToBinKonverzija.dir\B2BV2\Agon\DecToBinKonverzija.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Zad4.dir
-  OBJECT_FILE_DIR = CMakeFiles\Zad4.dir\B2BV2\Agon
+  OBJECT_DIR = CMakeFiles\DecToBinKonverzija.dir
+  OBJECT_FILE_DIR = CMakeFiles\DecToBinKonverzija.dir\B2BV2\Agon
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Zad4
+# Link build statements for EXECUTABLE target DecToBinKonverzija
 
 
 #############################################
-# Link the executable Zad4.exe
+# Link the executable DecToBinKonverzija.exe
 
-build Zad4.exe: CXX_EXECUTABLE_LINKER__Zad4_Debug CMakeFiles/Zad4.dir/B2BV2/Agon/Zad4.cpp.obj
+build DecToBinKonverzija.exe: CXX_EXECUTABLE_LINKER__DecToBinKonverzija_Debug CMakeFiles/DecToBinKonverzija.dir/B2BV2/Agon/DecToBinKonverzija.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Zad4.dir
+  OBJECT_DIR = CMakeFiles\DecToBinKonverzija.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Zad4.exe
-  TARGET_IMPLIB = libZad4.dll.a
-  TARGET_PDB = Zad4.exe.dbg
+  TARGET_FILE = DecToBinKonverzija.exe
+  TARGET_IMPLIB = libDecToBinKonverzija.dll.a
+  TARGET_PDB = DecToBinKonverzija.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Dijagonali
@@ -468,6 +468,270 @@ build Stringovi.exe: CXX_EXECUTABLE_LINKER__Stringovi_Debug CMakeFiles/Stringovi
   TARGET_FILE = Stringovi.exe
   TARGET_IMPLIB = libStringovi.dll.a
   TARGET_PDB = Stringovi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target LinearSearch
+
+
+#############################################
+# Order-only phony target for LinearSearch
+
+build cmake_object_order_depends_target_LinearSearch: phony || CMakeFiles/LinearSearch.dir
+
+build CMakeFiles/LinearSearch.dir/B2BV2/Tamara/LinearSearch.cpp.obj: CXX_COMPILER__LinearSearch_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Tamara/LinearSearch.cpp || cmake_object_order_depends_target_LinearSearch
+  DEP_FILE = CMakeFiles\LinearSearch.dir\B2BV2\Tamara\LinearSearch.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LinearSearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinearSearch.dir\B2BV2\Tamara
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LinearSearch
+
+
+#############################################
+# Link the executable LinearSearch.exe
+
+build LinearSearch.exe: CXX_EXECUTABLE_LINKER__LinearSearch_Debug CMakeFiles/LinearSearch.dir/B2BV2/Tamara/LinearSearch.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LinearSearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LinearSearch.exe
+  TARGET_IMPLIB = libLinearSearch.dll.a
+  TARGET_PDB = LinearSearch.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BinarySearch
+
+
+#############################################
+# Order-only phony target for BinarySearch
+
+build cmake_object_order_depends_target_BinarySearch: phony || CMakeFiles/BinarySearch.dir
+
+build CMakeFiles/BinarySearch.dir/B2BV2/Tamara/BinarySearch.cpp.obj: CXX_COMPILER__BinarySearch_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Tamara/BinarySearch.cpp || cmake_object_order_depends_target_BinarySearch
+  DEP_FILE = CMakeFiles\BinarySearch.dir\B2BV2\Tamara\BinarySearch.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BinarySearch.dir
+  OBJECT_FILE_DIR = CMakeFiles\BinarySearch.dir\B2BV2\Tamara
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BinarySearch
+
+
+#############################################
+# Link the executable BinarySearch.exe
+
+build BinarySearch.exe: CXX_EXECUTABLE_LINKER__BinarySearch_Debug CMakeFiles/BinarySearch.dir/B2BV2/Tamara/BinarySearch.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BinarySearch.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BinarySearch.exe
+  TARGET_IMPLIB = libBinarySearch.dll.a
+  TARGET_PDB = BinarySearch.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BubbleSort
+
+
+#############################################
+# Order-only phony target for BubbleSort
+
+build cmake_object_order_depends_target_BubbleSort: phony || CMakeFiles/BubbleSort.dir
+
+build CMakeFiles/BubbleSort.dir/B2BV2/Tamara/BubbleSort.cpp.obj: CXX_COMPILER__BubbleSort_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Tamara/BubbleSort.cpp || cmake_object_order_depends_target_BubbleSort
+  DEP_FILE = CMakeFiles\BubbleSort.dir\B2BV2\Tamara\BubbleSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BubbleSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\BubbleSort.dir\B2BV2\Tamara
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BubbleSort
+
+
+#############################################
+# Link the executable BubbleSort.exe
+
+build BubbleSort.exe: CXX_EXECUTABLE_LINKER__BubbleSort_Debug CMakeFiles/BubbleSort.dir/B2BV2/Tamara/BubbleSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BubbleSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BubbleSort.exe
+  TARGET_IMPLIB = libBubbleSort.dll.a
+  TARGET_PDB = BubbleSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SelectionSort
+
+
+#############################################
+# Order-only phony target for SelectionSort
+
+build cmake_object_order_depends_target_SelectionSort: phony || CMakeFiles/SelectionSort.dir
+
+build CMakeFiles/SelectionSort.dir/B2BV2/Tamara/SelectionSort.cpp.obj: CXX_COMPILER__SelectionSort_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Tamara/SelectionSort.cpp || cmake_object_order_depends_target_SelectionSort
+  DEP_FILE = CMakeFiles\SelectionSort.dir\B2BV2\Tamara\SelectionSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SelectionSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\SelectionSort.dir\B2BV2\Tamara
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SelectionSort
+
+
+#############################################
+# Link the executable SelectionSort.exe
+
+build SelectionSort.exe: CXX_EXECUTABLE_LINKER__SelectionSort_Debug CMakeFiles/SelectionSort.dir/B2BV2/Tamara/SelectionSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SelectionSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SelectionSort.exe
+  TARGET_IMPLIB = libSelectionSort.dll.a
+  TARGET_PDB = SelectionSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target InsertionSort
+
+
+#############################################
+# Order-only phony target for InsertionSort
+
+build cmake_object_order_depends_target_InsertionSort: phony || CMakeFiles/InsertionSort.dir
+
+build CMakeFiles/InsertionSort.dir/B2BV2/Tamara/InsertionSort.cpp.obj: CXX_COMPILER__InsertionSort_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/Tamara/InsertionSort.cpp || cmake_object_order_depends_target_InsertionSort
+  DEP_FILE = CMakeFiles\InsertionSort.dir\B2BV2\Tamara\InsertionSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\InsertionSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\InsertionSort.dir\B2BV2\Tamara
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target InsertionSort
+
+
+#############################################
+# Link the executable InsertionSort.exe
+
+build InsertionSort.exe: CXX_EXECUTABLE_LINKER__InsertionSort_Debug CMakeFiles/InsertionSort.dir/B2BV2/Tamara/InsertionSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\InsertionSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = InsertionSort.exe
+  TARGET_IMPLIB = libInsertionSort.dll.a
+  TARGET_PDB = InsertionSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MartricaSort
+
+
+#############################################
+# Order-only phony target for MartricaSort
+
+build cmake_object_order_depends_target_MartricaSort: phony || CMakeFiles/MartricaSort.dir
+
+build CMakeFiles/MartricaSort.dir/B2BV2/2denVezbi/MatricaSort.cpp.obj: CXX_COMPILER__MartricaSort_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/2denVezbi/MatricaSort.cpp || cmake_object_order_depends_target_MartricaSort
+  DEP_FILE = CMakeFiles\MartricaSort.dir\B2BV2\2denVezbi\MatricaSort.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MartricaSort.dir
+  OBJECT_FILE_DIR = CMakeFiles\MartricaSort.dir\B2BV2\2denVezbi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MartricaSort
+
+
+#############################################
+# Link the executable MartricaSort.exe
+
+build MartricaSort.exe: CXX_EXECUTABLE_LINKER__MartricaSort_Debug CMakeFiles/MartricaSort.dir/B2BV2/2denVezbi/MatricaSort.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MartricaSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MartricaSort.exe
+  TARGET_IMPLIB = libMartricaSort.dll.a
+  TARGET_PDB = MartricaSort.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NiziSortiranje
+
+
+#############################################
+# Order-only phony target for NiziSortiranje
+
+build cmake_object_order_depends_target_NiziSortiranje: phony || CMakeFiles/NiziSortiranje.dir
+
+build CMakeFiles/NiziSortiranje.dir/B2BV2/2denVezbi/NiziSortiranje.cpp.obj: CXX_COMPILER__NiziSortiranje_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/2denVezbi/NiziSortiranje.cpp || cmake_object_order_depends_target_NiziSortiranje
+  DEP_FILE = CMakeFiles\NiziSortiranje.dir\B2BV2\2denVezbi\NiziSortiranje.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NiziSortiranje.dir
+  OBJECT_FILE_DIR = CMakeFiles\NiziSortiranje.dir\B2BV2\2denVezbi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NiziSortiranje
+
+
+#############################################
+# Link the executable NiziSortiranje.exe
+
+build NiziSortiranje.exe: CXX_EXECUTABLE_LINKER__NiziSortiranje_Debug CMakeFiles/NiziSortiranje.dir/B2BV2/2denVezbi/NiziSortiranje.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NiziSortiranje.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NiziSortiranje.exe
+  TARGET_IMPLIB = libNiziSortiranje.dll.a
+  TARGET_PDB = NiziSortiranje.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pokazuvaci
+
+
+#############################################
+# Order-only phony target for Pokazuvaci
+
+build cmake_object_order_depends_target_Pokazuvaci: phony || CMakeFiles/Pokazuvaci.dir
+
+build CMakeFiles/Pokazuvaci.dir/B2BV2/2denVezbi/Pokazuvaci.cpp.obj: CXX_COMPILER__Pokazuvaci_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/B2BV2/2denVezbi/Pokazuvaci.cpp || cmake_object_order_depends_target_Pokazuvaci
+  DEP_FILE = CMakeFiles\Pokazuvaci.dir\B2BV2\2denVezbi\Pokazuvaci.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pokazuvaci.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pokazuvaci.dir\B2BV2\2denVezbi
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pokazuvaci
+
+
+#############################################
+# Link the executable Pokazuvaci.exe
+
+build Pokazuvaci.exe: CXX_EXECUTABLE_LINKER__Pokazuvaci_Debug CMakeFiles/Pokazuvaci.dir/B2BV2/2denVezbi/Pokazuvaci.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pokazuvaci.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pokazuvaci.exe
+  TARGET_IMPLIB = libPokazuvaci.dll.a
+  TARGET_PDB = Pokazuvaci.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Oktomvri
@@ -1757,6 +2021,72 @@ build 18ta-2.exe: CXX_EXECUTABLE_LINKER__18ta-2_Debug CMakeFiles/18ta-2.dir/Zada
   TARGET_PDB = 18ta-2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 19ta-2
+
+
+#############################################
+# Order-only phony target for 19ta-2
+
+build cmake_object_order_depends_target_19ta-2: phony || CMakeFiles/19ta-2.dir
+
+build CMakeFiles/19ta-2.dir/ZadaciZaVezbanje2Kolokvium/19ta-2.cpp.obj: CXX_COMPILER__19ta-2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/19ta-2.cpp || cmake_object_order_depends_target_19ta-2
+  DEP_FILE = CMakeFiles\19ta-2.dir\ZadaciZaVezbanje2Kolokvium\19ta-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\19ta-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\19ta-2.dir\ZadaciZaVezbanje2Kolokvium
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 19ta-2
+
+
+#############################################
+# Link the executable 19ta-2.exe
+
+build 19ta-2.exe: CXX_EXECUTABLE_LINKER__19ta-2_Debug CMakeFiles/19ta-2.dir/ZadaciZaVezbanje2Kolokvium/19ta-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\19ta-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 19ta-2.exe
+  TARGET_IMPLIB = lib19ta-2.dll.a
+  TARGET_PDB = 19ta-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1va-D2
+
+
+#############################################
+# Order-only phony target for 1va-D2
+
+build cmake_object_order_depends_target_1va-D2: phony || CMakeFiles/1va-D2.dir
+
+build CMakeFiles/1va-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/1va-D2.cpp.obj: CXX_COMPILER__1va-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/1va-D2.cpp || cmake_object_order_depends_target_1va-D2
+  DEP_FILE = CMakeFiles\1va-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\1va-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1va-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\1va-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1va-D2
+
+
+#############################################
+# Link the executable 1va-D2.exe
+
+build 1va-D2.exe: CXX_EXECUTABLE_LINKER__1va-D2_Debug CMakeFiles/1va-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/1va-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1va-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1va-D2.exe
+  TARGET_IMPLIB = lib1va-D2.dll.a
+  TARGET_PDB = 1va-D2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 2ra-D2
 
 
@@ -1788,6 +2118,72 @@ build 2ra-D2.exe: CXX_EXECUTABLE_LINKER__2ra-D2_Debug CMakeFiles/2ra-D2.dir/Zada
   TARGET_FILE = 2ra-D2.exe
   TARGET_IMPLIB = lib2ra-D2.dll.a
   TARGET_PDB = 2ra-D2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3ta-D2
+
+
+#############################################
+# Order-only phony target for 3ta-D2
+
+build cmake_object_order_depends_target_3ta-D2: phony || CMakeFiles/3ta-D2.dir
+
+build CMakeFiles/3ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/3ta-D2.cpp.obj: CXX_COMPILER__3ta-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/3ta-D2.cpp || cmake_object_order_depends_target_3ta-D2
+  DEP_FILE = CMakeFiles\3ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\3ta-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3ta-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\3ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3ta-D2
+
+
+#############################################
+# Link the executable 3ta-D2.exe
+
+build 3ta-D2.exe: CXX_EXECUTABLE_LINKER__3ta-D2_Debug CMakeFiles/3ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/3ta-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3ta-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3ta-D2.exe
+  TARGET_IMPLIB = lib3ta-D2.dll.a
+  TARGET_PDB = 3ta-D2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4ta-D2
+
+
+#############################################
+# Order-only phony target for 4ta-D2
+
+build cmake_object_order_depends_target_4ta-D2: phony || CMakeFiles/4ta-D2.dir
+
+build CMakeFiles/4ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/4ta-D2.cpp.obj: CXX_COMPILER__4ta-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/4ta-D2.cpp || cmake_object_order_depends_target_4ta-D2
+  DEP_FILE = CMakeFiles\4ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\4ta-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\4ta-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\4ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4ta-D2
+
+
+#############################################
+# Link the executable 4ta-D2.exe
+
+build 4ta-D2.exe: CXX_EXECUTABLE_LINKER__4ta-D2_Debug CMakeFiles/4ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/4ta-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\4ta-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4ta-D2.exe
+  TARGET_IMPLIB = lib4ta-D2.dll.a
+  TARGET_PDB = 4ta-D2.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target Kombinacija3Broja
@@ -3768,6 +4164,105 @@ build RasteckaNiza.exe: CXX_EXECUTABLE_LINKER__RasteckaNiza_Debug CMakeFiles/Ras
   TARGET_FILE = RasteckaNiza.exe
   TARGET_IMPLIB = libRasteckaNiza.dll.a
   TARGET_PDB = RasteckaNiza.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RelFreq
+
+
+#############################################
+# Order-only phony target for RelFreq
+
+build cmake_object_order_depends_target_RelFreq: phony || CMakeFiles/RelFreq.dir
+
+build CMakeFiles/RelFreq.dir/Laboratoriski/9_nedela/RelFreq.cpp.obj: CXX_COMPILER__RelFreq_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/9_nedela/RelFreq.cpp || cmake_object_order_depends_target_RelFreq
+  DEP_FILE = CMakeFiles\RelFreq.dir\Laboratoriski\9_nedela\RelFreq.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RelFreq.dir
+  OBJECT_FILE_DIR = CMakeFiles\RelFreq.dir\Laboratoriski\9_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RelFreq
+
+
+#############################################
+# Link the executable RelFreq.exe
+
+build RelFreq.exe: CXX_EXECUTABLE_LINKER__RelFreq_Debug CMakeFiles/RelFreq.dir/Laboratoriski/9_nedela/RelFreq.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RelFreq.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RelFreq.exe
+  TARGET_IMPLIB = libRelFreq.dll.a
+  TARGET_PDB = RelFreq.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PodNiza
+
+
+#############################################
+# Order-only phony target for PodNiza
+
+build cmake_object_order_depends_target_PodNiza: phony || CMakeFiles/PodNiza.dir
+
+build CMakeFiles/PodNiza.dir/Laboratoriski/9_nedela/PodNiza.cpp.obj: CXX_COMPILER__PodNiza_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/9_nedela/PodNiza.cpp || cmake_object_order_depends_target_PodNiza
+  DEP_FILE = CMakeFiles\PodNiza.dir\Laboratoriski\9_nedela\PodNiza.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PodNiza.dir
+  OBJECT_FILE_DIR = CMakeFiles\PodNiza.dir\Laboratoriski\9_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PodNiza
+
+
+#############################################
+# Link the executable PodNiza.exe
+
+build PodNiza.exe: CXX_EXECUTABLE_LINKER__PodNiza_Debug CMakeFiles/PodNiza.dir/Laboratoriski/9_nedela/PodNiza.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PodNiza.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PodNiza.exe
+  TARGET_IMPLIB = libPodNiza.dll.a
+  TARGET_PDB = PodNiza.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pointers
+
+
+#############################################
+# Order-only phony target for Pointers
+
+build cmake_object_order_depends_target_Pointers: phony || CMakeFiles/Pointers.dir
+
+build CMakeFiles/Pointers.dir/Laboratoriski/9_nedela/Pointers.cpp.obj: CXX_COMPILER__Pointers_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/9_nedela/Pointers.cpp || cmake_object_order_depends_target_Pointers
+  DEP_FILE = CMakeFiles\Pointers.dir\Laboratoriski\9_nedela\Pointers.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pointers.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pointers.dir\Laboratoriski\9_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pointers
+
+
+#############################################
+# Link the executable Pointers.exe
+
+build Pointers.exe: CXX_EXECUTABLE_LINKER__Pointers_Debug CMakeFiles/Pointers.dir/Laboratoriski/9_nedela/Pointers.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pointers.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pointers.exe
+  TARGET_IMPLIB = libPointers.dll.a
+  TARGET_PDB = Pointers.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HelloWorld
@@ -8839,7 +9334,11 @@ build 17ta-2: phony 17ta-2.exe
 
 build 18ta-2: phony 18ta-2.exe
 
+build 19ta-2: phony 19ta-2.exe
+
 build 1va: phony 1va.exe
+
+build 1va-D2: phony 1va-D2.exe
 
 build 2ra: phony 2ra.exe
 
@@ -8853,11 +9352,15 @@ build 3ta: phony 3ta.exe
 
 build 3ta-2: phony 3ta-2.exe
 
+build 3ta-D2: phony 3ta-D2.exe
+
 build 4broja01: phony 4broja01.exe
 
 build 4ta: phony 4ta.exe
 
 build 4ta-2: phony 4ta-2.exe
+
+build 4ta-D2: phony 4ta-D2.exe
 
 build 4taB2B: phony 4taB2B.exe
 
@@ -9115,6 +9618,8 @@ build Aud9.6: phony Aud9.6.exe
 
 build Aud9.7: phony Aud9.7.exe
 
+build BinarySearch: phony BinarySearch.exe
+
 build Bingo: phony Bingo.exe
 
 build BrDeliteliCifrBr: phony BrDeliteliCifrBr.exe
@@ -9125,9 +9630,13 @@ build BrojCifriX: phony BrojCifriX.exe
 
 build Brojanica: phony Brojanica.exe
 
+build BubbleSort: phony BubbleSort.exe
+
 build Carina: phony Carina.exe
 
 build CitajMatrica: phony CitajMatrica.exe
+
+build DecToBinKonverzija: phony DecToBinKonverzija.exe
 
 build DeliviParniDeliviNeparni: phony DeliviParniDeliviNeparni.exe
 
@@ -9163,6 +9672,8 @@ build FINKIPoker: phony FINKIPoker.exe
 
 build Factoriel: phony Factoriel.exe
 
+build Fibonaci: phony Fibonaci.exe
+
 build FiskalniSmetki: phony FiskalniSmetki.exe
 
 build Glusec: phony Glusec.exe
@@ -9172,6 +9683,8 @@ build GodinaPresmetkiNacin1: phony GodinaPresmetkiNacin1.exe
 build GodinaPresmetkiNacin2: phony GodinaPresmetkiNacin2.exe
 
 build HelloWorld: phony HelloWorld.exe
+
+build InsertionSort: phony InsertionSort.exe
 
 build InteresenBroj: phony InteresenBroj.exe
 
@@ -9197,7 +9710,11 @@ build LabsSreda1: phony LabsSreda1.exe
 
 build LabsSreda2: phony LabsSreda2.exe
 
+build LinearSearch: phony LinearSearch.exe
+
 build MagicnaMatrica: phony MagicnaMatrica.exe
+
+build MartricaSort: phony MartricaSort.exe
 
 build Matrica1: phony Matrica1.exe
 
@@ -9216,6 +9733,8 @@ build NajgolemaKolona: phony NajgolemaKolona.exe
 build NegativniMatrica: phony NegativniMatrica.exe
 
 build NeparniElementi: phony NeparniElementi.exe
+
+build NiziSortiranje: phony NiziSortiranje.exe
 
 build ObratnoSortiranje: phony ObratnoSortiranje.exe
 
@@ -9241,9 +9760,15 @@ build Pikseli: phony Pikseli.exe
 
 build PodDijagonali: phony PodDijagonali.exe
 
+build PodNiza: phony PodNiza.exe
+
 build PodredenBr: phony PodredenBr.exe
 
 build PogolemiNiza: phony PogolemiNiza.exe
+
+build Pointers: phony Pointers.exe
+
+build Pokazuvaci: phony Pokazuvaci.exe
 
 build PolaPola: phony PolaPola.exe
 
@@ -9275,11 +9800,15 @@ build Rekurzija8: phony Rekurzija8.exe
 
 build Rekurzija9: phony Rekurzija9.exe
 
+build RelFreq: phony RelFreq.exe
+
 build RelativnaFrekvencija: phony RelativnaFrekvencija.exe
 
 build RotacijaNiza: phony RotacijaNiza.exe
 
 build Samoglaska: phony Samoglaska.exe
+
+build SelectionSort: phony SelectionSort.exe
 
 build Sifr_poraki: phony Sifr_poraki.exe
 
@@ -9319,15 +9848,11 @@ build Z7: phony Z7.exe
 
 build Z9: phony Z9.exe
 
-build Zad1: phony Zad1.exe
-
-build Zad2: phony Zad2.exe
-
-build Zad3: phony Zad3.exe
-
-build Zad4: phony Zad4.exe
+build ZbirCifri: phony ZbirCifri.exe
 
 build ZbirIndeks: phony ZbirIndeks.exe
+
+build ZbirNiza: phony ZbirNiza.exe
 
 build ZbirPodNiza: phony ZbirPodNiza.exe
 
@@ -9349,7 +9874,7 @@ build kTrampa: phony kTrampa.exe
 #############################################
 # Folder: C:/Users/Media/CLionProjects/SP2023/cmake-build-debug
 
-build all: phony IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe PovtoruvanjeBukva.exe RelativnaFrekvencija.exe Zad1.exe Zad2.exe Zad3.exe Zad4.exe Dijagonali.exe Rekurzija.exe Stringovi.exe Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 6ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 2ra-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe KvoN.exe SpojuvanjeNizi.exe ObratnoSortiranje.exe Zigazaga.exe NeparniElementi.exe InteresenBroj.exe RasteckaNiza.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Aud10.1.exe Aud10.1.2.exe Aud10.2.exe Aud10.3.exe Aud10.4.exe Aud10.5.exe Aud10.6.exe Aud10.7.exe Aud10.8.exe Domasno10.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe Rekurzija1.exe Rekurzija2.exe Rekurzija3.exe Rekurzija4.exe Rekurzija5.exe Rekurzija6.exe Rekurzija7.exe Rekurzija8.exe Rekurzija9.exe
+build all: phony IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe PovtoruvanjeBukva.exe RelativnaFrekvencija.exe ZbirNiza.exe ZbirCifri.exe Fibonaci.exe DecToBinKonverzija.exe Dijagonali.exe Rekurzija.exe Stringovi.exe LinearSearch.exe BinarySearch.exe BubbleSort.exe SelectionSort.exe InsertionSort.exe MartricaSort.exe NiziSortiranje.exe Pokazuvaci.exe Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 6ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 19ta-2.exe 1va-D2.exe 2ra-D2.exe 3ta-D2.exe 4ta-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe KvoN.exe SpojuvanjeNizi.exe ObratnoSortiranje.exe Zigazaga.exe NeparniElementi.exe InteresenBroj.exe RasteckaNiza.exe RelFreq.exe PodNiza.exe Pointers.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Aud10.1.exe Aud10.1.2.exe Aud10.2.exe Aud10.3.exe Aud10.4.exe Aud10.5.exe Aud10.6.exe Aud10.7.exe Aud10.8.exe Domasno10.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe Rekurzija1.exe Rekurzija2.exe Rekurzija3.exe Rekurzija4.exe Rekurzija5.exe Rekurzija6.exe Rekurzija7.exe Rekurzija8.exe Rekurzija9.exe
 
 # =============================================================================
 # Built-in targets
@@ -9358,14 +9883,14 @@ build all: phony IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe Pov
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/Media/CLionProjects/SP2023/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeCXXCompiler.cmake CMakeFiles/3.27.0/CMakeRCCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/Media/CLionProjects/SP2023/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/Media/CLionProjects/SP2023/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.0/CMakeCCompiler.cmake CMakeFiles/3.27.0/CMakeCXXCompiler.cmake CMakeFiles/3.27.0/CMakeRCCompiler.cmake CMakeFiles/3.27.0/CMakeSystem.cmake: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.2.2/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake C$:/Users/Media/CLionProjects/SP2023/CMakeLists.txt CMakeCache.txt CMakeFiles/3.27.8/CMakeCCompiler.cmake CMakeFiles/3.27.8/CMakeCXXCompiler.cmake CMakeFiles/3.27.8/CMakeRCCompiler.cmake CMakeFiles/3.27.8/CMakeSystem.cmake: phony
 
 
 #############################################

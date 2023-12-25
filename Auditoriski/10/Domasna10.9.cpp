@@ -23,11 +23,27 @@ int e_palindrom(char a[]) {
     return 1;
 }
 
+int e_palindrom_rek(char a[], int n) {
+    if (n < 0) {
+        return 1;
+    }
+    if (!isalpha(a[n])) {
+        return e_palindrom_rek(a, n - 1);
+    }
+    if (!isalpha(*a)) {
+        return e_palindrom_rek(a + 1, n - 1);
+    }
+    if (tolower(*a) != tolower(a[n])) {
+        return 0;
+    }
+    return e_palindrom_rek(a + 1, n - 2);
+}
 
 int main() {
     char a[100];
     cin.getline(a, 100);
 
     cout << e_palindrom(a) << endl;
+    cout<<e_palindrom_rek(a, strlen(a)-1);
     return 0;
 }

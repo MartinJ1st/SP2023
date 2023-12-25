@@ -14,32 +14,35 @@
 
 using namespace std;
 
-int e_validna_lozinka(char str[]) {
-    int bukvi = 0, cifri = 0, spec = 0;
-    for (int i = 0; str[i] != '\0'; i++) {
-        if (isalpha(str[i]))
-            bukvi++;
-        else if (isdigit(str[i]))
-            cifri++;
-        else
-            spec++;
+//int e_validna_lozinka(char str[]) {
+//    int bukvi = 0, cifri = 0, spec = 0;
+//    for (int i = 0; str[i] != '\0'; i++) {
+//        if (isalpha(str[i]))
+//            bukvi++;
+//        else if (isdigit(str[i]))
+//            cifri++;
+//        else
+//            spec++;
+//    }
+//    return (bukvi > 0 && cifri > 0 && spec > 0);
+//}
+
+bool proverka_lozinka(char a[])
+{
+    bool bukva=false,broj=false,znak=false;
+    for (int i = 0; i < strlen(a); ++i) {
+        if(isalpha(a[i])){bukva=true;}
+        else if(isdigit(a[i])){broj= true;}
+        znak= true;
     }
-    return (bukvi > 0 && cifri > 0 && spec > 0);
+    return bukva && broj && znak;
+
 }
-
-
 int main() {
     int MAX = 100;
-    char s[MAX];
-    fgets(s, MAX, stdin);
-    int len = strlen(s);
-    if (len && s[len - 1] == '\n') {
-        s[len - 1] = '\0';
-        len--;
-    }
-
-    cout << s << " ";
-    if (e_validna_lozinka(s))
+    char a[MAX];
+    cin.getline(a,MAX);
+    if (proverka_lozinka(a))
         cout << "e validna lozinka.";
     else
         cout << "NE e validna lozinka.";
