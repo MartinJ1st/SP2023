@@ -15,30 +15,43 @@
 
 using namespace std;
 
-void filter(char str[]) {
+void filter(char a[]) {
 //    int i = 0, j = 0;
-//    while (str[i] != '\0') {
-//        if (isalpha(str[i])) {
-//            if (islower(str[i]))
-//                str[j] = toupper(str[i]);
-//            else if (isupper(str[i]))
-//                str[j] = tolower(str[i]);
+//    while (a[i] != '\0') {
+//        if (isalpha(a[i])) {
+//            if (islower(a[i]))
+//                a[j] = toupper(a[i]);
+//            else if (isupper(a[i]))
+//                a[j] = tolower(a[i]);
 //            j++;
 //        }
 //        i++;
 //    }
-//    str[j] = '\0';
-
-
-
-
+//    a[j] = '\0';
+    int br = 0;
+    for (int i = 0; i < strlen(a); ++i) {
+        if (isalpha(a[i])) {
+            br++;
+            if (islower(a[i]))
+                a[i] = toupper(a[i]);
+            else
+                a[i] = tolower(a[i]);
+        } else {
+            for (int j = i; j < strlen(a); ++j) {
+                a[j] = a[j + 1];
+            }
+            i--;
+        }
+    }
+    for (int j = 0; j < strlen(a); ++j) {
+        cout << a[j];
+    }
 }
 
 int main() {
     int MAX = 100;
     char s[MAX];
-    cin.getline(s,MAX);
+    cin.getline(s, MAX);
     filter(s);
-    cout << s << endl;
     return 0;
 }

@@ -1,38 +1,40 @@
-#include <iostream>
+#include <cstdio>
 #include <cstring>
-
-using namespace std;
-
-int e_palindrom(char a[], int &br) {
-    for (int i = 0; i < strlen(a) / 2; i++) {
-        if (!isdigit(a[i]) && !isalpha(a[i])) {
-            br++;
+#include <cctype>
+int main()
+{
+    int n,flag;
+    scanf("%d",&n);
+    int maxDolzina=0;
+    char maxNiza[81];
+    while(n)
+    {
+        char niza[81];
+        fgets(niza,80,stdin);
+        niza[strlen(niza)-1]='\0';
+        int i,j=0;
+        int palindromFlag=0,specijalenZnak=0;
+        for(i=(strlen(niza)-1);i>=0;i--,j++)
+        {
+            if(niza[i]!=niza[j])
+                palindromFlag=1;
+            if(ispunct(niza[i]))
+                specijalenZnak=1;
         }
-        if (a[i] != a[strlen(a) - 1 - i])
-            return 0;
-    }
-    return 1;
-}
-
-int main() {
-    bool flag=false;
-    int n, br;
-    char a[80];
-    cin >> n;
-    cin.ignore();
-    for (int i = 0; i < n; ++i) {
-        br = 0;
-        cin.getline(a, 80);
-        if (e_palindrom(a, br) && br) {
-            for (int j = 0; j < strlen(a); ++j) {
-                cout << a[j];
+        if(!palindromFlag && specijalenZnak)
+        {
+            if(strlen(niza)>maxDolzina)
+            {
+                maxDolzina=strlen(niza);
+                strcpy(maxNiza,niza);
             }
-            flag=true;
-            break;
+            flag=1;
         }
+        n--;
     }
-    if(!flag){
-        cout<<"Nema!";
-    }
+    if(!flag)
+        printf("Nema!");
+    else
+        printf("%s",maxNiza);
     return 0;
 }

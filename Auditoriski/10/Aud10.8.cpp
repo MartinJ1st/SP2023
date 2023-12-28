@@ -14,34 +14,50 @@
 
 using namespace std;
 
-void trim(char s[]) {
-    int spaces = 0;
-    while (isspace(s[spaces])) {
-        spaces++;
+//void trim(char s[]) {
+//    int spaces = 0;
+//    while (isspace(s[spaces])) {
+//        spaces++;
+//    }
+//    int i;
+//    for (i = 0; s[i + spaces] != '\0'; i++) {
+//        s[i] = s[i + spaces];
+//    }
+//    s[i] = '\0';
+//    while (i > 0 && isspace(s[i - 1])) {
+//        i--;
+//        s[i] = '\0';
+//    }
+//}
+
+void filter(char a[]) {
+    for (int i = strlen(a) - 1; i >= 0; i--) {
+        if (isspace(a[i])) {
+            a[i] = '\0';
+        } else {
+            break;
+        }
     }
-    int i;
-    for (i = 0; s[i + spaces] != '\0'; i++) {
-        s[i] = s[i + spaces];
+    for (int i = 0; i < strlen(a); i++) {
+        if (isspace(a[i])) {
+            for (int j = 0; j < strlen(a); ++j) {
+                a[j] = a[j + 1];
+            }
+            i--;
+        } else {
+            break;
+        }
     }
-    s[i] = '\0';
-    while (i > 0 && isspace(s[i - 1])) {
-        i--;
-        s[i] = '\0';
+    for (int i = 0; i < strlen(a); ++i) {
+        cout<<a[i];
     }
 }
+
 
 int main() {
     int MAX = 100;
     char s[MAX];
-    fgets(s, MAX, stdin);
-    int len = strlen(s);
-    if (len && s[len - 1] == '\n') {
-        s[len - 1] = '\0';
-        len--;
-    }
-
-    cout << "[" << s << "] -> ";
-    trim(s);
-    cout << "[" << s << "]";
+    cin.getline(s, MAX);
+    filter(s);
     return 0;
 }

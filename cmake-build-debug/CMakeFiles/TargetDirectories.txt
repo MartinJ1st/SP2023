@@ -1,3 +1,5 @@
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/main.cpp.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Zmija.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/IstiNizi.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/RotacijaNiza.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/CitajMatrica.dir
@@ -63,6 +65,13 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/1va-D2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/2ra-D2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/3ta-D2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/4ta-D2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/6ta-D2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/7ma-D2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/8ma-D2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/9ta-D2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/10ta-D2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/11ta-D2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12ta-D2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Kombinacija3Broja.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/SredinaOperaciiNacin1.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/SredinaOperaciiNacin2.dir
@@ -126,6 +135,8 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/RasteckaNiza.di
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/RelFreq.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PodNiza.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Pointers.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/GolemiMali.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Pal.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/HelloWorld.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud1.1.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Aud1.2.dir

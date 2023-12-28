@@ -3,6 +3,9 @@ project(SP2023)
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(main.cpp main.cpp)
+
+add_executable(Zmija KolokviumskiVlatce/Zmija.cpp)
 add_executable(IstiNizi B2BV2/Mario/IstiNizi.cpp)
 add_executable(RotacijaNiza B2BV2/Mario/RotacijaNiza.cpp)
 add_executable(CitajMatrica B2BV2/Mario/CitajMatrica.cpp)
@@ -74,6 +77,13 @@ add_executable(1va-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/1va-D2.cpp)
 add_executable(2ra-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/2ra-D2.cpp)
 add_executable(3ta-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/3ta-D2.cpp)
 add_executable(4ta-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/4ta-D2.cpp)
+add_executable(6ta-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/6ta-D2.cpp)
+add_executable(7ma-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/7ma-D2.cpp)
+add_executable(8ma-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/8ma-D2.cpp)
+add_executable(9ta-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/9ta-D2.cpp)
+add_executable(10ta-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/10ta-D2.cpp)
+add_executable(11ta-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/11ta-D2.cpp)
+add_executable(12ta-D2 ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/12ta-D2.cpp)
 
 
 add_executable(Kombinacija3Broja Laboratoriski/1_nedela/Kombinacija3Broja.cpp)
@@ -147,7 +157,8 @@ add_executable(RasteckaNiza Laboratoriski/8_nedela/RasteckaNiza.cpp)
 add_executable(RelFreq Laboratoriski/9_nedela/RelFreq.cpp)
 add_executable(PodNiza Laboratoriski/9_nedela/PodNiza.cpp)
 add_executable(Pointers Laboratoriski/9_nedela/Pointers.cpp)
-
+add_executable(GolemiMali Laboratoriski/9_nedela/GolemiMali.cpp)
+add_executable(Pal Laboratoriski/9_nedela/Pal.cpp)
 
 add_executable(HelloWorld Auditoriski/1/HelloWorld.cpp)
 add_executable(Aud1.1 Auditoriski/1/Aud1.1.cpp)

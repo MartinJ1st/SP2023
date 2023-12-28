@@ -40,7 +40,7 @@ int main() {
         cin >> a[i];
     }
 
-    print(a, n - 1);// Start with the last index
+    print(a, n - 1);
     return 0;
 }
 

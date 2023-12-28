@@ -41,6 +41,72 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = C$:/Users/Media/CLionProjects/SP2023/cmake-build-debug/
 # =============================================================================
+# Object build statements for EXECUTABLE target main.cpp
+
+
+#############################################
+# Order-only phony target for main.cpp
+
+build cmake_object_order_depends_target_main.cpp: phony || CMakeFiles/main.cpp.dir
+
+build CMakeFiles/main.cpp.dir/main.cpp.obj: CXX_COMPILER__main.2ecpp_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/main.cpp || cmake_object_order_depends_target_main.cpp
+  DEP_FILE = CMakeFiles\main.cpp.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\main.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\main.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target main.cpp
+
+
+#############################################
+# Link the executable main.cpp.exe
+
+build main.cpp.exe: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.dir/main.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\main.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = main.cpp.exe
+  TARGET_IMPLIB = libmain.cpp.dll.a
+  TARGET_PDB = main.cpp.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Zmija
+
+
+#############################################
+# Order-only phony target for Zmija
+
+build cmake_object_order_depends_target_Zmija: phony || CMakeFiles/Zmija.dir
+
+build CMakeFiles/Zmija.dir/KolokviumskiVlatce/Zmija.cpp.obj: CXX_COMPILER__Zmija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/KolokviumskiVlatce/Zmija.cpp || cmake_object_order_depends_target_Zmija
+  DEP_FILE = CMakeFiles\Zmija.dir\KolokviumskiVlatce\Zmija.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Zmija.dir
+  OBJECT_FILE_DIR = CMakeFiles\Zmija.dir\KolokviumskiVlatce
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Zmija
+
+
+#############################################
+# Link the executable Zmija.exe
+
+build Zmija.exe: CXX_EXECUTABLE_LINKER__Zmija_Debug CMakeFiles/Zmija.dir/KolokviumskiVlatce/Zmija.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Zmija.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Zmija.exe
+  TARGET_IMPLIB = libZmija.dll.a
+  TARGET_PDB = Zmija.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target IstiNizi
 
 
@@ -2186,6 +2252,237 @@ build 4ta-D2.exe: CXX_EXECUTABLE_LINKER__4ta-D2_Debug CMakeFiles/4ta-D2.dir/Zada
   TARGET_PDB = 4ta-D2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 6ta-D2
+
+
+#############################################
+# Order-only phony target for 6ta-D2
+
+build cmake_object_order_depends_target_6ta-D2: phony || CMakeFiles/6ta-D2.dir
+
+build CMakeFiles/6ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/6ta-D2.cpp.obj: CXX_COMPILER__6ta-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/6ta-D2.cpp || cmake_object_order_depends_target_6ta-D2
+  DEP_FILE = CMakeFiles\6ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\6ta-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\6ta-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\6ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6ta-D2
+
+
+#############################################
+# Link the executable 6ta-D2.exe
+
+build 6ta-D2.exe: CXX_EXECUTABLE_LINKER__6ta-D2_Debug CMakeFiles/6ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/6ta-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\6ta-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6ta-D2.exe
+  TARGET_IMPLIB = lib6ta-D2.dll.a
+  TARGET_PDB = 6ta-D2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7ma-D2
+
+
+#############################################
+# Order-only phony target for 7ma-D2
+
+build cmake_object_order_depends_target_7ma-D2: phony || CMakeFiles/7ma-D2.dir
+
+build CMakeFiles/7ma-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/7ma-D2.cpp.obj: CXX_COMPILER__7ma-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/7ma-D2.cpp || cmake_object_order_depends_target_7ma-D2
+  DEP_FILE = CMakeFiles\7ma-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\7ma-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\7ma-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\7ma-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7ma-D2
+
+
+#############################################
+# Link the executable 7ma-D2.exe
+
+build 7ma-D2.exe: CXX_EXECUTABLE_LINKER__7ma-D2_Debug CMakeFiles/7ma-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/7ma-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\7ma-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7ma-D2.exe
+  TARGET_IMPLIB = lib7ma-D2.dll.a
+  TARGET_PDB = 7ma-D2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8ma-D2
+
+
+#############################################
+# Order-only phony target for 8ma-D2
+
+build cmake_object_order_depends_target_8ma-D2: phony || CMakeFiles/8ma-D2.dir
+
+build CMakeFiles/8ma-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/8ma-D2.cpp.obj: CXX_COMPILER__8ma-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/8ma-D2.cpp || cmake_object_order_depends_target_8ma-D2
+  DEP_FILE = CMakeFiles\8ma-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\8ma-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\8ma-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\8ma-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8ma-D2
+
+
+#############################################
+# Link the executable 8ma-D2.exe
+
+build 8ma-D2.exe: CXX_EXECUTABLE_LINKER__8ma-D2_Debug CMakeFiles/8ma-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/8ma-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\8ma-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8ma-D2.exe
+  TARGET_IMPLIB = lib8ma-D2.dll.a
+  TARGET_PDB = 8ma-D2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9ta-D2
+
+
+#############################################
+# Order-only phony target for 9ta-D2
+
+build cmake_object_order_depends_target_9ta-D2: phony || CMakeFiles/9ta-D2.dir
+
+build CMakeFiles/9ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/9ta-D2.cpp.obj: CXX_COMPILER__9ta-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/9ta-D2.cpp || cmake_object_order_depends_target_9ta-D2
+  DEP_FILE = CMakeFiles\9ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\9ta-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\9ta-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\9ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9ta-D2
+
+
+#############################################
+# Link the executable 9ta-D2.exe
+
+build 9ta-D2.exe: CXX_EXECUTABLE_LINKER__9ta-D2_Debug CMakeFiles/9ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/9ta-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\9ta-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9ta-D2.exe
+  TARGET_IMPLIB = lib9ta-D2.dll.a
+  TARGET_PDB = 9ta-D2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10ta-D2
+
+
+#############################################
+# Order-only phony target for 10ta-D2
+
+build cmake_object_order_depends_target_10ta-D2: phony || CMakeFiles/10ta-D2.dir
+
+build CMakeFiles/10ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/10ta-D2.cpp.obj: CXX_COMPILER__10ta-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/10ta-D2.cpp || cmake_object_order_depends_target_10ta-D2
+  DEP_FILE = CMakeFiles\10ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\10ta-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\10ta-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\10ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10ta-D2
+
+
+#############################################
+# Link the executable 10ta-D2.exe
+
+build 10ta-D2.exe: CXX_EXECUTABLE_LINKER__10ta-D2_Debug CMakeFiles/10ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/10ta-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10ta-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10ta-D2.exe
+  TARGET_IMPLIB = lib10ta-D2.dll.a
+  TARGET_PDB = 10ta-D2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11ta-D2
+
+
+#############################################
+# Order-only phony target for 11ta-D2
+
+build cmake_object_order_depends_target_11ta-D2: phony || CMakeFiles/11ta-D2.dir
+
+build CMakeFiles/11ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/11ta-D2.cpp.obj: CXX_COMPILER__11ta-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/11ta-D2.cpp || cmake_object_order_depends_target_11ta-D2
+  DEP_FILE = CMakeFiles\11ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\11ta-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\11ta-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\11ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11ta-D2
+
+
+#############################################
+# Link the executable 11ta-D2.exe
+
+build 11ta-D2.exe: CXX_EXECUTABLE_LINKER__11ta-D2_Debug CMakeFiles/11ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/11ta-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11ta-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11ta-D2.exe
+  TARGET_IMPLIB = lib11ta-D2.dll.a
+  TARGET_PDB = 11ta-D2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 12ta-D2
+
+
+#############################################
+# Order-only phony target for 12ta-D2
+
+build cmake_object_order_depends_target_12ta-D2: phony || CMakeFiles/12ta-D2.dir
+
+build CMakeFiles/12ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/12ta-D2.cpp.obj: CXX_COMPILER__12ta-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/12ta-D2.cpp || cmake_object_order_depends_target_12ta-D2
+  DEP_FILE = CMakeFiles\12ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\12ta-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\12ta-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\12ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12ta-D2
+
+
+#############################################
+# Link the executable 12ta-D2.exe
+
+build 12ta-D2.exe: CXX_EXECUTABLE_LINKER__12ta-D2_Debug CMakeFiles/12ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/12ta-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\12ta-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 12ta-D2.exe
+  TARGET_IMPLIB = lib12ta-D2.dll.a
+  TARGET_PDB = 12ta-D2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Kombinacija3Broja
 
 
@@ -4263,6 +4560,72 @@ build Pointers.exe: CXX_EXECUTABLE_LINKER__Pointers_Debug CMakeFiles/Pointers.di
   TARGET_FILE = Pointers.exe
   TARGET_IMPLIB = libPointers.dll.a
   TARGET_PDB = Pointers.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target GolemiMali
+
+
+#############################################
+# Order-only phony target for GolemiMali
+
+build cmake_object_order_depends_target_GolemiMali: phony || CMakeFiles/GolemiMali.dir
+
+build CMakeFiles/GolemiMali.dir/Laboratoriski/9_nedela/GolemiMali.cpp.obj: CXX_COMPILER__GolemiMali_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/9_nedela/GolemiMali.cpp || cmake_object_order_depends_target_GolemiMali
+  DEP_FILE = CMakeFiles\GolemiMali.dir\Laboratoriski\9_nedela\GolemiMali.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\GolemiMali.dir
+  OBJECT_FILE_DIR = CMakeFiles\GolemiMali.dir\Laboratoriski\9_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target GolemiMali
+
+
+#############################################
+# Link the executable GolemiMali.exe
+
+build GolemiMali.exe: CXX_EXECUTABLE_LINKER__GolemiMali_Debug CMakeFiles/GolemiMali.dir/Laboratoriski/9_nedela/GolemiMali.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\GolemiMali.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = GolemiMali.exe
+  TARGET_IMPLIB = libGolemiMali.dll.a
+  TARGET_PDB = GolemiMali.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Pal
+
+
+#############################################
+# Order-only phony target for Pal
+
+build cmake_object_order_depends_target_Pal: phony || CMakeFiles/Pal.dir
+
+build CMakeFiles/Pal.dir/Laboratoriski/9_nedela/Pal.cpp.obj: CXX_COMPILER__Pal_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/9_nedela/Pal.cpp || cmake_object_order_depends_target_Pal
+  DEP_FILE = CMakeFiles\Pal.dir\Laboratoriski\9_nedela\Pal.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Pal.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pal.dir\Laboratoriski\9_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pal
+
+
+#############################################
+# Link the executable Pal.exe
+
+build Pal.exe: CXX_EXECUTABLE_LINKER__Pal_Debug CMakeFiles/Pal.dir/Laboratoriski/9_nedela/Pal.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Pal.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Pal.exe
+  TARGET_IMPLIB = libPal.dll.a
+  TARGET_PDB = Pal.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HelloWorld
@@ -9308,15 +9671,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 10ta: phony 10ta.exe
 
+build 10ta-D2: phony 10ta-D2.exe
+
 build 10taSoFunkcii: phony 10taSoFunkcii.exe
 
 build 11ta: phony 11ta.exe
+
+build 11ta-D2: phony 11ta-D2.exe
 
 build 11taSoFunkcii: phony 11taSoFunkcii.exe
 
 build 12ta: phony 12ta.exe
 
 build 12ta-2: phony 12ta-2.exe
+
+build 12ta-D2: phony 12ta-D2.exe
 
 build 12taB2B: phony 12taB2B.exe
 
@@ -9374,19 +9743,27 @@ build 6ta: phony 6ta.exe
 
 build 6ta-2: phony 6ta-2.exe
 
+build 6ta-D2: phony 6ta-D2.exe
+
 build 6taB2B: phony 6taB2B.exe
 
 build 7ma: phony 7ma.exe
 
+build 7ma-D2: phony 7ma-D2.exe
+
 build 7ta-2: phony 7ta-2.exe
 
 build 8ma: phony 8ma.exe
+
+build 8ma-D2: phony 8ma-D2.exe
 
 build 8maB2B: phony 8maB2B.exe
 
 build 9ta: phony 9ta.exe
 
 build 9ta-2: phony 9ta-2.exe
+
+build 9ta-D2: phony 9ta-D2.exe
 
 build AbsZadaca: phony AbsZadaca.exe
 
@@ -9682,6 +10059,8 @@ build GodinaPresmetkiNacin1: phony GodinaPresmetkiNacin1.exe
 
 build GodinaPresmetkiNacin2: phony GodinaPresmetkiNacin2.exe
 
+build GolemiMali: phony GolemiMali.exe
+
 build HelloWorld: phony HelloWorld.exe
 
 build InsertionSort: phony InsertionSort.exe
@@ -9743,6 +10122,8 @@ build OcenaSansa: phony OcenaSansa.exe
 build OgledalnaNiza: phony OgledalnaNiza.exe
 
 build Oktomvri: phony Oktomvri.exe
+
+build Pal: phony Pal.exe
 
 build Palindrom: phony Palindrom.exe
 
@@ -9858,6 +10239,8 @@ build ZbirPodNiza: phony ZbirPodNiza.exe
 
 build Zigazaga: phony Zigazaga.exe
 
+build Zmija: phony Zmija.exe
+
 build ZnaciZadaca: phony ZnaciZadaca.exe
 
 build ZnakDijagonali: phony ZnakDijagonali.exe
@@ -9865,6 +10248,8 @@ build ZnakDijagonali: phony ZnakDijagonali.exe
 build kElement: phony kElement.exe
 
 build kTrampa: phony kTrampa.exe
+
+build main.cpp: phony main.cpp.exe
 
 # =============================================================================
 # Folder targets.
@@ -9874,7 +10259,7 @@ build kTrampa: phony kTrampa.exe
 #############################################
 # Folder: C:/Users/Media/CLionProjects/SP2023/cmake-build-debug
 
-build all: phony IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe PovtoruvanjeBukva.exe RelativnaFrekvencija.exe ZbirNiza.exe ZbirCifri.exe Fibonaci.exe DecToBinKonverzija.exe Dijagonali.exe Rekurzija.exe Stringovi.exe LinearSearch.exe BinarySearch.exe BubbleSort.exe SelectionSort.exe InsertionSort.exe MartricaSort.exe NiziSortiranje.exe Pokazuvaci.exe Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 6ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 19ta-2.exe 1va-D2.exe 2ra-D2.exe 3ta-D2.exe 4ta-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe KvoN.exe SpojuvanjeNizi.exe ObratnoSortiranje.exe Zigazaga.exe NeparniElementi.exe InteresenBroj.exe RasteckaNiza.exe RelFreq.exe PodNiza.exe Pointers.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Aud10.1.exe Aud10.1.2.exe Aud10.2.exe Aud10.3.exe Aud10.4.exe Aud10.5.exe Aud10.6.exe Aud10.7.exe Aud10.8.exe Domasno10.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe Rekurzija1.exe Rekurzija2.exe Rekurzija3.exe Rekurzija4.exe Rekurzija5.exe Rekurzija6.exe Rekurzija7.exe Rekurzija8.exe Rekurzija9.exe
+build all: phony main.cpp.exe Zmija.exe IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe PovtoruvanjeBukva.exe RelativnaFrekvencija.exe ZbirNiza.exe ZbirCifri.exe Fibonaci.exe DecToBinKonverzija.exe Dijagonali.exe Rekurzija.exe Stringovi.exe LinearSearch.exe BinarySearch.exe BubbleSort.exe SelectionSort.exe InsertionSort.exe MartricaSort.exe NiziSortiranje.exe Pokazuvaci.exe Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 6ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 19ta-2.exe 1va-D2.exe 2ra-D2.exe 3ta-D2.exe 4ta-D2.exe 6ta-D2.exe 7ma-D2.exe 8ma-D2.exe 9ta-D2.exe 10ta-D2.exe 11ta-D2.exe 12ta-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe KvoN.exe SpojuvanjeNizi.exe ObratnoSortiranje.exe Zigazaga.exe NeparniElementi.exe InteresenBroj.exe RasteckaNiza.exe RelFreq.exe PodNiza.exe Pointers.exe GolemiMali.exe Pal.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Aud10.1.exe Aud10.1.2.exe Aud10.2.exe Aud10.3.exe Aud10.4.exe Aud10.5.exe Aud10.6.exe Aud10.7.exe Aud10.8.exe Domasno10.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe Rekurzija1.exe Rekurzija2.exe Rekurzija3.exe Rekurzija4.exe Rekurzija5.exe Rekurzija6.exe Rekurzija7.exe Rekurzija8.exe Rekurzija9.exe
 
 # =============================================================================
 # Built-in targets
