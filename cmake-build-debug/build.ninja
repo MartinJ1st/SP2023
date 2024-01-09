@@ -74,6 +74,39 @@ build main.cpp.exe: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.
   TARGET_PDB = main.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target abc.cpp
+
+
+#############################################
+# Order-only phony target for abc.cpp
+
+build cmake_object_order_depends_target_abc.cpp: phony || CMakeFiles/abc.cpp.dir
+
+build CMakeFiles/abc.cpp.dir/abc.cpp.obj: CXX_COMPILER__abc.2ecpp_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/abc.cpp || cmake_object_order_depends_target_abc.cpp
+  DEP_FILE = CMakeFiles\abc.cpp.dir\abc.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\abc.cpp.dir
+  OBJECT_FILE_DIR = CMakeFiles\abc.cpp.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target abc.cpp
+
+
+#############################################
+# Link the executable abc.cpp.exe
+
+build abc.cpp.exe: CXX_EXECUTABLE_LINKER__abc.2ecpp_Debug CMakeFiles/abc.cpp.dir/abc.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\abc.cpp.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = abc.cpp.exe
+  TARGET_IMPLIB = libabc.cpp.dll.a
+  TARGET_PDB = abc.cpp.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Zmija
 
 
@@ -82,11 +115,11 @@ build main.cpp.exe: CXX_EXECUTABLE_LINKER__main.2ecpp_Debug CMakeFiles/main.cpp.
 
 build cmake_object_order_depends_target_Zmija: phony || CMakeFiles/Zmija.dir
 
-build CMakeFiles/Zmija.dir/KolokviumskiVlatce/Zmija.cpp.obj: CXX_COMPILER__Zmija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/KolokviumskiVlatce/Zmija.cpp || cmake_object_order_depends_target_Zmija
-  DEP_FILE = CMakeFiles\Zmija.dir\KolokviumskiVlatce\Zmija.cpp.obj.d
+build CMakeFiles/Zmija.dir/Kolokviumski/Zmija.cpp.obj: CXX_COMPILER__Zmija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/Zmija.cpp || cmake_object_order_depends_target_Zmija
+  DEP_FILE = CMakeFiles\Zmija.dir\Kolokviumski\Zmija.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Zmija.dir
-  OBJECT_FILE_DIR = CMakeFiles\Zmija.dir\KolokviumskiVlatce
+  OBJECT_FILE_DIR = CMakeFiles\Zmija.dir\Kolokviumski
 
 
 # =============================================================================
@@ -96,7 +129,7 @@ build CMakeFiles/Zmija.dir/KolokviumskiVlatce/Zmija.cpp.obj: CXX_COMPILER__Zmija
 #############################################
 # Link the executable Zmija.exe
 
-build Zmija.exe: CXX_EXECUTABLE_LINKER__Zmija_Debug CMakeFiles/Zmija.dir/KolokviumskiVlatce/Zmija.cpp.obj
+build Zmija.exe: CXX_EXECUTABLE_LINKER__Zmija_Debug CMakeFiles/Zmija.dir/Kolokviumski/Zmija.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Zmija.dir
@@ -105,6 +138,501 @@ build Zmija.exe: CXX_EXECUTABLE_LINKER__Zmija_Debug CMakeFiles/Zmija.dir/Kolokvi
   TARGET_FILE = Zmija.exe
   TARGET_IMPLIB = libZmija.dll.a
   TARGET_PDB = Zmija.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PreureduvanjeNiza
+
+
+#############################################
+# Order-only phony target for PreureduvanjeNiza
+
+build cmake_object_order_depends_target_PreureduvanjeNiza: phony || CMakeFiles/PreureduvanjeNiza.dir
+
+build CMakeFiles/PreureduvanjeNiza.dir/Kolokviumski/PreureduvanjeNiza.cpp.obj: CXX_COMPILER__PreureduvanjeNiza_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/PreureduvanjeNiza.cpp || cmake_object_order_depends_target_PreureduvanjeNiza
+  DEP_FILE = CMakeFiles\PreureduvanjeNiza.dir\Kolokviumski\PreureduvanjeNiza.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PreureduvanjeNiza.dir
+  OBJECT_FILE_DIR = CMakeFiles\PreureduvanjeNiza.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PreureduvanjeNiza
+
+
+#############################################
+# Link the executable PreureduvanjeNiza.exe
+
+build PreureduvanjeNiza.exe: CXX_EXECUTABLE_LINKER__PreureduvanjeNiza_Debug CMakeFiles/PreureduvanjeNiza.dir/Kolokviumski/PreureduvanjeNiza.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PreureduvanjeNiza.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PreureduvanjeNiza.exe
+  TARGET_IMPLIB = libPreureduvanjeNiza.dll.a
+  TARGET_PDB = PreureduvanjeNiza.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OdzemiSamoglaski
+
+
+#############################################
+# Order-only phony target for OdzemiSamoglaski
+
+build cmake_object_order_depends_target_OdzemiSamoglaski: phony || CMakeFiles/OdzemiSamoglaski.dir
+
+build CMakeFiles/OdzemiSamoglaski.dir/Kolokviumski/OdzemiSamoglaski.cpp.obj: CXX_COMPILER__OdzemiSamoglaski_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/OdzemiSamoglaski.cpp || cmake_object_order_depends_target_OdzemiSamoglaski
+  DEP_FILE = CMakeFiles\OdzemiSamoglaski.dir\Kolokviumski\OdzemiSamoglaski.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OdzemiSamoglaski.dir
+  OBJECT_FILE_DIR = CMakeFiles\OdzemiSamoglaski.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OdzemiSamoglaski
+
+
+#############################################
+# Link the executable OdzemiSamoglaski.exe
+
+build OdzemiSamoglaski.exe: CXX_EXECUTABLE_LINKER__OdzemiSamoglaski_Debug CMakeFiles/OdzemiSamoglaski.dir/Kolokviumski/OdzemiSamoglaski.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OdzemiSamoglaski.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OdzemiSamoglaski.exe
+  TARGET_IMPLIB = libOdzemiSamoglaski.dll.a
+  TARGET_PDB = OdzemiSamoglaski.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SlicniBroevi
+
+
+#############################################
+# Order-only phony target for SlicniBroevi
+
+build cmake_object_order_depends_target_SlicniBroevi: phony || CMakeFiles/SlicniBroevi.dir
+
+build CMakeFiles/SlicniBroevi.dir/Kolokviumski/SlicniBroevi.cpp.obj: CXX_COMPILER__SlicniBroevi_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/SlicniBroevi.cpp || cmake_object_order_depends_target_SlicniBroevi
+  DEP_FILE = CMakeFiles\SlicniBroevi.dir\Kolokviumski\SlicniBroevi.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SlicniBroevi.dir
+  OBJECT_FILE_DIR = CMakeFiles\SlicniBroevi.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SlicniBroevi
+
+
+#############################################
+# Link the executable SlicniBroevi.exe
+
+build SlicniBroevi.exe: CXX_EXECUTABLE_LINKER__SlicniBroevi_Debug CMakeFiles/SlicniBroevi.dir/Kolokviumski/SlicniBroevi.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SlicniBroevi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SlicniBroevi.exe
+  TARGET_IMPLIB = libSlicniBroevi.dll.a
+  TARGET_PDB = SlicniBroevi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Kontakti
+
+
+#############################################
+# Order-only phony target for Kontakti
+
+build cmake_object_order_depends_target_Kontakti: phony || CMakeFiles/Kontakti.dir
+
+build CMakeFiles/Kontakti.dir/Kolokviumski/Kontakti.cpp.obj: CXX_COMPILER__Kontakti_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/Kontakti.cpp || cmake_object_order_depends_target_Kontakti
+  DEP_FILE = CMakeFiles\Kontakti.dir\Kolokviumski\Kontakti.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Kontakti.dir
+  OBJECT_FILE_DIR = CMakeFiles\Kontakti.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Kontakti
+
+
+#############################################
+# Link the executable Kontakti.exe
+
+build Kontakti.exe: CXX_EXECUTABLE_LINKER__Kontakti_Debug CMakeFiles/Kontakti.dir/Kolokviumski/Kontakti.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Kontakti.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Kontakti.exe
+  TARGET_IMPLIB = libKontakti.dll.a
+  TARGET_PDB = Kontakti.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TastaturaZadaca
+
+
+#############################################
+# Order-only phony target for TastaturaZadaca
+
+build cmake_object_order_depends_target_TastaturaZadaca: phony || CMakeFiles/TastaturaZadaca.dir
+
+build CMakeFiles/TastaturaZadaca.dir/Kolokviumski/TastaturaZadaca.cpp.obj: CXX_COMPILER__TastaturaZadaca_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/TastaturaZadaca.cpp || cmake_object_order_depends_target_TastaturaZadaca
+  DEP_FILE = CMakeFiles\TastaturaZadaca.dir\Kolokviumski\TastaturaZadaca.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TastaturaZadaca.dir
+  OBJECT_FILE_DIR = CMakeFiles\TastaturaZadaca.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TastaturaZadaca
+
+
+#############################################
+# Link the executable TastaturaZadaca.exe
+
+build TastaturaZadaca.exe: CXX_EXECUTABLE_LINKER__TastaturaZadaca_Debug CMakeFiles/TastaturaZadaca.dir/Kolokviumski/TastaturaZadaca.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TastaturaZadaca.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TastaturaZadaca.exe
+  TARGET_IMPLIB = libTastaturaZadaca.dll.a
+  TARGET_PDB = TastaturaZadaca.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MonotonaPodniza
+
+
+#############################################
+# Order-only phony target for MonotonaPodniza
+
+build cmake_object_order_depends_target_MonotonaPodniza: phony || CMakeFiles/MonotonaPodniza.dir
+
+build CMakeFiles/MonotonaPodniza.dir/Kolokviumski/MonotonaPodniza.cpp.obj: CXX_COMPILER__MonotonaPodniza_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/MonotonaPodniza.cpp || cmake_object_order_depends_target_MonotonaPodniza
+  DEP_FILE = CMakeFiles\MonotonaPodniza.dir\Kolokviumski\MonotonaPodniza.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MonotonaPodniza.dir
+  OBJECT_FILE_DIR = CMakeFiles\MonotonaPodniza.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MonotonaPodniza
+
+
+#############################################
+# Link the executable MonotonaPodniza.exe
+
+build MonotonaPodniza.exe: CXX_EXECUTABLE_LINKER__MonotonaPodniza_Debug CMakeFiles/MonotonaPodniza.dir/Kolokviumski/MonotonaPodniza.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MonotonaPodniza.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MonotonaPodniza.exe
+  TARGET_IMPLIB = libMonotonaPodniza.dll.a
+  TARGET_PDB = MonotonaPodniza.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NazabenaPodniza
+
+
+#############################################
+# Order-only phony target for NazabenaPodniza
+
+build cmake_object_order_depends_target_NazabenaPodniza: phony || CMakeFiles/NazabenaPodniza.dir
+
+build CMakeFiles/NazabenaPodniza.dir/Kolokviumski/NazabenaPodniza.cpp.obj: CXX_COMPILER__NazabenaPodniza_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/NazabenaPodniza.cpp || cmake_object_order_depends_target_NazabenaPodniza
+  DEP_FILE = CMakeFiles\NazabenaPodniza.dir\Kolokviumski\NazabenaPodniza.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NazabenaPodniza.dir
+  OBJECT_FILE_DIR = CMakeFiles\NazabenaPodniza.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NazabenaPodniza
+
+
+#############################################
+# Link the executable NazabenaPodniza.exe
+
+build NazabenaPodniza.exe: CXX_EXECUTABLE_LINKER__NazabenaPodniza_Debug CMakeFiles/NazabenaPodniza.dir/Kolokviumski/NazabenaPodniza.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NazabenaPodniza.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NazabenaPodniza.exe
+  TARGET_IMPLIB = libNazabenaPodniza.dll.a
+  TARGET_PDB = NazabenaPodniza.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MaxMinRedica
+
+
+#############################################
+# Order-only phony target for MaxMinRedica
+
+build cmake_object_order_depends_target_MaxMinRedica: phony || CMakeFiles/MaxMinRedica.dir
+
+build CMakeFiles/MaxMinRedica.dir/Kolokviumski/MaxMinRedica.cpp.obj: CXX_COMPILER__MaxMinRedica_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/MaxMinRedica.cpp || cmake_object_order_depends_target_MaxMinRedica
+  DEP_FILE = CMakeFiles\MaxMinRedica.dir\Kolokviumski\MaxMinRedica.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MaxMinRedica.dir
+  OBJECT_FILE_DIR = CMakeFiles\MaxMinRedica.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MaxMinRedica
+
+
+#############################################
+# Link the executable MaxMinRedica.exe
+
+build MaxMinRedica.exe: CXX_EXECUTABLE_LINKER__MaxMinRedica_Debug CMakeFiles/MaxMinRedica.dir/Kolokviumski/MaxMinRedica.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MaxMinRedica.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MaxMinRedica.exe
+  TARGET_IMPLIB = libMaxMinRedica.dll.a
+  TARGET_PDB = MaxMinRedica.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target asdfghjkl
+
+
+#############################################
+# Order-only phony target for asdfghjkl
+
+build cmake_object_order_depends_target_asdfghjkl: phony || CMakeFiles/asdfghjkl.dir
+
+build CMakeFiles/asdfghjkl.dir/Kolokviumski/asdfghjkl.cpp.obj: CXX_COMPILER__asdfghjkl_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/asdfghjkl.cpp || cmake_object_order_depends_target_asdfghjkl
+  DEP_FILE = CMakeFiles\asdfghjkl.dir\Kolokviumski\asdfghjkl.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\asdfghjkl.dir
+  OBJECT_FILE_DIR = CMakeFiles\asdfghjkl.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target asdfghjkl
+
+
+#############################################
+# Link the executable asdfghjkl.exe
+
+build asdfghjkl.exe: CXX_EXECUTABLE_LINKER__asdfghjkl_Debug CMakeFiles/asdfghjkl.dir/Kolokviumski/asdfghjkl.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\asdfghjkl.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = asdfghjkl.exe
+  TARGET_IMPLIB = libasdfghjkl.dll.a
+  TARGET_PDB = asdfghjkl.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RasteckiN
+
+
+#############################################
+# Order-only phony target for RasteckiN
+
+build cmake_object_order_depends_target_RasteckiN: phony || CMakeFiles/RasteckiN.dir
+
+build CMakeFiles/RasteckiN.dir/Kolokviumski/RasteckiN.cpp.obj: CXX_COMPILER__RasteckiN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/RasteckiN.cpp || cmake_object_order_depends_target_RasteckiN
+  DEP_FILE = CMakeFiles\RasteckiN.dir\Kolokviumski\RasteckiN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RasteckiN.dir
+  OBJECT_FILE_DIR = CMakeFiles\RasteckiN.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RasteckiN
+
+
+#############################################
+# Link the executable RasteckiN.exe
+
+build RasteckiN.exe: CXX_EXECUTABLE_LINKER__RasteckiN_Debug CMakeFiles/RasteckiN.dir/Kolokviumski/RasteckiN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RasteckiN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RasteckiN.exe
+  TARGET_IMPLIB = libRasteckiN.dll.a
+  TARGET_PDB = RasteckiN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PrvPogolemN
+
+
+#############################################
+# Order-only phony target for PrvPogolemN
+
+build cmake_object_order_depends_target_PrvPogolemN: phony || CMakeFiles/PrvPogolemN.dir
+
+build CMakeFiles/PrvPogolemN.dir/Kolokviumski/PrvPogolemN.cpp.obj: CXX_COMPILER__PrvPogolemN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/PrvPogolemN.cpp || cmake_object_order_depends_target_PrvPogolemN
+  DEP_FILE = CMakeFiles\PrvPogolemN.dir\Kolokviumski\PrvPogolemN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PrvPogolemN.dir
+  OBJECT_FILE_DIR = CMakeFiles\PrvPogolemN.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PrvPogolemN
+
+
+#############################################
+# Link the executable PrvPogolemN.exe
+
+build PrvPogolemN.exe: CXX_EXECUTABLE_LINKER__PrvPogolemN_Debug CMakeFiles/PrvPogolemN.dir/Kolokviumski/PrvPogolemN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PrvPogolemN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PrvPogolemN.exe
+  TARGET_IMPLIB = libPrvPogolemN.dll.a
+  TARGET_PDB = PrvPogolemN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Romb
+
+
+#############################################
+# Order-only phony target for Romb
+
+build cmake_object_order_depends_target_Romb: phony || CMakeFiles/Romb.dir
+
+build CMakeFiles/Romb.dir/Kolokviumski/Romb.cpp.obj: CXX_COMPILER__Romb_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/Romb.cpp || cmake_object_order_depends_target_Romb
+  DEP_FILE = CMakeFiles\Romb.dir\Kolokviumski\Romb.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Romb.dir
+  OBJECT_FILE_DIR = CMakeFiles\Romb.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Romb
+
+
+#############################################
+# Link the executable Romb.exe
+
+build Romb.exe: CXX_EXECUTABLE_LINKER__Romb_Debug CMakeFiles/Romb.dir/Kolokviumski/Romb.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Romb.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Romb.exe
+  TARGET_IMPLIB = libRomb.dll.a
+  TARGET_PDB = Romb.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Vojnik
+
+
+#############################################
+# Order-only phony target for Vojnik
+
+build cmake_object_order_depends_target_Vojnik: phony || CMakeFiles/Vojnik.dir
+
+build CMakeFiles/Vojnik.dir/Kolokviumski/Vojnik.cpp.obj: CXX_COMPILER__Vojnik_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/Vojnik.cpp || cmake_object_order_depends_target_Vojnik
+  DEP_FILE = CMakeFiles\Vojnik.dir\Kolokviumski\Vojnik.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Vojnik.dir
+  OBJECT_FILE_DIR = CMakeFiles\Vojnik.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Vojnik
+
+
+#############################################
+# Link the executable Vojnik.exe
+
+build Vojnik.exe: CXX_EXECUTABLE_LINKER__Vojnik_Debug CMakeFiles/Vojnik.dir/Kolokviumski/Vojnik.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Vojnik.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Vojnik.exe
+  TARGET_IMPLIB = libVojnik.dll.a
+  TARGET_PDB = Vojnik.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Zelka
+
+
+#############################################
+# Order-only phony target for Zelka
+
+build cmake_object_order_depends_target_Zelka: phony || CMakeFiles/Zelka.dir
+
+build CMakeFiles/Zelka.dir/Kolokviumski/Zelka.cpp.obj: CXX_COMPILER__Zelka_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/Zelka.cpp || cmake_object_order_depends_target_Zelka
+  DEP_FILE = CMakeFiles\Zelka.dir\Kolokviumski\Zelka.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Zelka.dir
+  OBJECT_FILE_DIR = CMakeFiles\Zelka.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Zelka
+
+
+#############################################
+# Link the executable Zelka.exe
+
+build Zelka.exe: CXX_EXECUTABLE_LINKER__Zelka_Debug CMakeFiles/Zelka.dir/Kolokviumski/Zelka.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Zelka.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Zelka.exe
+  TARGET_IMPLIB = libZelka.dll.a
+  TARGET_PDB = Zelka.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RedKolonaPecatenje
+
+
+#############################################
+# Order-only phony target for RedKolonaPecatenje
+
+build cmake_object_order_depends_target_RedKolonaPecatenje: phony || CMakeFiles/RedKolonaPecatenje.dir
+
+build CMakeFiles/RedKolonaPecatenje.dir/Kolokviumski/RedKolonaPecatenje.cpp.obj: CXX_COMPILER__RedKolonaPecatenje_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/RedKolonaPecatenje.cpp || cmake_object_order_depends_target_RedKolonaPecatenje
+  DEP_FILE = CMakeFiles\RedKolonaPecatenje.dir\Kolokviumski\RedKolonaPecatenje.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RedKolonaPecatenje.dir
+  OBJECT_FILE_DIR = CMakeFiles\RedKolonaPecatenje.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RedKolonaPecatenje
+
+
+#############################################
+# Link the executable RedKolonaPecatenje.exe
+
+build RedKolonaPecatenje.exe: CXX_EXECUTABLE_LINKER__RedKolonaPecatenje_Debug CMakeFiles/RedKolonaPecatenje.dir/Kolokviumski/RedKolonaPecatenje.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RedKolonaPecatenje.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RedKolonaPecatenje.exe
+  TARGET_IMPLIB = libRedKolonaPecatenje.dll.a
+  TARGET_PDB = RedKolonaPecatenje.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target IstiNizi
@@ -2252,6 +2780,39 @@ build 4ta-D2.exe: CXX_EXECUTABLE_LINKER__4ta-D2_Debug CMakeFiles/4ta-D2.dir/Zada
   TARGET_PDB = 4ta-D2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 5ta-D2
+
+
+#############################################
+# Order-only phony target for 5ta-D2
+
+build cmake_object_order_depends_target_5ta-D2: phony || CMakeFiles/5ta-D2.dir
+
+build CMakeFiles/5ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/5ta-D2.cpp.obj: CXX_COMPILER__5ta-D2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/5ta-D2.cpp || cmake_object_order_depends_target_5ta-D2
+  DEP_FILE = CMakeFiles\5ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci\5ta-D2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\5ta-D2.dir
+  OBJECT_FILE_DIR = CMakeFiles\5ta-D2.dir\ZadaciZaVezbanje2Kolokvium\DopolnitelniZadaci
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5ta-D2
+
+
+#############################################
+# Link the executable 5ta-D2.exe
+
+build 5ta-D2.exe: CXX_EXECUTABLE_LINKER__5ta-D2_Debug CMakeFiles/5ta-D2.dir/ZadaciZaVezbanje2Kolokvium/DopolnitelniZadaci/5ta-D2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\5ta-D2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5ta-D2.exe
+  TARGET_IMPLIB = lib5ta-D2.dll.a
+  TARGET_PDB = 5ta-D2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 6ta-D2
 
 
@@ -3605,6 +4166,72 @@ build LabsSreda2.exe: CXX_EXECUTABLE_LINKER__LabsSreda2_Debug CMakeFiles/LabsSre
   TARGET_PDB = LabsSreda2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Swap3broja
+
+
+#############################################
+# Order-only phony target for Swap3broja
+
+build cmake_object_order_depends_target_Swap3broja: phony || CMakeFiles/Swap3broja.dir
+
+build CMakeFiles/Swap3broja.dir/Laboratoriski/5_nedela/Swap3broja.cpp.obj: CXX_COMPILER__Swap3broja_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/5_nedela/Swap3broja.cpp || cmake_object_order_depends_target_Swap3broja
+  DEP_FILE = CMakeFiles\Swap3broja.dir\Laboratoriski\5_nedela\Swap3broja.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Swap3broja.dir
+  OBJECT_FILE_DIR = CMakeFiles\Swap3broja.dir\Laboratoriski\5_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Swap3broja
+
+
+#############################################
+# Link the executable Swap3broja.exe
+
+build Swap3broja.exe: CXX_EXECUTABLE_LINKER__Swap3broja_Debug CMakeFiles/Swap3broja.dir/Laboratoriski/5_nedela/Swap3broja.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Swap3broja.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Swap3broja.exe
+  TARGET_IMPLIB = libSwap3broja.dll.a
+  TARGET_PDB = Swap3broja.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OceniKolicnik
+
+
+#############################################
+# Order-only phony target for OceniKolicnik
+
+build cmake_object_order_depends_target_OceniKolicnik: phony || CMakeFiles/OceniKolicnik.dir
+
+build CMakeFiles/OceniKolicnik.dir/Laboratoriski/5_nedela/OceniKolicnik.cpp.obj: CXX_COMPILER__OceniKolicnik_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/5_nedela/OceniKolicnik.cpp || cmake_object_order_depends_target_OceniKolicnik
+  DEP_FILE = CMakeFiles\OceniKolicnik.dir\Laboratoriski\5_nedela\OceniKolicnik.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OceniKolicnik.dir
+  OBJECT_FILE_DIR = CMakeFiles\OceniKolicnik.dir\Laboratoriski\5_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OceniKolicnik
+
+
+#############################################
+# Link the executable OceniKolicnik.exe
+
+build OceniKolicnik.exe: CXX_EXECUTABLE_LINKER__OceniKolicnik_Debug CMakeFiles/OceniKolicnik.dir/Laboratoriski/5_nedela/OceniKolicnik.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OceniKolicnik.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OceniKolicnik.exe
+  TARGET_IMPLIB = libOceniKolicnik.dll.a
+  TARGET_PDB = OceniKolicnik.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target OgledalnaNiza
 
 
@@ -3968,6 +4595,138 @@ build AbsolutnaRazlika.exe: CXX_EXECUTABLE_LINKER__AbsolutnaRazlika_Debug CMakeF
   TARGET_PDB = AbsolutnaRazlika.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target IndeksiSoI
+
+
+#############################################
+# Order-only phony target for IndeksiSoI
+
+build cmake_object_order_depends_target_IndeksiSoI: phony || CMakeFiles/IndeksiSoI.dir
+
+build CMakeFiles/IndeksiSoI.dir/Laboratoriski/6_nedela/IndeksiSoI.cpp.obj: CXX_COMPILER__IndeksiSoI_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/6_nedela/IndeksiSoI.cpp || cmake_object_order_depends_target_IndeksiSoI
+  DEP_FILE = CMakeFiles\IndeksiSoI.dir\Laboratoriski\6_nedela\IndeksiSoI.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\IndeksiSoI.dir
+  OBJECT_FILE_DIR = CMakeFiles\IndeksiSoI.dir\Laboratoriski\6_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target IndeksiSoI
+
+
+#############################################
+# Link the executable IndeksiSoI.exe
+
+build IndeksiSoI.exe: CXX_EXECUTABLE_LINKER__IndeksiSoI_Debug CMakeFiles/IndeksiSoI.dir/Laboratoriski/6_nedela/IndeksiSoI.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\IndeksiSoI.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = IndeksiSoI.exe
+  TARGET_IMPLIB = libIndeksiSoI.dll.a
+  TARGET_PDB = IndeksiSoI.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MinMaxNiza
+
+
+#############################################
+# Order-only phony target for MinMaxNiza
+
+build cmake_object_order_depends_target_MinMaxNiza: phony || CMakeFiles/MinMaxNiza.dir
+
+build CMakeFiles/MinMaxNiza.dir/Laboratoriski/6_nedela/MinMaxNiza.cpp.obj: CXX_COMPILER__MinMaxNiza_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/6_nedela/MinMaxNiza.cpp || cmake_object_order_depends_target_MinMaxNiza
+  DEP_FILE = CMakeFiles\MinMaxNiza.dir\Laboratoriski\6_nedela\MinMaxNiza.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MinMaxNiza.dir
+  OBJECT_FILE_DIR = CMakeFiles\MinMaxNiza.dir\Laboratoriski\6_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MinMaxNiza
+
+
+#############################################
+# Link the executable MinMaxNiza.exe
+
+build MinMaxNiza.exe: CXX_EXECUTABLE_LINKER__MinMaxNiza_Debug CMakeFiles/MinMaxNiza.dir/Laboratoriski/6_nedela/MinMaxNiza.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MinMaxNiza.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MinMaxNiza.exe
+  TARGET_IMPLIB = libMinMaxNiza.dll.a
+  TARGET_PDB = MinMaxNiza.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SwapMinMax
+
+
+#############################################
+# Order-only phony target for SwapMinMax
+
+build cmake_object_order_depends_target_SwapMinMax: phony || CMakeFiles/SwapMinMax.dir
+
+build CMakeFiles/SwapMinMax.dir/Laboratoriski/6_nedela/SwapMinMax.cpp.obj: CXX_COMPILER__SwapMinMax_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/6_nedela/SwapMinMax.cpp || cmake_object_order_depends_target_SwapMinMax
+  DEP_FILE = CMakeFiles\SwapMinMax.dir\Laboratoriski\6_nedela\SwapMinMax.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SwapMinMax.dir
+  OBJECT_FILE_DIR = CMakeFiles\SwapMinMax.dir\Laboratoriski\6_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SwapMinMax
+
+
+#############################################
+# Link the executable SwapMinMax.exe
+
+build SwapMinMax.exe: CXX_EXECUTABLE_LINKER__SwapMinMax_Debug CMakeFiles/SwapMinMax.dir/Laboratoriski/6_nedela/SwapMinMax.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SwapMinMax.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SwapMinMax.exe
+  TARGET_IMPLIB = libSwapMinMax.dll.a
+  TARGET_PDB = SwapMinMax.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target kElementFinta
+
+
+#############################################
+# Order-only phony target for kElementFinta
+
+build cmake_object_order_depends_target_kElementFinta: phony || CMakeFiles/kElementFinta.dir
+
+build CMakeFiles/kElementFinta.dir/Laboratoriski/6_nedela/kElementFinta.cpp.obj: CXX_COMPILER__kElementFinta_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/6_nedela/kElementFinta.cpp || cmake_object_order_depends_target_kElementFinta
+  DEP_FILE = CMakeFiles\kElementFinta.dir\Laboratoriski\6_nedela\kElementFinta.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\kElementFinta.dir
+  OBJECT_FILE_DIR = CMakeFiles\kElementFinta.dir\Laboratoriski\6_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target kElementFinta
+
+
+#############################################
+# Link the executable kElementFinta.exe
+
+build kElementFinta.exe: CXX_EXECUTABLE_LINKER__kElementFinta_Debug CMakeFiles/kElementFinta.dir/Laboratoriski/6_nedela/kElementFinta.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\kElementFinta.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = kElementFinta.exe
+  TARGET_IMPLIB = libkElementFinta.dll.a
+  TARGET_PDB = kElementFinta.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target ParnaMatrica
 
 
@@ -4232,6 +4991,303 @@ build MinMaxNormalizacija.exe: CXX_EXECUTABLE_LINKER__MinMaxNormalizacija_Debug 
   TARGET_PDB = MinMaxNormalizacija.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target LetsGoChelsea
+
+
+#############################################
+# Order-only phony target for LetsGoChelsea
+
+build cmake_object_order_depends_target_LetsGoChelsea: phony || CMakeFiles/LetsGoChelsea.dir
+
+build CMakeFiles/LetsGoChelsea.dir/Laboratoriski/7_nedela/LetsGoChelsea.cpp.obj: CXX_COMPILER__LetsGoChelsea_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/LetsGoChelsea.cpp || cmake_object_order_depends_target_LetsGoChelsea
+  DEP_FILE = CMakeFiles\LetsGoChelsea.dir\Laboratoriski\7_nedela\LetsGoChelsea.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\LetsGoChelsea.dir
+  OBJECT_FILE_DIR = CMakeFiles\LetsGoChelsea.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target LetsGoChelsea
+
+
+#############################################
+# Link the executable LetsGoChelsea.exe
+
+build LetsGoChelsea.exe: CXX_EXECUTABLE_LINKER__LetsGoChelsea_Debug CMakeFiles/LetsGoChelsea.dir/Laboratoriski/7_nedela/LetsGoChelsea.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\LetsGoChelsea.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = LetsGoChelsea.exe
+  TARGET_IMPLIB = libLetsGoChelsea.dll.a
+  TARGET_PDB = LetsGoChelsea.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target BrKoloni2
+
+
+#############################################
+# Order-only phony target for BrKoloni2
+
+build cmake_object_order_depends_target_BrKoloni2: phony || CMakeFiles/BrKoloni2.dir
+
+build CMakeFiles/BrKoloni2.dir/Laboratoriski/7_nedela/BrKoloni2.cpp.obj: CXX_COMPILER__BrKoloni2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/BrKoloni2.cpp || cmake_object_order_depends_target_BrKoloni2
+  DEP_FILE = CMakeFiles\BrKoloni2.dir\Laboratoriski\7_nedela\BrKoloni2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BrKoloni2.dir
+  OBJECT_FILE_DIR = CMakeFiles\BrKoloni2.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target BrKoloni2
+
+
+#############################################
+# Link the executable BrKoloni2.exe
+
+build BrKoloni2.exe: CXX_EXECUTABLE_LINKER__BrKoloni2_Debug CMakeFiles/BrKoloni2.dir/Laboratoriski/7_nedela/BrKoloni2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\BrKoloni2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = BrKoloni2.exe
+  TARGET_IMPLIB = libBrKoloni2.dll.a
+  TARGET_PDB = BrKoloni2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DesnoOdDijagonala
+
+
+#############################################
+# Order-only phony target for DesnoOdDijagonala
+
+build cmake_object_order_depends_target_DesnoOdDijagonala: phony || CMakeFiles/DesnoOdDijagonala.dir
+
+build CMakeFiles/DesnoOdDijagonala.dir/Laboratoriski/7_nedela/DesnoOdDijagonala.cpp.obj: CXX_COMPILER__DesnoOdDijagonala_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/DesnoOdDijagonala.cpp || cmake_object_order_depends_target_DesnoOdDijagonala
+  DEP_FILE = CMakeFiles\DesnoOdDijagonala.dir\Laboratoriski\7_nedela\DesnoOdDijagonala.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DesnoOdDijagonala.dir
+  OBJECT_FILE_DIR = CMakeFiles\DesnoOdDijagonala.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DesnoOdDijagonala
+
+
+#############################################
+# Link the executable DesnoOdDijagonala.exe
+
+build DesnoOdDijagonala.exe: CXX_EXECUTABLE_LINKER__DesnoOdDijagonala_Debug CMakeFiles/DesnoOdDijagonala.dir/Laboratoriski/7_nedela/DesnoOdDijagonala.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DesnoOdDijagonala.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DesnoOdDijagonala.exe
+  TARGET_IMPLIB = libDesnoOdDijagonala.dll.a
+  TARGET_PDB = DesnoOdDijagonala.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ProsekSporednaDijagonala
+
+
+#############################################
+# Order-only phony target for ProsekSporednaDijagonala
+
+build cmake_object_order_depends_target_ProsekSporednaDijagonala: phony || CMakeFiles/ProsekSporednaDijagonala.dir
+
+build CMakeFiles/ProsekSporednaDijagonala.dir/Laboratoriski/7_nedela/ProsekSporednaDijagonala.cpp.obj: CXX_COMPILER__ProsekSporednaDijagonala_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/ProsekSporednaDijagonala.cpp || cmake_object_order_depends_target_ProsekSporednaDijagonala
+  DEP_FILE = CMakeFiles\ProsekSporednaDijagonala.dir\Laboratoriski\7_nedela\ProsekSporednaDijagonala.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ProsekSporednaDijagonala.dir
+  OBJECT_FILE_DIR = CMakeFiles\ProsekSporednaDijagonala.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ProsekSporednaDijagonala
+
+
+#############################################
+# Link the executable ProsekSporednaDijagonala.exe
+
+build ProsekSporednaDijagonala.exe: CXX_EXECUTABLE_LINKER__ProsekSporednaDijagonala_Debug CMakeFiles/ProsekSporednaDijagonala.dir/Laboratoriski/7_nedela/ProsekSporednaDijagonala.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ProsekSporednaDijagonala.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ProsekSporednaDijagonala.exe
+  TARGET_IMPLIB = libProsekSporednaDijagonala.dll.a
+  TARGET_PDB = ProsekSporednaDijagonala.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SimetricnaMatrica
+
+
+#############################################
+# Order-only phony target for SimetricnaMatrica
+
+build cmake_object_order_depends_target_SimetricnaMatrica: phony || CMakeFiles/SimetricnaMatrica.dir
+
+build CMakeFiles/SimetricnaMatrica.dir/Laboratoriski/7_nedela/SimetricnaMatrica.cpp.obj: CXX_COMPILER__SimetricnaMatrica_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/SimetricnaMatrica.cpp || cmake_object_order_depends_target_SimetricnaMatrica
+  DEP_FILE = CMakeFiles\SimetricnaMatrica.dir\Laboratoriski\7_nedela\SimetricnaMatrica.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SimetricnaMatrica.dir
+  OBJECT_FILE_DIR = CMakeFiles\SimetricnaMatrica.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SimetricnaMatrica
+
+
+#############################################
+# Link the executable SimetricnaMatrica.exe
+
+build SimetricnaMatrica.exe: CXX_EXECUTABLE_LINKER__SimetricnaMatrica_Debug CMakeFiles/SimetricnaMatrica.dir/Laboratoriski/7_nedela/SimetricnaMatrica.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SimetricnaMatrica.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SimetricnaMatrica.exe
+  TARGET_IMPLIB = libSimetricnaMatrica.dll.a
+  TARGET_PDB = SimetricnaMatrica.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SrednaVrednostProsek
+
+
+#############################################
+# Order-only phony target for SrednaVrednostProsek
+
+build cmake_object_order_depends_target_SrednaVrednostProsek: phony || CMakeFiles/SrednaVrednostProsek.dir
+
+build CMakeFiles/SrednaVrednostProsek.dir/Laboratoriski/7_nedela/SrednaVrednostProsek.cpp.obj: CXX_COMPILER__SrednaVrednostProsek_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/SrednaVrednostProsek.cpp || cmake_object_order_depends_target_SrednaVrednostProsek
+  DEP_FILE = CMakeFiles\SrednaVrednostProsek.dir\Laboratoriski\7_nedela\SrednaVrednostProsek.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\SrednaVrednostProsek.dir
+  OBJECT_FILE_DIR = CMakeFiles\SrednaVrednostProsek.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SrednaVrednostProsek
+
+
+#############################################
+# Link the executable SrednaVrednostProsek.exe
+
+build SrednaVrednostProsek.exe: CXX_EXECUTABLE_LINKER__SrednaVrednostProsek_Debug CMakeFiles/SrednaVrednostProsek.dir/Laboratoriski/7_nedela/SrednaVrednostProsek.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SrednaVrednostProsek.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SrednaVrednostProsek.exe
+  TARGET_IMPLIB = libSrednaVrednostProsek.dll.a
+  TARGET_PDB = SrednaVrednostProsek.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MinMaxMatrica
+
+
+#############################################
+# Order-only phony target for MinMaxMatrica
+
+build cmake_object_order_depends_target_MinMaxMatrica: phony || CMakeFiles/MinMaxMatrica.dir
+
+build CMakeFiles/MinMaxMatrica.dir/Laboratoriski/7_nedela/MinMaxMatrica.cpp.obj: CXX_COMPILER__MinMaxMatrica_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/MinMaxMatrica.cpp || cmake_object_order_depends_target_MinMaxMatrica
+  DEP_FILE = CMakeFiles\MinMaxMatrica.dir\Laboratoriski\7_nedela\MinMaxMatrica.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MinMaxMatrica.dir
+  OBJECT_FILE_DIR = CMakeFiles\MinMaxMatrica.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MinMaxMatrica
+
+
+#############################################
+# Link the executable MinMaxMatrica.exe
+
+build MinMaxMatrica.exe: CXX_EXECUTABLE_LINKER__MinMaxMatrica_Debug CMakeFiles/MinMaxMatrica.dir/Laboratoriski/7_nedela/MinMaxMatrica.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MinMaxMatrica.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MinMaxMatrica.exe
+  TARGET_IMPLIB = libMinMaxMatrica.dll.a
+  TARGET_PDB = MinMaxMatrica.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ParenNeparenRed
+
+
+#############################################
+# Order-only phony target for ParenNeparenRed
+
+build cmake_object_order_depends_target_ParenNeparenRed: phony || CMakeFiles/ParenNeparenRed.dir
+
+build CMakeFiles/ParenNeparenRed.dir/Laboratoriski/7_nedela/ParenNeparenRed.cpp.obj: CXX_COMPILER__ParenNeparenRed_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/ParenNeparenRed.cpp || cmake_object_order_depends_target_ParenNeparenRed
+  DEP_FILE = CMakeFiles\ParenNeparenRed.dir\Laboratoriski\7_nedela\ParenNeparenRed.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ParenNeparenRed.dir
+  OBJECT_FILE_DIR = CMakeFiles\ParenNeparenRed.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ParenNeparenRed
+
+
+#############################################
+# Link the executable ParenNeparenRed.exe
+
+build ParenNeparenRed.exe: CXX_EXECUTABLE_LINKER__ParenNeparenRed_Debug CMakeFiles/ParenNeparenRed.dir/Laboratoriski/7_nedela/ParenNeparenRed.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ParenNeparenRed.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ParenNeparenRed.exe
+  TARGET_IMPLIB = libParenNeparenRed.dll.a
+  TARGET_PDB = ParenNeparenRed.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target MenenjeMatrica
+
+
+#############################################
+# Order-only phony target for MenenjeMatrica
+
+build cmake_object_order_depends_target_MenenjeMatrica: phony || CMakeFiles/MenenjeMatrica.dir
+
+build CMakeFiles/MenenjeMatrica.dir/Laboratoriski/7_nedela/MenenjeMatrica.cpp.obj: CXX_COMPILER__MenenjeMatrica_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/7_nedela/MenenjeMatrica.cpp || cmake_object_order_depends_target_MenenjeMatrica
+  DEP_FILE = CMakeFiles\MenenjeMatrica.dir\Laboratoriski\7_nedela\MenenjeMatrica.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\MenenjeMatrica.dir
+  OBJECT_FILE_DIR = CMakeFiles\MenenjeMatrica.dir\Laboratoriski\7_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target MenenjeMatrica
+
+
+#############################################
+# Link the executable MenenjeMatrica.exe
+
+build MenenjeMatrica.exe: CXX_EXECUTABLE_LINKER__MenenjeMatrica_Debug CMakeFiles/MenenjeMatrica.dir/Laboratoriski/7_nedela/MenenjeMatrica.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\MenenjeMatrica.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = MenenjeMatrica.exe
+  TARGET_IMPLIB = libMenenjeMatrica.dll.a
+  TARGET_PDB = MenenjeMatrica.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target KvoN
 
 
@@ -4463,6 +5519,270 @@ build RasteckaNiza.exe: CXX_EXECUTABLE_LINKER__RasteckaNiza_Debug CMakeFiles/Ras
   TARGET_PDB = RasteckaNiza.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target Zvezda
+
+
+#############################################
+# Order-only phony target for Zvezda
+
+build cmake_object_order_depends_target_Zvezda: phony || CMakeFiles/Zvezda.dir
+
+build CMakeFiles/Zvezda.dir/Laboratoriski/8_nedela/Zvezda.cpp.obj: CXX_COMPILER__Zvezda_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/8_nedela/Zvezda.cpp || cmake_object_order_depends_target_Zvezda
+  DEP_FILE = CMakeFiles\Zvezda.dir\Laboratoriski\8_nedela\Zvezda.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Zvezda.dir
+  OBJECT_FILE_DIR = CMakeFiles\Zvezda.dir\Laboratoriski\8_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Zvezda
+
+
+#############################################
+# Link the executable Zvezda.exe
+
+build Zvezda.exe: CXX_EXECUTABLE_LINKER__Zvezda_Debug CMakeFiles/Zvezda.dir/Laboratoriski/8_nedela/Zvezda.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Zvezda.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Zvezda.exe
+  TARGET_IMPLIB = libZvezda.dll.a
+  TARGET_PDB = Zvezda.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OpsegRekurzija
+
+
+#############################################
+# Order-only phony target for OpsegRekurzija
+
+build cmake_object_order_depends_target_OpsegRekurzija: phony || CMakeFiles/OpsegRekurzija.dir
+
+build CMakeFiles/OpsegRekurzija.dir/Laboratoriski/8_nedela/OpsegRekurzija.cpp.obj: CXX_COMPILER__OpsegRekurzija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/8_nedela/OpsegRekurzija.cpp || cmake_object_order_depends_target_OpsegRekurzija
+  DEP_FILE = CMakeFiles\OpsegRekurzija.dir\Laboratoriski\8_nedela\OpsegRekurzija.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OpsegRekurzija.dir
+  OBJECT_FILE_DIR = CMakeFiles\OpsegRekurzija.dir\Laboratoriski\8_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OpsegRekurzija
+
+
+#############################################
+# Link the executable OpsegRekurzija.exe
+
+build OpsegRekurzija.exe: CXX_EXECUTABLE_LINKER__OpsegRekurzija_Debug CMakeFiles/OpsegRekurzija.dir/Laboratoriski/8_nedela/OpsegRekurzija.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OpsegRekurzija.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OpsegRekurzija.exe
+  TARGET_IMPLIB = libOpsegRekurzija.dll.a
+  TARGET_PDB = OpsegRekurzija.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RekurzivniPalindromi
+
+
+#############################################
+# Order-only phony target for RekurzivniPalindromi
+
+build cmake_object_order_depends_target_RekurzivniPalindromi: phony || CMakeFiles/RekurzivniPalindromi.dir
+
+build CMakeFiles/RekurzivniPalindromi.dir/Laboratoriski/8_nedela/RekurzivniPalindromi.cpp.obj: CXX_COMPILER__RekurzivniPalindromi_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/8_nedela/RekurzivniPalindromi.cpp || cmake_object_order_depends_target_RekurzivniPalindromi
+  DEP_FILE = CMakeFiles\RekurzivniPalindromi.dir\Laboratoriski\8_nedela\RekurzivniPalindromi.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RekurzivniPalindromi.dir
+  OBJECT_FILE_DIR = CMakeFiles\RekurzivniPalindromi.dir\Laboratoriski\8_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RekurzivniPalindromi
+
+
+#############################################
+# Link the executable RekurzivniPalindromi.exe
+
+build RekurzivniPalindromi.exe: CXX_EXECUTABLE_LINKER__RekurzivniPalindromi_Debug CMakeFiles/RekurzivniPalindromi.dir/Laboratoriski/8_nedela/RekurzivniPalindromi.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RekurzivniPalindromi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RekurzivniPalindromi.exe
+  TARGET_IMPLIB = libRekurzivniPalindromi.dll.a
+  TARGET_PDB = RekurzivniPalindromi.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target RasteckaRekurzija
+
+
+#############################################
+# Order-only phony target for RasteckaRekurzija
+
+build cmake_object_order_depends_target_RasteckaRekurzija: phony || CMakeFiles/RasteckaRekurzija.dir
+
+build CMakeFiles/RasteckaRekurzija.dir/Laboratoriski/8_nedela/RasteckRekurzija.cpp.obj: CXX_COMPILER__RasteckaRekurzija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/8_nedela/RasteckRekurzija.cpp || cmake_object_order_depends_target_RasteckaRekurzija
+  DEP_FILE = CMakeFiles\RasteckaRekurzija.dir\Laboratoriski\8_nedela\RasteckRekurzija.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RasteckaRekurzija.dir
+  OBJECT_FILE_DIR = CMakeFiles\RasteckaRekurzija.dir\Laboratoriski\8_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RasteckaRekurzija
+
+
+#############################################
+# Link the executable RasteckaRekurzija.exe
+
+build RasteckaRekurzija.exe: CXX_EXECUTABLE_LINKER__RasteckaRekurzija_Debug CMakeFiles/RasteckaRekurzija.dir/Laboratoriski/8_nedela/RasteckRekurzija.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RasteckaRekurzija.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RasteckaRekurzija.exe
+  TARGET_IMPLIB = libRasteckaRekurzija.dll.a
+  TARGET_PDB = RasteckaRekurzija.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target TransformacijaRekurzija
+
+
+#############################################
+# Order-only phony target for TransformacijaRekurzija
+
+build cmake_object_order_depends_target_TransformacijaRekurzija: phony || CMakeFiles/TransformacijaRekurzija.dir
+
+build CMakeFiles/TransformacijaRekurzija.dir/Laboratoriski/8_nedela/TransformacijRekurzija.cpp.obj: CXX_COMPILER__TransformacijaRekurzija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/8_nedela/TransformacijRekurzija.cpp || cmake_object_order_depends_target_TransformacijaRekurzija
+  DEP_FILE = CMakeFiles\TransformacijaRekurzija.dir\Laboratoriski\8_nedela\TransformacijRekurzija.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\TransformacijaRekurzija.dir
+  OBJECT_FILE_DIR = CMakeFiles\TransformacijaRekurzija.dir\Laboratoriski\8_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target TransformacijaRekurzija
+
+
+#############################################
+# Link the executable TransformacijaRekurzija.exe
+
+build TransformacijaRekurzija.exe: CXX_EXECUTABLE_LINKER__TransformacijaRekurzija_Debug CMakeFiles/TransformacijaRekurzija.dir/Laboratoriski/8_nedela/TransformacijRekurzija.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\TransformacijaRekurzija.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = TransformacijaRekurzija.exe
+  TARGET_IMPLIB = libTransformacijaRekurzija.dll.a
+  TARGET_PDB = TransformacijaRekurzija.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DellivRekurzija
+
+
+#############################################
+# Order-only phony target for DellivRekurzija
+
+build cmake_object_order_depends_target_DellivRekurzija: phony || CMakeFiles/DellivRekurzija.dir
+
+build CMakeFiles/DellivRekurzija.dir/Laboratoriski/8_nedela/DellivRekurzija.cpp.obj: CXX_COMPILER__DellivRekurzija_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/8_nedela/DellivRekurzija.cpp || cmake_object_order_depends_target_DellivRekurzija
+  DEP_FILE = CMakeFiles\DellivRekurzija.dir\Laboratoriski\8_nedela\DellivRekurzija.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DellivRekurzija.dir
+  OBJECT_FILE_DIR = CMakeFiles\DellivRekurzija.dir\Laboratoriski\8_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DellivRekurzija
+
+
+#############################################
+# Link the executable DellivRekurzija.exe
+
+build DellivRekurzija.exe: CXX_EXECUTABLE_LINKER__DellivRekurzija_Debug CMakeFiles/DellivRekurzija.dir/Laboratoriski/8_nedela/DellivRekurzija.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DellivRekurzija.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DellivRekurzija.exe
+  TARGET_IMPLIB = libDellivRekurzija.dll.a
+  TARGET_PDB = DellivRekurzija.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PalindromiCifri
+
+
+#############################################
+# Order-only phony target for PalindromiCifri
+
+build cmake_object_order_depends_target_PalindromiCifri: phony || CMakeFiles/PalindromiCifri.dir
+
+build CMakeFiles/PalindromiCifri.dir/Laboratoriski/8_nedela/PalindromiCifri.cpp.obj: CXX_COMPILER__PalindromiCifri_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/8_nedela/PalindromiCifri.cpp || cmake_object_order_depends_target_PalindromiCifri
+  DEP_FILE = CMakeFiles\PalindromiCifri.dir\Laboratoriski\8_nedela\PalindromiCifri.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PalindromiCifri.dir
+  OBJECT_FILE_DIR = CMakeFiles\PalindromiCifri.dir\Laboratoriski\8_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PalindromiCifri
+
+
+#############################################
+# Link the executable PalindromiCifri.exe
+
+build PalindromiCifri.exe: CXX_EXECUTABLE_LINKER__PalindromiCifri_Debug CMakeFiles/PalindromiCifri.dir/Laboratoriski/8_nedela/PalindromiCifri.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PalindromiCifri.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PalindromiCifri.exe
+  TARGET_IMPLIB = libPalindromiCifri.dll.a
+  TARGET_PDB = PalindromiCifri.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PokazuvackaEdna
+
+
+#############################################
+# Order-only phony target for PokazuvackaEdna
+
+build cmake_object_order_depends_target_PokazuvackaEdna: phony || CMakeFiles/PokazuvackaEdna.dir
+
+build CMakeFiles/PokazuvackaEdna.dir/Laboratoriski/8_nedela/PokazuvackaEdna.cpp.obj: CXX_COMPILER__PokazuvackaEdna_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/8_nedela/PokazuvackaEdna.cpp || cmake_object_order_depends_target_PokazuvackaEdna
+  DEP_FILE = CMakeFiles\PokazuvackaEdna.dir\Laboratoriski\8_nedela\PokazuvackaEdna.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PokazuvackaEdna.dir
+  OBJECT_FILE_DIR = CMakeFiles\PokazuvackaEdna.dir\Laboratoriski\8_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PokazuvackaEdna
+
+
+#############################################
+# Link the executable PokazuvackaEdna.exe
+
+build PokazuvackaEdna.exe: CXX_EXECUTABLE_LINKER__PokazuvackaEdna_Debug CMakeFiles/PokazuvackaEdna.dir/Laboratoriski/8_nedela/PokazuvackaEdna.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PokazuvackaEdna.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PokazuvackaEdna.exe
+  TARGET_IMPLIB = libPokazuvackaEdna.dll.a
+  TARGET_PDB = PokazuvackaEdna.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target RelFreq
 
 
@@ -4626,6 +5946,105 @@ build Pal.exe: CXX_EXECUTABLE_LINKER__Pal_Debug CMakeFiles/Pal.dir/Laboratoriski
   TARGET_FILE = Pal.exe
   TARGET_IMPLIB = libPal.dll.a
   TARGET_PDB = Pal.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2niziTekst
+
+
+#############################################
+# Order-only phony target for 2niziTekst
+
+build cmake_object_order_depends_target_2niziTekst: phony || CMakeFiles/2niziTekst.dir
+
+build CMakeFiles/2niziTekst.dir/Laboratoriski/10_nedela/2niziTekst.cpp.obj: CXX_COMPILER__2niziTekst_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/10_nedela/2niziTekst.cpp || cmake_object_order_depends_target_2niziTekst
+  DEP_FILE = CMakeFiles\2niziTekst.dir\Laboratoriski\10_nedela\2niziTekst.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2niziTekst.dir
+  OBJECT_FILE_DIR = CMakeFiles\2niziTekst.dir\Laboratoriski\10_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2niziTekst
+
+
+#############################################
+# Link the executable 2niziTekst.exe
+
+build 2niziTekst.exe: CXX_EXECUTABLE_LINKER__2niziTekst_Debug CMakeFiles/2niziTekst.dir/Laboratoriski/10_nedela/2niziTekst.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2niziTekst.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2niziTekst.exe
+  TARGET_IMPLIB = lib2niziTekst.dll.a
+  TARGET_PDB = 2niziTekst.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ZbirPomalOd5
+
+
+#############################################
+# Order-only phony target for ZbirPomalOd5
+
+build cmake_object_order_depends_target_ZbirPomalOd5: phony || CMakeFiles/ZbirPomalOd5.dir
+
+build CMakeFiles/ZbirPomalOd5.dir/Laboratoriski/10_nedela/ZbirPomalOd5.cpp.obj: CXX_COMPILER__ZbirPomalOd5_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/10_nedela/ZbirPomalOd5.cpp || cmake_object_order_depends_target_ZbirPomalOd5
+  DEP_FILE = CMakeFiles\ZbirPomalOd5.dir\Laboratoriski\10_nedela\ZbirPomalOd5.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\ZbirPomalOd5.dir
+  OBJECT_FILE_DIR = CMakeFiles\ZbirPomalOd5.dir\Laboratoriski\10_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ZbirPomalOd5
+
+
+#############################################
+# Link the executable ZbirPomalOd5.exe
+
+build ZbirPomalOd5.exe: CXX_EXECUTABLE_LINKER__ZbirPomalOd5_Debug CMakeFiles/ZbirPomalOd5.dir/Laboratoriski/10_nedela/ZbirPomalOd5.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ZbirPomalOd5.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ZbirPomalOd5.exe
+  TARGET_IMPLIB = libZbirPomalOd5.dll.a
+  TARGET_PDB = ZbirPomalOd5.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target DijagonaliKvadrat
+
+
+#############################################
+# Order-only phony target for DijagonaliKvadrat
+
+build cmake_object_order_depends_target_DijagonaliKvadrat: phony || CMakeFiles/DijagonaliKvadrat.dir
+
+build CMakeFiles/DijagonaliKvadrat.dir/Laboratoriski/10_nedela/DijagonaliKvadrat.cpp.obj: CXX_COMPILER__DijagonaliKvadrat_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Laboratoriski/10_nedela/DijagonaliKvadrat.cpp || cmake_object_order_depends_target_DijagonaliKvadrat
+  DEP_FILE = CMakeFiles\DijagonaliKvadrat.dir\Laboratoriski\10_nedela\DijagonaliKvadrat.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\DijagonaliKvadrat.dir
+  OBJECT_FILE_DIR = CMakeFiles\DijagonaliKvadrat.dir\Laboratoriski\10_nedela
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target DijagonaliKvadrat
+
+
+#############################################
+# Link the executable DijagonaliKvadrat.exe
+
+build DijagonaliKvadrat.exe: CXX_EXECUTABLE_LINKER__DijagonaliKvadrat_Debug CMakeFiles/DijagonaliKvadrat.dir/Laboratoriski/10_nedela/DijagonaliKvadrat.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\DijagonaliKvadrat.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = DijagonaliKvadrat.exe
+  TARGET_IMPLIB = libDijagonaliKvadrat.dll.a
+  TARGET_PDB = DijagonaliKvadrat.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target HelloWorld
@@ -9709,6 +11128,8 @@ build 1va: phony 1va.exe
 
 build 1va-D2: phony 1va-D2.exe
 
+build 2niziTekst: phony 2niziTekst.exe
+
 build 2ra: phony 2ra.exe
 
 build 2ra-D2: phony 2ra-D2.exe
@@ -9736,6 +11157,8 @@ build 4taB2B: phony 4taB2B.exe
 build 5cifrenSpecial: phony 5cifrenSpecial.exe
 
 build 5ta: phony 5ta.exe
+
+build 5ta-D2: phony 5ta-D2.exe
 
 build 5taB2B: phony 5taB2B.exe
 
@@ -10001,6 +11424,8 @@ build Bingo: phony Bingo.exe
 
 build BrDeliteliCifrBr: phony BrDeliteliCifrBr.exe
 
+build BrKoloni2: phony BrKoloni2.exe
+
 build BrojCifri: phony BrojCifri.exe
 
 build BrojCifriX: phony BrojCifriX.exe
@@ -10017,7 +11442,13 @@ build DecToBinKonverzija: phony DecToBinKonverzija.exe
 
 build DeliviParniDeliviNeparni: phony DeliviParniDeliviNeparni.exe
 
+build DellivRekurzija: phony DellivRekurzija.exe
+
+build DesnoOdDijagonala: phony DesnoOdDijagonala.exe
+
 build Dijagonali: phony Dijagonali.exe
+
+build DijagonaliKvadrat: phony DijagonaliKvadrat.exe
 
 build DijagonalnoPecatenje: phony DijagonalnoPecatenje.exe
 
@@ -10063,6 +11494,8 @@ build GolemiMali: phony GolemiMali.exe
 
 build HelloWorld: phony HelloWorld.exe
 
+build IndeksiSoI: phony IndeksiSoI.exe
+
 build InsertionSort: phony InsertionSort.exe
 
 build InteresenBroj: phony InteresenBroj.exe
@@ -10074,6 +11507,8 @@ build Kalkulator: phony Kalkulator.exe
 build KinoKategorii: phony KinoKategorii.exe
 
 build Kombinacija3Broja: phony Kombinacija3Broja.exe
+
+build Kontakti: phony Kontakti.exe
 
 build KoordPravoagolnik: phony KoordPravoagolnik.exe
 
@@ -10089,6 +11524,8 @@ build LabsSreda1: phony LabsSreda1.exe
 
 build LabsSreda2: phony LabsSreda2.exe
 
+build LetsGoChelsea: phony LetsGoChelsea.exe
+
 build LinearSearch: phony LinearSearch.exe
 
 build MagicnaMatrica: phony MagicnaMatrica.exe
@@ -10103,11 +11540,23 @@ build Matrica3: phony Matrica3.exe
 
 build Matrica4: phony Matrica4.exe
 
+build MaxMinRedica: phony MaxMinRedica.exe
+
+build MenenjeMatrica: phony MenenjeMatrica.exe
+
+build MinMaxMatrica: phony MinMaxMatrica.exe
+
+build MinMaxNiza: phony MinMaxNiza.exe
+
 build MinMaxNormalizacija: phony MinMaxNormalizacija.exe
+
+build MonotonaPodniza: phony MonotonaPodniza.exe
 
 build Morze: phony Morze.exe
 
 build NajgolemaKolona: phony NajgolemaKolona.exe
+
+build NazabenaPodniza: phony NazabenaPodniza.exe
 
 build NegativniMatrica: phony NegativniMatrica.exe
 
@@ -10119,9 +11568,15 @@ build ObratnoSortiranje: phony ObratnoSortiranje.exe
 
 build OcenaSansa: phony OcenaSansa.exe
 
+build OceniKolicnik: phony OceniKolicnik.exe
+
+build OdzemiSamoglaski: phony OdzemiSamoglaski.exe
+
 build OgledalnaNiza: phony OgledalnaNiza.exe
 
 build Oktomvri: phony Oktomvri.exe
+
+build OpsegRekurzija: phony OpsegRekurzija.exe
 
 build Pal: phony Pal.exe
 
@@ -10130,6 +11585,10 @@ build Palindrom: phony Palindrom.exe
 build Palindrom2: phony Palindrom2.exe
 
 build PalindromFunkcii: phony PalindromFunkcii.exe
+
+build PalindromiCifri: phony PalindromiCifri.exe
+
+build ParenNeparenRed: phony ParenNeparenRed.exe
 
 build ParnaMatrica: phony ParnaMatrica.exe
 
@@ -10151,15 +11610,29 @@ build Pointers: phony Pointers.exe
 
 build Pokazuvaci: phony Pokazuvaci.exe
 
+build PokazuvackaEdna: phony PokazuvackaEdna.exe
+
 build PolaPola: phony PolaPola.exe
 
 build PovtoruvanjeBukva: phony PovtoruvanjeBukva.exe
 
+build PreureduvanjeNiza: phony PreureduvanjeNiza.exe
+
 build ProsekCeni: phony ProsekCeni.exe
+
+build ProsekSporednaDijagonala: phony ProsekSporednaDijagonala.exe
 
 build ProstaNiza: phony ProstaNiza.exe
 
+build PrvPogolemN: phony PrvPogolemN.exe
+
 build RasteckaNiza: phony RasteckaNiza.exe
+
+build RasteckaRekurzija: phony RasteckaRekurzija.exe
+
+build RasteckiN: phony RasteckiN.exe
+
+build RedKolonaPecatenje: phony RedKolonaPecatenje.exe
 
 build Rekurzija: phony Rekurzija.exe
 
@@ -10181,9 +11654,13 @@ build Rekurzija8: phony Rekurzija8.exe
 
 build Rekurzija9: phony Rekurzija9.exe
 
+build RekurzivniPalindromi: phony RekurzivniPalindromi.exe
+
 build RelFreq: phony RelFreq.exe
 
 build RelativnaFrekvencija: phony RelativnaFrekvencija.exe
+
+build Romb: phony Romb.exe
 
 build RotacijaNiza: phony RotacijaNiza.exe
 
@@ -10192,6 +11669,10 @@ build Samoglaska: phony Samoglaska.exe
 build SelectionSort: phony SelectionSort.exe
 
 build Sifr_poraki: phony Sifr_poraki.exe
+
+build SimetricnaMatrica: phony SimetricnaMatrica.exe
+
+build SlicniBroevi: phony SlicniBroevi.exe
 
 build SpojuvanjeNizi: phony SpojuvanjeNizi.exe
 
@@ -10203,6 +11684,8 @@ build SredinaOperaciiNacin1: phony SredinaOperaciiNacin1.exe
 
 build SredinaOperaciiNacin2: phony SredinaOperaciiNacin2.exe
 
+build SrednaVrednostProsek: phony SrednaVrednostProsek.exe
+
 build Stepen: phony Stepen.exe
 
 build Stringovi: phony Stringovi.exe
@@ -10213,9 +11696,19 @@ build Suma2NCifren: phony Suma2NCifren.exe
 
 build SumaSoInterval: phony SumaSoInterval.exe
 
+build Swap3broja: phony Swap3broja.exe
+
+build SwapMinMax: phony SwapMinMax.exe
+
+build TastaturaZadaca: phony TastaturaZadaca.exe
+
 build TelefonskiBroevi: phony TelefonskiBroevi.exe
 
+build TransformacijaRekurzija: phony TransformacijaRekurzija.exe
+
 build UpisFINKI: phony UpisFINKI.exe
+
+build Vojnik: phony Vojnik.exe
 
 build Vraboteni: phony Vraboteni.exe
 
@@ -10237,6 +11730,10 @@ build ZbirNiza: phony ZbirNiza.exe
 
 build ZbirPodNiza: phony ZbirPodNiza.exe
 
+build ZbirPomalOd5: phony ZbirPomalOd5.exe
+
+build Zelka: phony Zelka.exe
+
 build Zigazaga: phony Zigazaga.exe
 
 build Zmija: phony Zmija.exe
@@ -10245,7 +11742,15 @@ build ZnaciZadaca: phony ZnaciZadaca.exe
 
 build ZnakDijagonali: phony ZnakDijagonali.exe
 
+build Zvezda: phony Zvezda.exe
+
+build abc.cpp: phony abc.cpp.exe
+
+build asdfghjkl: phony asdfghjkl.exe
+
 build kElement: phony kElement.exe
+
+build kElementFinta: phony kElementFinta.exe
 
 build kTrampa: phony kTrampa.exe
 
@@ -10259,7 +11764,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/Media/CLionProjects/SP2023/cmake-build-debug
 
-build all: phony main.cpp.exe Zmija.exe IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe PovtoruvanjeBukva.exe RelativnaFrekvencija.exe ZbirNiza.exe ZbirCifri.exe Fibonaci.exe DecToBinKonverzija.exe Dijagonali.exe Rekurzija.exe Stringovi.exe LinearSearch.exe BinarySearch.exe BubbleSort.exe SelectionSort.exe InsertionSort.exe MartricaSort.exe NiziSortiranje.exe Pokazuvaci.exe Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 6ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 19ta-2.exe 1va-D2.exe 2ra-D2.exe 3ta-D2.exe 4ta-D2.exe 6ta-D2.exe 7ma-D2.exe 8ma-D2.exe 9ta-D2.exe 10ta-D2.exe 11ta-D2.exe 12ta-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe KvoN.exe SpojuvanjeNizi.exe ObratnoSortiranje.exe Zigazaga.exe NeparniElementi.exe InteresenBroj.exe RasteckaNiza.exe RelFreq.exe PodNiza.exe Pointers.exe GolemiMali.exe Pal.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Aud10.1.exe Aud10.1.2.exe Aud10.2.exe Aud10.3.exe Aud10.4.exe Aud10.5.exe Aud10.6.exe Aud10.7.exe Aud10.8.exe Domasno10.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe Rekurzija1.exe Rekurzija2.exe Rekurzija3.exe Rekurzija4.exe Rekurzija5.exe Rekurzija6.exe Rekurzija7.exe Rekurzija8.exe Rekurzija9.exe
+build all: phony main.cpp.exe abc.cpp.exe Zmija.exe PreureduvanjeNiza.exe OdzemiSamoglaski.exe SlicniBroevi.exe Kontakti.exe TastaturaZadaca.exe MonotonaPodniza.exe NazabenaPodniza.exe MaxMinRedica.exe asdfghjkl.exe RasteckiN.exe PrvPogolemN.exe Romb.exe Vojnik.exe Zelka.exe RedKolonaPecatenje.exe IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe PovtoruvanjeBukva.exe RelativnaFrekvencija.exe ZbirNiza.exe ZbirCifri.exe Fibonaci.exe DecToBinKonverzija.exe Dijagonali.exe Rekurzija.exe Stringovi.exe LinearSearch.exe BinarySearch.exe BubbleSort.exe SelectionSort.exe InsertionSort.exe MartricaSort.exe NiziSortiranje.exe Pokazuvaci.exe Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 6ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 19ta-2.exe 1va-D2.exe 2ra-D2.exe 3ta-D2.exe 4ta-D2.exe 5ta-D2.exe 6ta-D2.exe 7ma-D2.exe 8ma-D2.exe 9ta-D2.exe 10ta-D2.exe 11ta-D2.exe 12ta-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe Swap3broja.exe OceniKolicnik.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe IndeksiSoI.exe MinMaxNiza.exe SwapMinMax.exe kElementFinta.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe LetsGoChelsea.exe BrKoloni2.exe DesnoOdDijagonala.exe ProsekSporednaDijagonala.exe SimetricnaMatrica.exe SrednaVrednostProsek.exe MinMaxMatrica.exe ParenNeparenRed.exe MenenjeMatrica.exe KvoN.exe SpojuvanjeNizi.exe ObratnoSortiranje.exe Zigazaga.exe NeparniElementi.exe InteresenBroj.exe RasteckaNiza.exe Zvezda.exe OpsegRekurzija.exe RekurzivniPalindromi.exe RasteckaRekurzija.exe TransformacijaRekurzija.exe DellivRekurzija.exe PalindromiCifri.exe PokazuvackaEdna.exe RelFreq.exe PodNiza.exe Pointers.exe GolemiMali.exe Pal.exe 2niziTekst.exe ZbirPomalOd5.exe DijagonaliKvadrat.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Aud10.1.exe Aud10.1.2.exe Aud10.2.exe Aud10.3.exe Aud10.4.exe Aud10.5.exe Aud10.6.exe Aud10.7.exe Aud10.8.exe Domasno10.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe Rekurzija1.exe Rekurzija2.exe Rekurzija3.exe Rekurzija4.exe Rekurzija5.exe Rekurzija6.exe Rekurzija7.exe Rekurzija8.exe Rekurzija9.exe
 
 # =============================================================================
 # Built-in targets

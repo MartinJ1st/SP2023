@@ -3,36 +3,33 @@
 using namespace std;
 
 int main() {
-    int m, n, a[100][100], max, min;
-    float b[100][100];
+    int m, n;
+    double a[100][100], max, min;
     cin >> m >> n;
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
-            cin >> a[i][j];
+            scanf("%lf", &a[i][j]);
         }
     }
 
-    for (int i = 0; i < m; ++i) {
-        min = 1;
-        min <<= 10;
-        max = 0;
-        for (int j = 0; j < n; ++j) {
-            if (a[j][i] < min) {
-                min = a[j][i];
+    for (int j = 0; j < n; ++j) {
+        min = max = a[0][j];
+        for (int i = 0; i < m; ++i) {
+            if (a[i][j] < min) {
+                min = a[i][j];
             }
-            if (a[j][i] > max) {
-                max = a[j][i];
+            if (a[i][j] > max) {
+                max = a[i][j];
             }
         }
-        for (int j = 0; j < n; ++j)
-        {
-            b[i][j] = (float)(a[j][i] - min) / (max - min);
+        for (int i = 0; i < m; ++i) {
+            a[i][j] = (a[i][j] - min) / (max - min);
         }
     }
 
     for (int i = 0; i < m; ++i) {
         for (int j = 0; j < n; ++j) {
-            printf("%.2f ",b[j][i]);
+            printf("%.2lf ", a[i][j]);
         }
         cout << endl;
     }

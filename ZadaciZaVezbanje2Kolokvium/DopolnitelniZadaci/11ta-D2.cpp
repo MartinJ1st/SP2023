@@ -2,50 +2,60 @@
 
 using namespace std;
 
-void transformiraj(int a[], int broj, int n) {
-    if (broj > 0) {
-        for (int i = n - 1; i >= 0; i--) {
-            if (i - broj <= 0) {
-                a[i] = a[i - broj];
-                for (int j = 0; j < i; ++j) {
-                    a[j] = 0;
-                }
-                break;
-            } else a[i] = a[i - broj];
-        }
-    } else if (broj < 0) {
-        for (int i = 0; i < n; ++i) {
-            if (i + abs(broj) >= n) {
-                for (int j = i; j < n; ++j) {
-                    a[j] = 0;
-                }
-                break;
-            }
-            a[i] = a[i + abs(broj)];
-        }
+void Nuli(int *niza, int n) {
+    for (int i = 0; i < n; i++) {
+        niza[i] = 0;
     }
 }
 
-int main() {
-    bool flag;
-    int m, n, a[100], br = 0;
-    cin >> m;
-    for (int k = 0; k < m; ++k) {
-        flag = true;
-        cin >> n;
-        for (int i = 0; i < n; ++i) {
-            cin >> a[i];
+int transform(int *niza, int n) {
+    int prvEl = niza[0];
+    if (abs(prvEl) >= n) {
+        Nuli(niza, n);
+        return 1;
+    }
+
+    if (prvEl >= 0) {
+        for (int i = n - 1; i >= prvEl; i--) {
+            niza[i] = niza[i - prvEl];
         }
-        transformiraj(a, a[0], n);
-        for (int i = 0; i < n; ++i) {
-            if (a[i] != 0) {
-                flag = false;
-            }
-            cout << a[i] << " ";
+        for (int i = 0; i < prvEl; i++) {
+            niza[i] = 0;
+        }
+    } else {
+        for (int i = 0; i < n - abs(prvEl); i++) {
+            niza[i] = niza[i + abs(prvEl)];
+        }
+        for (int i = n - abs(prvEl); i < n; i++) {
+            niza[i] = 0;
+        }
+    }
+
+    return 0;
+}
+
+int main() {
+    int M, brEl;
+    int a[100];
+
+    cin >> M;
+    int niziSoNuli = 0;
+
+    for (int i = 0; i < M; i++) {
+        cin >> brEl;
+        for (int j = 0; j < brEl; j++) {
+            cin >> a[j];
+        }
+
+        niziSoNuli += transform(a, brEl);
+
+        for (int j = 0; j < brEl; j++) {
+            cout << a[j] << " ";
         }
         cout << endl;
-        if (flag) { br++; }
     }
-    cout << br;
+
+    cout << niziSoNuli;
+
     return 0;
 }

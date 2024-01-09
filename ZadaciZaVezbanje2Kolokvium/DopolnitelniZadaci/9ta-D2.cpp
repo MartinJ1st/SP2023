@@ -2,41 +2,56 @@
 #include <cstring>
 
 using namespace std;
-int brojSvrznici(const char sentence[], int length) {
-    int brojSvrznici = 0, start = 0, end;
-    while (start < length) {
-        while (!(isalpha(sentence[start]))) {
-            ++start;
-        }
-        end = start;
 
-        while (isalpha(sentence[end])) {
-            ++end;
-        }
-
-        if (start < end) {
-            if (end-start<3)
-                ++brojSvrznici;
-        }
-
-        start = end + 1;
+void cleanString(char *str) {
+    if (str[strlen(str) - 1] == '\n') {
+        str[strlen(str) - 1] = '\0';
     }
+}
 
-    return brojSvrznici;
+int countConjunctions(char *str) {
+    int bukvi = 0;
+    int dolzina = 0;
+    int svrznici = 0;
+    while (*str) {
+        if (isalpha(*str)) {
+            bukvi = 1;
+            ++dolzina;
+        } else {
+            if (dolzina <= 3 && dolzina > 0) {
+                ++svrznici;
+            }
+            dolzina = 0;
+            bukvi = 0;
+        }
+        str++;
+    }
+    if (dolzina <= 3 && bukvi) {
+        ++svrznici;
+    }
+    return svrznici;
 }
 
 int main() {
-    int max=0;
-    char sentence[100], maxNiza[100];
-    while (cin.getline(sentence,100)){
-        int brSvrznici= brojSvrznici(sentence, 100);
-        if(brSvrznici>max){
-            max=brSvrznici;
-            strcpy(maxNiza,sentence);
+    char line[100];
+    int maxSvrznici = 0;
+    char najgolemaRecenica[100];
+    int first = 1;
+    while (cin.getline(line, sizeof(line))) {
+        if (first) {
+            strcpy(najgolemaRecenica, line);
+            first = 0;
+        }
+
+        cleanString(line);
+        // puts(line);
+        int conjunctions = countConjunctions(line);
+        if (conjunctions > maxSvrznici) {
+            strcpy(najgolemaRecenica, line);
+            maxSvrznici = conjunctions;
         }
     }
-    cout<<max<<": "<<maxNiza;
 
-
+    cout << maxSvrznici << ": " << najgolemaRecenica;
     return 0;
 }
