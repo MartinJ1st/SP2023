@@ -107,6 +107,105 @@ build abc.cpp.exe: CXX_EXECUTABLE_LINKER__abc.2ecpp_Debug CMakeFiles/abc.cpp.dir
   TARGET_PDB = abc.cpp.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target RekurzijaKolokvium
+
+
+#############################################
+# Order-only phony target for RekurzijaKolokvium
+
+build cmake_object_order_depends_target_RekurzijaKolokvium: phony || CMakeFiles/RekurzijaKolokvium.dir
+
+build CMakeFiles/RekurzijaKolokvium.dir/Kolokviumski/Padnati/RekurzijaKolokvium.cpp.obj: CXX_COMPILER__RekurzijaKolokvium_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/Padnati/RekurzijaKolokvium.cpp || cmake_object_order_depends_target_RekurzijaKolokvium
+  DEP_FILE = CMakeFiles\RekurzijaKolokvium.dir\Kolokviumski\Padnati\RekurzijaKolokvium.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\RekurzijaKolokvium.dir
+  OBJECT_FILE_DIR = CMakeFiles\RekurzijaKolokvium.dir\Kolokviumski\Padnati
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target RekurzijaKolokvium
+
+
+#############################################
+# Link the executable RekurzijaKolokvium.exe
+
+build RekurzijaKolokvium.exe: CXX_EXECUTABLE_LINKER__RekurzijaKolokvium_Debug CMakeFiles/RekurzijaKolokvium.dir/Kolokviumski/Padnati/RekurzijaKolokvium.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\RekurzijaKolokvium.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = RekurzijaKolokvium.exe
+  TARGET_IMPLIB = libRekurzijaKolokvium.dll.a
+  TARGET_PDB = RekurzijaKolokvium.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target PosledovatelenStr
+
+
+#############################################
+# Order-only phony target for PosledovatelenStr
+
+build cmake_object_order_depends_target_PosledovatelenStr: phony || CMakeFiles/PosledovatelenStr.dir
+
+build CMakeFiles/PosledovatelenStr.dir/Kolokviumski/Padnati/PosledovatelenStr.cpp.obj: CXX_COMPILER__PosledovatelenStr_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/Padnati/PosledovatelenStr.cpp || cmake_object_order_depends_target_PosledovatelenStr
+  DEP_FILE = CMakeFiles\PosledovatelenStr.dir\Kolokviumski\Padnati\PosledovatelenStr.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\PosledovatelenStr.dir
+  OBJECT_FILE_DIR = CMakeFiles\PosledovatelenStr.dir\Kolokviumski\Padnati
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target PosledovatelenStr
+
+
+#############################################
+# Link the executable PosledovatelenStr.exe
+
+build PosledovatelenStr.exe: CXX_EXECUTABLE_LINKER__PosledovatelenStr_Debug CMakeFiles/PosledovatelenStr.dir/Kolokviumski/Padnati/PosledovatelenStr.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\PosledovatelenStr.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = PosledovatelenStr.exe
+  TARGET_IMPLIB = libPosledovatelenStr.dll.a
+  TARGET_PDB = PosledovatelenStr.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Matrica
+
+
+#############################################
+# Order-only phony target for Matrica
+
+build cmake_object_order_depends_target_Matrica: phony || CMakeFiles/Matrica.dir
+
+build CMakeFiles/Matrica.dir/Kolokviumski/Padnati/Matrica.cpp.obj: CXX_COMPILER__Matrica_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/Padnati/Matrica.cpp || cmake_object_order_depends_target_Matrica
+  DEP_FILE = CMakeFiles\Matrica.dir\Kolokviumski\Padnati\Matrica.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Matrica.dir
+  OBJECT_FILE_DIR = CMakeFiles\Matrica.dir\Kolokviumski\Padnati
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Matrica
+
+
+#############################################
+# Link the executable Matrica.exe
+
+build Matrica.exe: CXX_EXECUTABLE_LINKER__Matrica_Debug CMakeFiles/Matrica.dir/Kolokviumski/Padnati/Matrica.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\Matrica.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Matrica.exe
+  TARGET_IMPLIB = libMatrica.dll.a
+  TARGET_PDB = Matrica.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target Zmija
 
 
@@ -633,6 +732,39 @@ build RedKolonaPecatenje.exe: CXX_EXECUTABLE_LINKER__RedKolonaPecatenje_Debug CM
   TARGET_FILE = RedKolonaPecatenje.exe
   TARGET_IMPLIB = libRedKolonaPecatenje.dll.a
   TARGET_PDB = RedKolonaPecatenje.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target NajvekeKratenjeSamoglaski
+
+
+#############################################
+# Order-only phony target for NajvekeKratenjeSamoglaski
+
+build cmake_object_order_depends_target_NajvekeKratenjeSamoglaski: phony || CMakeFiles/NajvekeKratenjeSamoglaski.dir
+
+build CMakeFiles/NajvekeKratenjeSamoglaski.dir/Kolokviumski/NajvekeKratenjeSamoglaski.cpp.obj: CXX_COMPILER__NajvekeKratenjeSamoglaski_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Kolokviumski/NajvekeKratenjeSamoglaski.cpp || cmake_object_order_depends_target_NajvekeKratenjeSamoglaski
+  DEP_FILE = CMakeFiles\NajvekeKratenjeSamoglaski.dir\Kolokviumski\NajvekeKratenjeSamoglaski.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\NajvekeKratenjeSamoglaski.dir
+  OBJECT_FILE_DIR = CMakeFiles\NajvekeKratenjeSamoglaski.dir\Kolokviumski
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target NajvekeKratenjeSamoglaski
+
+
+#############################################
+# Link the executable NajvekeKratenjeSamoglaski.exe
+
+build NajvekeKratenjeSamoglaski.exe: CXX_EXECUTABLE_LINKER__NajvekeKratenjeSamoglaski_Debug CMakeFiles/NajvekeKratenjeSamoglaski.dir/Kolokviumski/NajvekeKratenjeSamoglaski.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\NajvekeKratenjeSamoglaski.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = NajvekeKratenjeSamoglaski.exe
+  TARGET_IMPLIB = libNajvekeKratenjeSamoglaski.dll.a
+  TARGET_PDB = NajvekeKratenjeSamoglaski.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target IstiNizi
@@ -2219,6 +2351,39 @@ build 12taB2B.exe: CXX_EXECUTABLE_LINKER__12taB2B_Debug CMakeFiles/12taB2B.dir/Z
   TARGET_PDB = 12taB2B.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target 1va-2
+
+
+#############################################
+# Order-only phony target for 1va-2
+
+build cmake_object_order_depends_target_1va-2: phony || CMakeFiles/1va-2.dir
+
+build CMakeFiles/1va-2.dir/ZadaciZaVezbanje2Kolokvium/1va-2.cpp.obj: CXX_COMPILER__1va-2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/1va-2.cpp || cmake_object_order_depends_target_1va-2
+  DEP_FILE = CMakeFiles\1va-2.dir\ZadaciZaVezbanje2Kolokvium\1va-2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1va-2.dir
+  OBJECT_FILE_DIR = CMakeFiles\1va-2.dir\ZadaciZaVezbanje2Kolokvium
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1va-2
+
+
+#############################################
+# Link the executable 1va-2.exe
+
+build 1va-2.exe: CXX_EXECUTABLE_LINKER__1va-2_Debug CMakeFiles/1va-2.dir/ZadaciZaVezbanje2Kolokvium/1va-2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1va-2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1va-2.exe
+  TARGET_IMPLIB = lib1va-2.dll.a
+  TARGET_PDB = 1va-2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target 3ta-2
 
 
@@ -2646,6 +2811,534 @@ build 19ta-2.exe: CXX_EXECUTABLE_LINKER__19ta-2_Debug CMakeFiles/19ta-2.dir/Zada
   TARGET_FILE = 19ta-2.exe
   TARGET_IMPLIB = lib19ta-2.dll.a
   TARGET_PDB = 19ta-2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1va-2EN
+
+
+#############################################
+# Order-only phony target for 1va-2EN
+
+build cmake_object_order_depends_target_1va-2EN: phony || CMakeFiles/1va-2EN.dir
+
+build CMakeFiles/1va-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/1va-2EN.cpp.obj: CXX_COMPILER__1va-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/1va-2EN.cpp || cmake_object_order_depends_target_1va-2EN
+  DEP_FILE = CMakeFiles\1va-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\1va-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\1va-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\1va-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1va-2EN
+
+
+#############################################
+# Link the executable 1va-2EN.exe
+
+build 1va-2EN.exe: CXX_EXECUTABLE_LINKER__1va-2EN_Debug CMakeFiles/1va-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/1va-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\1va-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 1va-2EN.exe
+  TARGET_IMPLIB = lib1va-2EN.dll.a
+  TARGET_PDB = 1va-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2ra-2EN
+
+
+#############################################
+# Order-only phony target for 2ra-2EN
+
+build cmake_object_order_depends_target_2ra-2EN: phony || CMakeFiles/2ra-2EN.dir
+
+build CMakeFiles/2ra-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/2ra-2EN.cpp.obj: CXX_COMPILER__2ra-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/2ra-2EN.cpp || cmake_object_order_depends_target_2ra-2EN
+  DEP_FILE = CMakeFiles\2ra-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\2ra-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\2ra-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\2ra-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2ra-2EN
+
+
+#############################################
+# Link the executable 2ra-2EN.exe
+
+build 2ra-2EN.exe: CXX_EXECUTABLE_LINKER__2ra-2EN_Debug CMakeFiles/2ra-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/2ra-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\2ra-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 2ra-2EN.exe
+  TARGET_IMPLIB = lib2ra-2EN.dll.a
+  TARGET_PDB = 2ra-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 3ta-2EN
+
+
+#############################################
+# Order-only phony target for 3ta-2EN
+
+build cmake_object_order_depends_target_3ta-2EN: phony || CMakeFiles/3ta-2EN.dir
+
+build CMakeFiles/3ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/3ta-2EN.cpp.obj: CXX_COMPILER__3ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/3ta-2EN.cpp || cmake_object_order_depends_target_3ta-2EN
+  DEP_FILE = CMakeFiles\3ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\3ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\3ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\3ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 3ta-2EN
+
+
+#############################################
+# Link the executable 3ta-2EN.exe
+
+build 3ta-2EN.exe: CXX_EXECUTABLE_LINKER__3ta-2EN_Debug CMakeFiles/3ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/3ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\3ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 3ta-2EN.exe
+  TARGET_IMPLIB = lib3ta-2EN.dll.a
+  TARGET_PDB = 3ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 4ta-2EN
+
+
+#############################################
+# Order-only phony target for 4ta-2EN
+
+build cmake_object_order_depends_target_4ta-2EN: phony || CMakeFiles/4ta-2EN.dir
+
+build CMakeFiles/4ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/4ta-2EN.cpp.obj: CXX_COMPILER__4ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/4ta-2EN.cpp || cmake_object_order_depends_target_4ta-2EN
+  DEP_FILE = CMakeFiles\4ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\4ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\4ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\4ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4ta-2EN
+
+
+#############################################
+# Link the executable 4ta-2EN.exe
+
+build 4ta-2EN.exe: CXX_EXECUTABLE_LINKER__4ta-2EN_Debug CMakeFiles/4ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/4ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\4ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 4ta-2EN.exe
+  TARGET_IMPLIB = lib4ta-2EN.dll.a
+  TARGET_PDB = 4ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 6ta-2EN
+
+
+#############################################
+# Order-only phony target for 6ta-2EN
+
+build cmake_object_order_depends_target_6ta-2EN: phony || CMakeFiles/6ta-2EN.dir
+
+build CMakeFiles/6ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/6ta-2EN.cpp.obj: CXX_COMPILER__6ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/6ta-2EN.cpp || cmake_object_order_depends_target_6ta-2EN
+  DEP_FILE = CMakeFiles\6ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\6ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\6ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\6ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6ta-2EN
+
+
+#############################################
+# Link the executable 6ta-2EN.exe
+
+build 6ta-2EN.exe: CXX_EXECUTABLE_LINKER__6ta-2EN_Debug CMakeFiles/6ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/6ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\6ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 6ta-2EN.exe
+  TARGET_IMPLIB = lib6ta-2EN.dll.a
+  TARGET_PDB = 6ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 7ma-2EN
+
+
+#############################################
+# Order-only phony target for 7ma-2EN
+
+build cmake_object_order_depends_target_7ma-2EN: phony || CMakeFiles/7ma-2EN.dir
+
+build CMakeFiles/7ma-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/7ma-2EN.cpp.obj: CXX_COMPILER__7ma-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/7ma-2EN.cpp || cmake_object_order_depends_target_7ma-2EN
+  DEP_FILE = CMakeFiles\7ma-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\7ma-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\7ma-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\7ma-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 7ma-2EN
+
+
+#############################################
+# Link the executable 7ma-2EN.exe
+
+build 7ma-2EN.exe: CXX_EXECUTABLE_LINKER__7ma-2EN_Debug CMakeFiles/7ma-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/7ma-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\7ma-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 7ma-2EN.exe
+  TARGET_IMPLIB = lib7ma-2EN.dll.a
+  TARGET_PDB = 7ma-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8ma-2EN
+
+
+#############################################
+# Order-only phony target for 8ma-2EN
+
+build cmake_object_order_depends_target_8ma-2EN: phony || CMakeFiles/8ma-2EN.dir
+
+build CMakeFiles/8ma-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/8ma-2EN.cpp.obj: CXX_COMPILER__8ma-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/8ma-2EN.cpp || cmake_object_order_depends_target_8ma-2EN
+  DEP_FILE = CMakeFiles\8ma-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\8ma-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\8ma-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\8ma-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8ma-2EN
+
+
+#############################################
+# Link the executable 8ma-2EN.exe
+
+build 8ma-2EN.exe: CXX_EXECUTABLE_LINKER__8ma-2EN_Debug CMakeFiles/8ma-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/8ma-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\8ma-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 8ma-2EN.exe
+  TARGET_IMPLIB = lib8ma-2EN.dll.a
+  TARGET_PDB = 8ma-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 9ta-2EN
+
+
+#############################################
+# Order-only phony target for 9ta-2EN
+
+build cmake_object_order_depends_target_9ta-2EN: phony || CMakeFiles/9ta-2EN.dir
+
+build CMakeFiles/9ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/9ta-2EN.cpp.obj: CXX_COMPILER__9ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/9ta-2EN.cpp || cmake_object_order_depends_target_9ta-2EN
+  DEP_FILE = CMakeFiles\9ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\9ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\9ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\9ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 9ta-2EN
+
+
+#############################################
+# Link the executable 9ta-2EN.exe
+
+build 9ta-2EN.exe: CXX_EXECUTABLE_LINKER__9ta-2EN_Debug CMakeFiles/9ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/9ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\9ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 9ta-2EN.exe
+  TARGET_IMPLIB = lib9ta-2EN.dll.a
+  TARGET_PDB = 9ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10ta-2EN
+
+
+#############################################
+# Order-only phony target for 10ta-2EN
+
+build cmake_object_order_depends_target_10ta-2EN: phony || CMakeFiles/10ta-2EN.dir
+
+build CMakeFiles/10ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/10ta-2EN.cpp.obj: CXX_COMPILER__10ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/10ta-2EN.cpp || cmake_object_order_depends_target_10ta-2EN
+  DEP_FILE = CMakeFiles\10ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\10ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\10ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\10ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10ta-2EN
+
+
+#############################################
+# Link the executable 10ta-2EN.exe
+
+build 10ta-2EN.exe: CXX_EXECUTABLE_LINKER__10ta-2EN_Debug CMakeFiles/10ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/10ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\10ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 10ta-2EN.exe
+  TARGET_IMPLIB = lib10ta-2EN.dll.a
+  TARGET_PDB = 10ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 11ta-2EN
+
+
+#############################################
+# Order-only phony target for 11ta-2EN
+
+build cmake_object_order_depends_target_11ta-2EN: phony || CMakeFiles/11ta-2EN.dir
+
+build CMakeFiles/11ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/11ta-2EN.cpp.obj: CXX_COMPILER__11ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/11ta-2EN.cpp || cmake_object_order_depends_target_11ta-2EN
+  DEP_FILE = CMakeFiles\11ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\11ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\11ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\11ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 11ta-2EN
+
+
+#############################################
+# Link the executable 11ta-2EN.exe
+
+build 11ta-2EN.exe: CXX_EXECUTABLE_LINKER__11ta-2EN_Debug CMakeFiles/11ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/11ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\11ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 11ta-2EN.exe
+  TARGET_IMPLIB = lib11ta-2EN.dll.a
+  TARGET_PDB = 11ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 12ta-2EN
+
+
+#############################################
+# Order-only phony target for 12ta-2EN
+
+build cmake_object_order_depends_target_12ta-2EN: phony || CMakeFiles/12ta-2EN.dir
+
+build CMakeFiles/12ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/12ta-2EN.cpp.obj: CXX_COMPILER__12ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/12ta-2EN.cpp || cmake_object_order_depends_target_12ta-2EN
+  DEP_FILE = CMakeFiles\12ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\12ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\12ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\12ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 12ta-2EN
+
+
+#############################################
+# Link the executable 12ta-2EN.exe
+
+build 12ta-2EN.exe: CXX_EXECUTABLE_LINKER__12ta-2EN_Debug CMakeFiles/12ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/12ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\12ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 12ta-2EN.exe
+  TARGET_IMPLIB = lib12ta-2EN.dll.a
+  TARGET_PDB = 12ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 13ta-2EN
+
+
+#############################################
+# Order-only phony target for 13ta-2EN
+
+build cmake_object_order_depends_target_13ta-2EN: phony || CMakeFiles/13ta-2EN.dir
+
+build CMakeFiles/13ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/13ta-2EN.cpp.obj: CXX_COMPILER__13ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/13ta-2EN.cpp || cmake_object_order_depends_target_13ta-2EN
+  DEP_FILE = CMakeFiles\13ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\13ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\13ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\13ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 13ta-2EN
+
+
+#############################################
+# Link the executable 13ta-2EN.exe
+
+build 13ta-2EN.exe: CXX_EXECUTABLE_LINKER__13ta-2EN_Debug CMakeFiles/13ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/13ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\13ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 13ta-2EN.exe
+  TARGET_IMPLIB = lib13ta-2EN.dll.a
+  TARGET_PDB = 13ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 14ta-2EN
+
+
+#############################################
+# Order-only phony target for 14ta-2EN
+
+build cmake_object_order_depends_target_14ta-2EN: phony || CMakeFiles/14ta-2EN.dir
+
+build CMakeFiles/14ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/14ta-2EN.cpp.obj: CXX_COMPILER__14ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/14ta-2EN.cpp || cmake_object_order_depends_target_14ta-2EN
+  DEP_FILE = CMakeFiles\14ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\14ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\14ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\14ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 14ta-2EN
+
+
+#############################################
+# Link the executable 14ta-2EN.exe
+
+build 14ta-2EN.exe: CXX_EXECUTABLE_LINKER__14ta-2EN_Debug CMakeFiles/14ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/14ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\14ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 14ta-2EN.exe
+  TARGET_IMPLIB = lib14ta-2EN.dll.a
+  TARGET_PDB = 14ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 15ta-2EN
+
+
+#############################################
+# Order-only phony target for 15ta-2EN
+
+build cmake_object_order_depends_target_15ta-2EN: phony || CMakeFiles/15ta-2EN.dir
+
+build CMakeFiles/15ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/15ta-2EN.cpp.obj: CXX_COMPILER__15ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/15ta-2EN.cpp || cmake_object_order_depends_target_15ta-2EN
+  DEP_FILE = CMakeFiles\15ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\15ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\15ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\15ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 15ta-2EN
+
+
+#############################################
+# Link the executable 15ta-2EN.exe
+
+build 15ta-2EN.exe: CXX_EXECUTABLE_LINKER__15ta-2EN_Debug CMakeFiles/15ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/15ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\15ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 15ta-2EN.exe
+  TARGET_IMPLIB = lib15ta-2EN.dll.a
+  TARGET_PDB = 15ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 17ta-2EN
+
+
+#############################################
+# Order-only phony target for 17ta-2EN
+
+build cmake_object_order_depends_target_17ta-2EN: phony || CMakeFiles/17ta-2EN.dir
+
+build CMakeFiles/17ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/17ta-2EN.cpp.obj: CXX_COMPILER__17ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/17ta-2EN.cpp || cmake_object_order_depends_target_17ta-2EN
+  DEP_FILE = CMakeFiles\17ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\17ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\17ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\17ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 17ta-2EN
+
+
+#############################################
+# Link the executable 17ta-2EN.exe
+
+build 17ta-2EN.exe: CXX_EXECUTABLE_LINKER__17ta-2EN_Debug CMakeFiles/17ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/17ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\17ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 17ta-2EN.exe
+  TARGET_IMPLIB = lib17ta-2EN.dll.a
+  TARGET_PDB = 17ta-2EN.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 33ta-2EN
+
+
+#############################################
+# Order-only phony target for 33ta-2EN
+
+build cmake_object_order_depends_target_33ta-2EN: phony || CMakeFiles/33ta-2EN.dir
+
+build CMakeFiles/33ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/33ta-2EN.cpp.obj: CXX_COMPILER__33ta-2EN_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/ZadaciZaVezbanje2Kolokvium/EN/33ta-2EN.cpp || cmake_object_order_depends_target_33ta-2EN
+  DEP_FILE = CMakeFiles\33ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN\33ta-2EN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\33ta-2EN.dir
+  OBJECT_FILE_DIR = CMakeFiles\33ta-2EN.dir\ZadaciZaVezbanje2Kolokvium\EN
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 33ta-2EN
+
+
+#############################################
+# Link the executable 33ta-2EN.exe
+
+build 33ta-2EN.exe: CXX_EXECUTABLE_LINKER__33ta-2EN_Debug CMakeFiles/33ta-2EN.dir/ZadaciZaVezbanje2Kolokvium/EN/33ta-2EN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\33ta-2EN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 33ta-2EN.exe
+  TARGET_IMPLIB = lib33ta-2EN.dll.a
+  TARGET_PDB = 33ta-2EN.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 1va-D2
@@ -11090,11 +11783,15 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build 10ta: phony 10ta.exe
 
+build 10ta-2EN: phony 10ta-2EN.exe
+
 build 10ta-D2: phony 10ta-D2.exe
 
 build 10taSoFunkcii: phony 10taSoFunkcii.exe
 
 build 11ta: phony 11ta.exe
+
+build 11ta-2EN: phony 11ta-2EN.exe
 
 build 11ta-D2: phony 11ta-D2.exe
 
@@ -11104,6 +11801,8 @@ build 12ta: phony 12ta.exe
 
 build 12ta-2: phony 12ta-2.exe
 
+build 12ta-2EN: phony 12ta-2EN.exe
+
 build 12ta-D2: phony 12ta-D2.exe
 
 build 12taB2B: phony 12taB2B.exe
@@ -11112,13 +11811,21 @@ build 13ta: phony 13ta.exe
 
 build 13ta-2: phony 13ta-2.exe
 
+build 13ta-2EN: phony 13ta-2EN.exe
+
 build 14ta-2: phony 14ta-2.exe
 
+build 14ta-2EN: phony 14ta-2EN.exe
+
 build 15ta-2: phony 15ta-2.exe
+
+build 15ta-2EN: phony 15ta-2EN.exe
 
 build 16ta-2: phony 16ta-2.exe
 
 build 17ta-2: phony 17ta-2.exe
+
+build 17ta-2EN: phony 17ta-2EN.exe
 
 build 18ta-2: phony 18ta-2.exe
 
@@ -11126,21 +11833,31 @@ build 19ta-2: phony 19ta-2.exe
 
 build 1va: phony 1va.exe
 
+build 1va-2: phony 1va-2.exe
+
+build 1va-2EN: phony 1va-2EN.exe
+
 build 1va-D2: phony 1va-D2.exe
 
 build 2niziTekst: phony 2niziTekst.exe
 
 build 2ra: phony 2ra.exe
 
+build 2ra-2EN: phony 2ra-2EN.exe
+
 build 2ra-D2: phony 2ra-D2.exe
 
 build 2raB2B: phony 2raB2B.exe
+
+build 33ta-2EN: phony 33ta-2EN.exe
 
 build 3brojaRedosled: phony 3brojaRedosled.exe
 
 build 3ta: phony 3ta.exe
 
 build 3ta-2: phony 3ta-2.exe
+
+build 3ta-2EN: phony 3ta-2EN.exe
 
 build 3ta-D2: phony 3ta-D2.exe
 
@@ -11149,6 +11866,8 @@ build 4broja01: phony 4broja01.exe
 build 4ta: phony 4ta.exe
 
 build 4ta-2: phony 4ta-2.exe
+
+build 4ta-2EN: phony 4ta-2EN.exe
 
 build 4ta-D2: phony 4ta-D2.exe
 
@@ -11166,17 +11885,23 @@ build 6ta: phony 6ta.exe
 
 build 6ta-2: phony 6ta-2.exe
 
+build 6ta-2EN: phony 6ta-2EN.exe
+
 build 6ta-D2: phony 6ta-D2.exe
 
 build 6taB2B: phony 6taB2B.exe
 
 build 7ma: phony 7ma.exe
 
+build 7ma-2EN: phony 7ma-2EN.exe
+
 build 7ma-D2: phony 7ma-D2.exe
 
 build 7ta-2: phony 7ta-2.exe
 
 build 8ma: phony 8ma.exe
+
+build 8ma-2EN: phony 8ma-2EN.exe
 
 build 8ma-D2: phony 8ma-D2.exe
 
@@ -11185,6 +11910,8 @@ build 8maB2B: phony 8maB2B.exe
 build 9ta: phony 9ta.exe
 
 build 9ta-2: phony 9ta-2.exe
+
+build 9ta-2EN: phony 9ta-2EN.exe
 
 build 9ta-D2: phony 9ta-D2.exe
 
@@ -11532,6 +12259,8 @@ build MagicnaMatrica: phony MagicnaMatrica.exe
 
 build MartricaSort: phony MartricaSort.exe
 
+build Matrica: phony Matrica.exe
+
 build Matrica1: phony Matrica1.exe
 
 build Matrica2: phony Matrica2.exe
@@ -11555,6 +12284,8 @@ build MonotonaPodniza: phony MonotonaPodniza.exe
 build Morze: phony Morze.exe
 
 build NajgolemaKolona: phony NajgolemaKolona.exe
+
+build NajvekeKratenjeSamoglaski: phony NajvekeKratenjeSamoglaski.exe
 
 build NazabenaPodniza: phony NazabenaPodniza.exe
 
@@ -11614,6 +12345,8 @@ build PokazuvackaEdna: phony PokazuvackaEdna.exe
 
 build PolaPola: phony PolaPola.exe
 
+build PosledovatelenStr: phony PosledovatelenStr.exe
+
 build PovtoruvanjeBukva: phony PovtoruvanjeBukva.exe
 
 build PreureduvanjeNiza: phony PreureduvanjeNiza.exe
@@ -11653,6 +12386,8 @@ build Rekurzija7: phony Rekurzija7.exe
 build Rekurzija8: phony Rekurzija8.exe
 
 build Rekurzija9: phony Rekurzija9.exe
+
+build RekurzijaKolokvium: phony RekurzijaKolokvium.exe
 
 build RekurzivniPalindromi: phony RekurzivniPalindromi.exe
 
@@ -11764,7 +12499,7 @@ build main.cpp: phony main.cpp.exe
 #############################################
 # Folder: C:/Users/Media/CLionProjects/SP2023/cmake-build-debug
 
-build all: phony main.cpp.exe abc.cpp.exe Zmija.exe PreureduvanjeNiza.exe OdzemiSamoglaski.exe SlicniBroevi.exe Kontakti.exe TastaturaZadaca.exe MonotonaPodniza.exe NazabenaPodniza.exe MaxMinRedica.exe asdfghjkl.exe RasteckiN.exe PrvPogolemN.exe Romb.exe Vojnik.exe Zelka.exe RedKolonaPecatenje.exe IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe PovtoruvanjeBukva.exe RelativnaFrekvencija.exe ZbirNiza.exe ZbirCifri.exe Fibonaci.exe DecToBinKonverzija.exe Dijagonali.exe Rekurzija.exe Stringovi.exe LinearSearch.exe BinarySearch.exe BubbleSort.exe SelectionSort.exe InsertionSort.exe MartricaSort.exe NiziSortiranje.exe Pokazuvaci.exe Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 3ta-2.exe 4ta-2.exe 6ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 19ta-2.exe 1va-D2.exe 2ra-D2.exe 3ta-D2.exe 4ta-D2.exe 5ta-D2.exe 6ta-D2.exe 7ma-D2.exe 8ma-D2.exe 9ta-D2.exe 10ta-D2.exe 11ta-D2.exe 12ta-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe Swap3broja.exe OceniKolicnik.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe IndeksiSoI.exe MinMaxNiza.exe SwapMinMax.exe kElementFinta.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe LetsGoChelsea.exe BrKoloni2.exe DesnoOdDijagonala.exe ProsekSporednaDijagonala.exe SimetricnaMatrica.exe SrednaVrednostProsek.exe MinMaxMatrica.exe ParenNeparenRed.exe MenenjeMatrica.exe KvoN.exe SpojuvanjeNizi.exe ObratnoSortiranje.exe Zigazaga.exe NeparniElementi.exe InteresenBroj.exe RasteckaNiza.exe Zvezda.exe OpsegRekurzija.exe RekurzivniPalindromi.exe RasteckaRekurzija.exe TransformacijaRekurzija.exe DellivRekurzija.exe PalindromiCifri.exe PokazuvackaEdna.exe RelFreq.exe PodNiza.exe Pointers.exe GolemiMali.exe Pal.exe 2niziTekst.exe ZbirPomalOd5.exe DijagonaliKvadrat.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Aud10.1.exe Aud10.1.2.exe Aud10.2.exe Aud10.3.exe Aud10.4.exe Aud10.5.exe Aud10.6.exe Aud10.7.exe Aud10.8.exe Domasno10.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe Rekurzija1.exe Rekurzija2.exe Rekurzija3.exe Rekurzija4.exe Rekurzija5.exe Rekurzija6.exe Rekurzija7.exe Rekurzija8.exe Rekurzija9.exe
+build all: phony main.cpp.exe abc.cpp.exe RekurzijaKolokvium.exe PosledovatelenStr.exe Matrica.exe Zmija.exe PreureduvanjeNiza.exe OdzemiSamoglaski.exe SlicniBroevi.exe Kontakti.exe TastaturaZadaca.exe MonotonaPodniza.exe NazabenaPodniza.exe MaxMinRedica.exe asdfghjkl.exe RasteckiN.exe PrvPogolemN.exe Romb.exe Vojnik.exe Zelka.exe RedKolonaPecatenje.exe NajvekeKratenjeSamoglaski.exe IstiNizi.exe RotacijaNiza.exe CitajMatrica.exe PolaPola.exe PovtoruvanjeBukva.exe RelativnaFrekvencija.exe ZbirNiza.exe ZbirCifri.exe Fibonaci.exe DecToBinKonverzija.exe Dijagonali.exe Rekurzija.exe Stringovi.exe LinearSearch.exe BinarySearch.exe BubbleSort.exe SelectionSort.exe InsertionSort.exe MartricaSort.exe NiziSortiranje.exe Pokazuvaci.exe Oktomvri.exe Samoglaska.exe Vraboteni.exe Suma2Cifren.exe Suma2NCifren.exe Stepen.exe 1va.exe 2ra.exe 2raB2B.exe 3ta.exe 4ta.exe 4taB2B.exe 5ta.exe 5taB2B.exe 6ta.exe 6taB2B.exe 7ma.exe 8ma.exe 8maB2B.exe 9ta.exe 10ta.exe 10taSoFunkcii.exe 11ta.exe 11taSoFunkcii.exe 13ta.exe 12ta.exe 12taB2B.exe 1va-2.exe 3ta-2.exe 4ta-2.exe 6ta-2.exe 7ta-2.exe 9ta-2.exe 12ta-2.exe 13ta-2.exe 14ta-2.exe 15ta-2.exe 16ta-2.exe 17ta-2.exe 18ta-2.exe 19ta-2.exe 1va-2EN.exe 2ra-2EN.exe 3ta-2EN.exe 4ta-2EN.exe 6ta-2EN.exe 7ma-2EN.exe 8ma-2EN.exe 9ta-2EN.exe 10ta-2EN.exe 11ta-2EN.exe 12ta-2EN.exe 13ta-2EN.exe 14ta-2EN.exe 15ta-2EN.exe 17ta-2EN.exe 33ta-2EN.exe 1va-D2.exe 2ra-D2.exe 3ta-D2.exe 4ta-D2.exe 5ta-D2.exe 6ta-D2.exe 7ma-D2.exe 8ma-D2.exe 9ta-D2.exe 10ta-D2.exe 11ta-D2.exe 12ta-D2.exe Kombinacija3Broja.exe SredinaOperaciiNacin1.exe SredinaOperaciiNacin2.exe GodinaPresmetkiNacin1.exe GodinaPresmetkiNacin2.exe LabsAud1.exe LabsAud2.exe 4broja01.exe Palindrom.exe 3brojaRedosled.exe 5cifrenSpecial.exe OcenaSansa.exe SumaSoInterval.exe UpisFINKI.exe DrzavaX.exe AkademskoOcenuvanje.exe TelefonskiBroevi.exe FILM_TEKSA.exe KinoKategorii.exe Carina.exe FiskalniSmetki.exe BrojCifriX.exe DeliviParniDeliviNeparni.exe Ednakvost2Broja.exe Palindrom2.exe BrojCifri.exe Kalkulator.exe Bingo.exe Sifr_poraki.exe PalindromFunkcii.exe AbsZadaca.exe Parovi.exe LabsSreda1.exe LabsSreda2.exe Swap3broja.exe OceniKolicnik.exe OgledalnaNiza.exe ProsekCeni.exe ZbirPodNiza.exe ParniNeparniNizi.exe ProstaNiza.exe PogolemiNiza.exe DodavanjeNiza.exe kTrampa.exe kElement.exe ZbirIndeks.exe AbsolutnaRazlika.exe IndeksiSoI.exe MinMaxNiza.exe SwapMinMax.exe kElementFinta.exe ParnaMatrica.exe PodDijagonali.exe MagicnaMatrica.exe NajgolemaKolona.exe DijagonalnoPecatenje.exe NegativniMatrica.exe ZnakDijagonali.exe MinMaxNormalizacija.exe LetsGoChelsea.exe BrKoloni2.exe DesnoOdDijagonala.exe ProsekSporednaDijagonala.exe SimetricnaMatrica.exe SrednaVrednostProsek.exe MinMaxMatrica.exe ParenNeparenRed.exe MenenjeMatrica.exe KvoN.exe SpojuvanjeNizi.exe ObratnoSortiranje.exe Zigazaga.exe NeparniElementi.exe InteresenBroj.exe RasteckaNiza.exe Zvezda.exe OpsegRekurzija.exe RekurzivniPalindromi.exe RasteckaRekurzija.exe TransformacijaRekurzija.exe DellivRekurzija.exe PalindromiCifri.exe PokazuvackaEdna.exe RelFreq.exe PodNiza.exe Pointers.exe GolemiMali.exe Pal.exe 2niziTekst.exe ZbirPomalOd5.exe DijagonaliKvadrat.exe HelloWorld.exe Aud1.1.exe Aud1.2.exe KoordPravoagolnik.exe Glusec.exe FINKIPoker.exe ZnaciZadaca.exe Morze.exe Brojanica.exe SredenBroj.exe SredenBroj2.exe Kval1.exe Pikseli.exe Factoriel.exe BrDeliteliCifrBr.exe PodredenBr.exe Aud2.1.exe Aud2.2.exe Aud2.3.exe Aud2.4.exe Aud2.5.exe Aud2.6.exe Aud2.7.exe Aud2.8.exe Aud2.9.exe Aud2.10.exe Aud2.11.exe Aud2.12.exe Aud3.1.exe Aud3.2.exe Aud3.2Bonus.exe Aud3.3.exe Aud3.4.exe Aud3.5.exe Aud3.6.exe Aud3.7.exe Aud3.8.1.exe Aud3.8.2.exe Aud3.9.exe Aud3.2Spoeno.exe Aud4.1.1.exe Aud4.1.2.exe Aud4.1.3.exe Aud4.2.1.exe Aud4.2.2.exe Aud4.2.3.exe Aud4.3.exe Aud4.4.exe Aud4.5.exe Aud4.6.exe Aud4.8.exe Aud4.9.exe Aud4.10.exe Aud4.11.exe Domasno1.exe Domasno2.exe Aud5.1.exe Aud5.2.1.exe Aud5.2.2.exe Aud5.3.1.exe Aud5.3.2.exe Aud5.3.3.exe Aud5.3.4.exe Aud5.4.1.exe Aud5.4.2.exe Aud5.4.3.exe Aud5.5.exe Aud5.5.2.exe Aud5.6.exe Aud5.6.2.exe Aud5.7.exe Aud5.8.exe Aud5.9.exe Aud5.10.exe Aud5.11.exe Aud5.12.exe Aud5.13.exe Aud5.14.exe Aud5.15.1.exe Aud5.15.2.exe Aud6.1.exe Aud6.2.exe Aud6.3.exe Aud6.4.exe Aud6.4.2.exe Aud6.5.exe Aud6.5.2.exe Aud6.6.exe Aud6.7.exe Aud6.8.exe Aud6.8.2.exe Aud7.1.exe Aud7.2.exe Aud7.3.exe Aud7.4.exe Aud7.5.exe Aud7.6.exe Aud7.7.exe Aud7.8.exe Aud7.9.exe Aud7.10.exe Domasno7.10.exe DiplenjeZadaca.exe Aud8.1.exe Aud8.1.2.exe Aud8.1.3.exe Aud8.2.exe Aud8.2.2.exe Aud8.3.exe Aud8.3.2.exe Aud8.4.exe Aud8.5.exe Aud9.1.exe Aud9.1.2.exe Aud9.2.exe Aud9.3.exe Aud9.3.2.exe Aud9.4.exe Aud9.5.exe Aud9.6.exe Aud9.7.exe Domasno9.8.exe Domasno9.9.exe Aud10.1.exe Aud10.1.2.exe Aud10.2.exe Aud10.3.exe Aud10.4.exe Aud10.5.exe Aud10.6.exe Aud10.7.exe Aud10.8.exe Domasno10.9.exe Z1.exe Z2.exe Z7.exe Z9.exe Z10.exe Matrica1.exe Matrica2.exe Matrica3.exe Matrica4.exe Elka.exe Rekurzija1.exe Rekurzija2.exe Rekurzija3.exe Rekurzija4.exe Rekurzija5.exe Rekurzija6.exe Rekurzija7.exe Rekurzija8.exe Rekurzija9.exe
 
 # =============================================================================
 # Built-in targets

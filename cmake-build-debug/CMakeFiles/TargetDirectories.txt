@@ -1,5 +1,8 @@
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/main.cpp.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/abc.cpp.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/RekurzijaKolokvium.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PosledovatelenStr.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Matrica.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Zmija.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/PreureduvanjeNiza.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/OdzemiSamoglaski.dir
@@ -16,6 +19,7 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Romb.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Vojnik.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/Zelka.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/RedKolonaPecatenje.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/NajvekeKratenjeSamoglaski.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/IstiNizi.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/RotacijaNiza.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/CitajMatrica.dir
@@ -64,6 +68,7 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/11taSoFunkcii.d
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/13ta.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12ta.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12taB2B.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/1va-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/3ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/4ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/6ta-2.dir
@@ -77,6 +82,22 @@ C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/16ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/17ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/18ta-2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/19ta-2.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/1va-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/2ra-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/3ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/4ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/6ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/7ma-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/8ma-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/9ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/10ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/11ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/12ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/13ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/14ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/15ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/17ta-2EN.dir
+C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/33ta-2EN.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/1va-D2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/2ra-D2.dir
 C:/Users/Media/CLionProjects/SP2023/cmake-build-debug/CMakeFiles/3ta-D2.dir

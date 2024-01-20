@@ -8,7 +8,7 @@ int sumOfDigits(int broj) {
     }
     int cifra = broj % 10;
     if (cifra < 5) {
-        return broj % 10 + sumOfDigits(broj / 10);
+        return cifra + sumOfDigits(broj / 10);
     } else return sumOfDigits(broj / 10);
 }
 

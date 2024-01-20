@@ -1,90 +1,173 @@
-#include<iostream>
+// Vlatko
+#include <iostream>
 #include <cstring>
 
 using namespace std;
 
 int main() {
-
-    int m, n; //golemina na niva
-    int fields[100][100];
-    cin >> m >> n;
-
-    for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
-            fields[i][j] = 0;
+    int a[100][100] = {0};
+    int n, m, Ji, Jj, Zi = 0, Zj = 0, nasoka = 0;
+    //nasoka 0 dolu 1 desno 2 gore 3 levo
+    a[0][0] = -1;
+    char potezi[1000];
+    cin >> n >> m >> Ji >> Jj;
+    cin.ignore();
+    cin.getline(potezi, 1001); // F R L
+    for (int i = 0; i < strlen(potezi); ++i) {
+        if (potezi[i] == 'F') {
+            if (nasoka == 0) {
+                Zi++;
+            }
+            if (nasoka == 1) {
+                Zj++;
+            }
+            if (nasoka == 2) {
+                Zi--;
+            }
+            if (nasoka == 3) {
+                Zj--;
+            }
         }
-    }
-
-    int appleI, appleJ; //koordinati na jabolkoto
-    cin >> appleI >> appleJ;
-
-    cin.ignore(); //za da se ignorira noviot red posle brojkata appleJ
-
-    char commands[1001];
-    cin.getline(commands, 1001);
-
-    int snakeI = 0, snakeJ = 0;
-    int dI = 1, dJ = 0;
-    //Svrtena nadolu ILI nagore     -> -1 kaj R
-    //Svrtena nalevo ILI nadesno    -> -1 kaj L
-    //VO SEKOJ SLUCAJ se trampat vrednostite
-
-    for (int i = 0; i < strlen(commands); i++) {
-        char command = commands[i];
-        switch (command) {
-            case 'L':
-            case 'R':
-                if (dJ == 0) {
-                    if (command == 'R') {
-                        dI *= -1;
-                    }
-                    swap(dI, dJ);
-                } else { //dJ == 1 ili -1
-                    if (command == 'L') {
-                        dJ *= -1;
-                    }
-                    swap(dI, dJ);
-                }
-                break;
-            case 'F':
-                break;
-            default:
-                cout << "ERROR";
-                return 0;
+        if (potezi[i] == 'L') {
+            if (nasoka == 0) {
+                Zj++;
+                nasoka = 1;
+            } else if (nasoka == 1) {
+                Zi--;
+                nasoka = 2;
+            } else if (nasoka == 2) {
+                Zj--;
+                nasoka = 3;
+            } else if (nasoka == 3) {
+                Zi++;
+                nasoka = 0;
+            }
+        }
+        if (potezi[i] == 'R') {
+            if (nasoka == 0) {
+                Zj--;
+                nasoka = 3;
+            } else if (nasoka == 1) {
+                Zi++;
+                nasoka = 0;
+            } else if (nasoka == 2) {
+                Zj++;
+                nasoka = 1;
+            } else if (nasoka == 3) {
+                Zi--;
+                nasoka = 2;
+            }
         }
 
-        snakeI += dI;
-        snakeJ += dJ;
-
-        if (snakeI == appleI && snakeJ == appleJ) {
+        if (Zi == Ji && Zj == Jj) {
             cout << "NJAM";
             return 0;
         }
 
-        if (snakeI < 0 || snakeI >= m || snakeJ < 0 || snakeJ >= n) {
-            cout << "GAME OVER Ouch";
+        if (Zi < 0 || Zi > (n - 1) || Zj < 0 || Zj > (m - 1)) {
+            cout << "GAME OVER Ouch" << endl;
             return 0;
         }
 
-        if (fields[snakeI][snakeJ] == 1) {
-            cout << "GAME OVER Ouch";
+        if (a[Zi][Zi] == -1) {
+            cout << "GAME OVER Ouch" << endl;
             return 0;
         } else {
-            fields[snakeI][snakeJ] = 1;
+            a[Zi][Zj] = -1;
         }
+
     }
-
-    cout << "GAMEOVER";
-
-//    ako treba so pokazuvac da verglam
-//    char * ptr = commands;
-//    while (*ptr!=0){
-//        char command = *ptr;
-//
-//        ptr++;
-//    }
+    cout << "GAMEOVER" << endl;
     return 0;
 }
+
+//#include<iostream>
+//#include <cstring>
+//
+//using namespace std;
+//
+//int main() {
+//
+//    int m, n; //golemina na niva
+//    int fields[100][100];
+//    cin >> m >> n;
+//
+//    for (int i = 0; i < m; i++) {
+//        for (int j = 0; j < n; j++) {
+//            fields[i][j] = 0;
+//        }
+//    }
+//
+//    int appleI, appleJ; //koordinati na jabolkoto
+//    cin >> appleI >> appleJ;
+//
+//    cin.ignore(); //za da se ignorira noviot red posle brojkata appleJ
+//
+//    char commands[1001];
+//    cin.getline(commands, 1001);
+//
+//    int snakeI = 0, snakeJ = 0;
+//    int dI = 1, dJ = 0;
+//    //Svrtena nadolu ILI nagore     -> -1 kaj R
+//    //Svrtena nalevo ILI nadesno    -> -1 kaj L
+//    //VO SEKOJ SLUCAJ se trampat vrednostite
+//
+//    for (int i = 0; i < strlen(commands); i++) {
+//        char command = commands[i];
+//        switch (command) {
+//            case 'L':
+//            case 'R':
+//                if (dJ == 0) {
+//                    if (command == 'R') {
+//                        dI *= -1;
+//                    }
+//                    swap(dI, dJ);
+//                } else { //dJ == 1 ili -1
+//                    if (command == 'L') {
+//                        dJ *= -1;
+//                    }
+//                    swap(dI, dJ);
+//                }
+//                break;
+//            case 'F':
+//                break;
+//            default:
+//                cout << "ERROR";
+//                return 0;
+//        }
+//
+//        snakeI += dI;
+//        snakeJ += dJ;
+//
+//        if (snakeI == appleI && snakeJ == appleJ) {
+//            cout << "NJAM";
+//            return 0;
+//        }
+//
+//        if (snakeI < 0 || snakeI >= m || snakeJ < 0 || snakeJ >= n) {
+//            cout << "GAME OVER Ouch";
+//            return 0;
+//        }
+//
+//        if (fields[snakeI][snakeJ] == 1) {
+//            cout << "GAME OVER Ouch";
+//            return 0;
+//        } else {
+//            fields[snakeI][snakeJ] = 1;
+//        }
+//    }
+//
+//    cout << "GAMEOVER";
+//
+////    ako treba so pokazuvac da verglam
+////    char * ptr = commands;
+////    while (*ptr!=0){
+////        char command = *ptr;
+////
+////        ptr++;
+////    }
+//    return 0;
+//}
 
 
 //2 resenie Stefan
@@ -163,67 +246,3 @@ int main() {
 //    return 0;
 //}
 
-
-// Vlatko
-//#include <iostream>
-//#include <cstring>
-//
-//using namespace std;
-//
-//int proveriJabuka(int Zi, int Zj, int Ji, int Jj) {
-//    if (Zi == Ji && Zj == Jj) {
-//        return 1;
-//    } else
-//        return 0;
-//}
-//
-//int proveriZid(int Zi, int Zj, int n, int m) {
-//    if (Zi < 0 || Zi > n - 1 || Zj < 0 || Zj > m - 1) {
-//        return 0;
-//    }
-//    return 1;
-//}
-//
-//int main() {
-//    int a[100][100] = {0};
-//    int n, m, Ji, Jj, Zi = 0, Zj = 0;
-//    a[0][0] = -1;
-//    char nasoka[1000], pravec = 'N';//F L R
-//    cin >> n >> m >> Ji >> Jj;
-//    cin.getline(nasoka, 1000);
-//    for (int i = 0; i < strlen(nasoka); ++i) {
-//        if (nasoka[i] == 'F') {
-//            if (pravec == 'N') {
-//                Zi++;
-//            }
-//            if (pravec == 'D') {
-//                Zj--;
-//            }
-//            if (pravec == 'L') {
-//                Zj++;
-//            }
-//            if (pravec == 'G') {
-//                Zi--;
-//            }
-//        } else if (nasoka[i] == 'L') {
-//            if (pravec == 'N') {
-//                pravec = 'L';
-//                Zj++;
-//            }
-//            if (pravec == 'D') {
-//                pravec = 'N';
-//                Zi++;
-//            }
-//            if (pravec == 'L') {
-//                pravec = 'G';
-//                Zi--;
-//            }
-//            if (pravec == 'G') {
-//                pravec = 'L';
-//                Zj--;
-//            }
-//        }
-//    }
-//
-//
-//}

@@ -16,9 +16,6 @@ int main() {
     char a[80], b[80], c[80];
 
     cin.getline(a, 80);
-
-    cin.ignore();
-
     cin.getline(b, 80);
 
     for (int i = 0; i < strlen(a); ++i) {
@@ -30,8 +27,7 @@ int main() {
             c[i] = '-';
         }
     }
-    for (int i = 0; i < strlen(a); ++i) {
-        cout << c[i];
-    }
+    c[strlen(a)] = '\0';
+    cout << c;
     return 0;
 }
