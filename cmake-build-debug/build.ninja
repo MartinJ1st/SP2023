@@ -6088,11 +6088,11 @@ build Aud1.2.exe: CXX_EXECUTABLE_LINKER__Aud1.2e2_Debug CMakeFiles/Aud1.2.dir/Au
 
 build cmake_object_order_depends_target_KoordPravoagolnik: phony || CMakeFiles/KoordPravoagolnik.dir
 
-build CMakeFiles/KoordPravoagolnik.dir/RendomShit/KoordPravoagolnik.cpp.obj: CXX_COMPILER__KoordPravoagolnik_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/KoordPravoagolnik.cpp || cmake_object_order_depends_target_KoordPravoagolnik
-  DEP_FILE = CMakeFiles\KoordPravoagolnik.dir\RendomShit\KoordPravoagolnik.cpp.obj.d
+build CMakeFiles/KoordPravoagolnik.dir/Predavanja/RendomShit/KoordPravoagolnik.cpp.obj: CXX_COMPILER__KoordPravoagolnik_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/KoordPravoagolnik.cpp || cmake_object_order_depends_target_KoordPravoagolnik
+  DEP_FILE = CMakeFiles\KoordPravoagolnik.dir\Predavanja\RendomShit\KoordPravoagolnik.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\KoordPravoagolnik.dir
-  OBJECT_FILE_DIR = CMakeFiles\KoordPravoagolnik.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\KoordPravoagolnik.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6102,7 +6102,7 @@ build CMakeFiles/KoordPravoagolnik.dir/RendomShit/KoordPravoagolnik.cpp.obj: CXX
 #############################################
 # Link the executable KoordPravoagolnik.exe
 
-build KoordPravoagolnik.exe: CXX_EXECUTABLE_LINKER__KoordPravoagolnik_Debug CMakeFiles/KoordPravoagolnik.dir/RendomShit/KoordPravoagolnik.cpp.obj
+build KoordPravoagolnik.exe: CXX_EXECUTABLE_LINKER__KoordPravoagolnik_Debug CMakeFiles/KoordPravoagolnik.dir/Predavanja/RendomShit/KoordPravoagolnik.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\KoordPravoagolnik.dir
@@ -6121,11 +6121,11 @@ build KoordPravoagolnik.exe: CXX_EXECUTABLE_LINKER__KoordPravoagolnik_Debug CMak
 
 build cmake_object_order_depends_target_Glusec: phony || CMakeFiles/Glusec.dir
 
-build CMakeFiles/Glusec.dir/RendomShit/Glusec.cpp.obj: CXX_COMPILER__Glusec_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/Glusec.cpp || cmake_object_order_depends_target_Glusec
-  DEP_FILE = CMakeFiles\Glusec.dir\RendomShit\Glusec.cpp.obj.d
+build CMakeFiles/Glusec.dir/Predavanja/RendomShit/Glusec.cpp.obj: CXX_COMPILER__Glusec_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/Glusec.cpp || cmake_object_order_depends_target_Glusec
+  DEP_FILE = CMakeFiles\Glusec.dir\Predavanja\RendomShit\Glusec.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Glusec.dir
-  OBJECT_FILE_DIR = CMakeFiles\Glusec.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\Glusec.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6135,7 +6135,7 @@ build CMakeFiles/Glusec.dir/RendomShit/Glusec.cpp.obj: CXX_COMPILER__Glusec_unsc
 #############################################
 # Link the executable Glusec.exe
 
-build Glusec.exe: CXX_EXECUTABLE_LINKER__Glusec_Debug CMakeFiles/Glusec.dir/RendomShit/Glusec.cpp.obj
+build Glusec.exe: CXX_EXECUTABLE_LINKER__Glusec_Debug CMakeFiles/Glusec.dir/Predavanja/RendomShit/Glusec.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Glusec.dir
@@ -6154,11 +6154,11 @@ build Glusec.exe: CXX_EXECUTABLE_LINKER__Glusec_Debug CMakeFiles/Glusec.dir/Rend
 
 build cmake_object_order_depends_target_FINKIPoker: phony || CMakeFiles/FINKIPoker.dir
 
-build CMakeFiles/FINKIPoker.dir/RendomShit/FINKIPoker.cpp.obj: CXX_COMPILER__FINKIPoker_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/FINKIPoker.cpp || cmake_object_order_depends_target_FINKIPoker
-  DEP_FILE = CMakeFiles\FINKIPoker.dir\RendomShit\FINKIPoker.cpp.obj.d
+build CMakeFiles/FINKIPoker.dir/Predavanja/RendomShit/FINKIPoker.cpp.obj: CXX_COMPILER__FINKIPoker_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/FINKIPoker.cpp || cmake_object_order_depends_target_FINKIPoker
+  DEP_FILE = CMakeFiles\FINKIPoker.dir\Predavanja\RendomShit\FINKIPoker.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\FINKIPoker.dir
-  OBJECT_FILE_DIR = CMakeFiles\FINKIPoker.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\FINKIPoker.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6168,7 +6168,7 @@ build CMakeFiles/FINKIPoker.dir/RendomShit/FINKIPoker.cpp.obj: CXX_COMPILER__FIN
 #############################################
 # Link the executable FINKIPoker.exe
 
-build FINKIPoker.exe: CXX_EXECUTABLE_LINKER__FINKIPoker_Debug CMakeFiles/FINKIPoker.dir/RendomShit/FINKIPoker.cpp.obj
+build FINKIPoker.exe: CXX_EXECUTABLE_LINKER__FINKIPoker_Debug CMakeFiles/FINKIPoker.dir/Predavanja/RendomShit/FINKIPoker.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\FINKIPoker.dir
@@ -6187,11 +6187,11 @@ build FINKIPoker.exe: CXX_EXECUTABLE_LINKER__FINKIPoker_Debug CMakeFiles/FINKIPo
 
 build cmake_object_order_depends_target_ZnaciZadaca: phony || CMakeFiles/ZnaciZadaca.dir
 
-build CMakeFiles/ZnaciZadaca.dir/RendomShit/ZnaciZadaca.cpp.obj: CXX_COMPILER__ZnaciZadaca_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/ZnaciZadaca.cpp || cmake_object_order_depends_target_ZnaciZadaca
-  DEP_FILE = CMakeFiles\ZnaciZadaca.dir\RendomShit\ZnaciZadaca.cpp.obj.d
+build CMakeFiles/ZnaciZadaca.dir/Predavanja/RendomShit/ZnaciZadaca.cpp.obj: CXX_COMPILER__ZnaciZadaca_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/ZnaciZadaca.cpp || cmake_object_order_depends_target_ZnaciZadaca
+  DEP_FILE = CMakeFiles\ZnaciZadaca.dir\Predavanja\RendomShit\ZnaciZadaca.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ZnaciZadaca.dir
-  OBJECT_FILE_DIR = CMakeFiles\ZnaciZadaca.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\ZnaciZadaca.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6201,7 +6201,7 @@ build CMakeFiles/ZnaciZadaca.dir/RendomShit/ZnaciZadaca.cpp.obj: CXX_COMPILER__Z
 #############################################
 # Link the executable ZnaciZadaca.exe
 
-build ZnaciZadaca.exe: CXX_EXECUTABLE_LINKER__ZnaciZadaca_Debug CMakeFiles/ZnaciZadaca.dir/RendomShit/ZnaciZadaca.cpp.obj
+build ZnaciZadaca.exe: CXX_EXECUTABLE_LINKER__ZnaciZadaca_Debug CMakeFiles/ZnaciZadaca.dir/Predavanja/RendomShit/ZnaciZadaca.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\ZnaciZadaca.dir
@@ -6220,11 +6220,11 @@ build ZnaciZadaca.exe: CXX_EXECUTABLE_LINKER__ZnaciZadaca_Debug CMakeFiles/Znaci
 
 build cmake_object_order_depends_target_Morze: phony || CMakeFiles/Morze.dir
 
-build CMakeFiles/Morze.dir/RendomShit/Morze.cpp.obj: CXX_COMPILER__Morze_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/Morze.cpp || cmake_object_order_depends_target_Morze
-  DEP_FILE = CMakeFiles\Morze.dir\RendomShit\Morze.cpp.obj.d
+build CMakeFiles/Morze.dir/Predavanja/RendomShit/Morze.cpp.obj: CXX_COMPILER__Morze_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/Morze.cpp || cmake_object_order_depends_target_Morze
+  DEP_FILE = CMakeFiles\Morze.dir\Predavanja\RendomShit\Morze.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Morze.dir
-  OBJECT_FILE_DIR = CMakeFiles\Morze.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\Morze.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6234,7 +6234,7 @@ build CMakeFiles/Morze.dir/RendomShit/Morze.cpp.obj: CXX_COMPILER__Morze_unscann
 #############################################
 # Link the executable Morze.exe
 
-build Morze.exe: CXX_EXECUTABLE_LINKER__Morze_Debug CMakeFiles/Morze.dir/RendomShit/Morze.cpp.obj
+build Morze.exe: CXX_EXECUTABLE_LINKER__Morze_Debug CMakeFiles/Morze.dir/Predavanja/RendomShit/Morze.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Morze.dir
@@ -6253,11 +6253,11 @@ build Morze.exe: CXX_EXECUTABLE_LINKER__Morze_Debug CMakeFiles/Morze.dir/RendomS
 
 build cmake_object_order_depends_target_Brojanica: phony || CMakeFiles/Brojanica.dir
 
-build CMakeFiles/Brojanica.dir/RendomShit/Brojanica.cpp.obj: CXX_COMPILER__Brojanica_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/Brojanica.cpp || cmake_object_order_depends_target_Brojanica
-  DEP_FILE = CMakeFiles\Brojanica.dir\RendomShit\Brojanica.cpp.obj.d
+build CMakeFiles/Brojanica.dir/Predavanja/RendomShit/Brojanica.cpp.obj: CXX_COMPILER__Brojanica_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/Brojanica.cpp || cmake_object_order_depends_target_Brojanica
+  DEP_FILE = CMakeFiles\Brojanica.dir\Predavanja\RendomShit\Brojanica.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Brojanica.dir
-  OBJECT_FILE_DIR = CMakeFiles\Brojanica.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\Brojanica.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6267,7 +6267,7 @@ build CMakeFiles/Brojanica.dir/RendomShit/Brojanica.cpp.obj: CXX_COMPILER__Broja
 #############################################
 # Link the executable Brojanica.exe
 
-build Brojanica.exe: CXX_EXECUTABLE_LINKER__Brojanica_Debug CMakeFiles/Brojanica.dir/RendomShit/Brojanica.cpp.obj
+build Brojanica.exe: CXX_EXECUTABLE_LINKER__Brojanica_Debug CMakeFiles/Brojanica.dir/Predavanja/RendomShit/Brojanica.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Brojanica.dir
@@ -6286,11 +6286,11 @@ build Brojanica.exe: CXX_EXECUTABLE_LINKER__Brojanica_Debug CMakeFiles/Brojanica
 
 build cmake_object_order_depends_target_SredenBroj: phony || CMakeFiles/SredenBroj.dir
 
-build CMakeFiles/SredenBroj.dir/RendomShit/SredenBroj.cpp.obj: CXX_COMPILER__SredenBroj_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/SredenBroj.cpp || cmake_object_order_depends_target_SredenBroj
-  DEP_FILE = CMakeFiles\SredenBroj.dir\RendomShit\SredenBroj.cpp.obj.d
+build CMakeFiles/SredenBroj.dir/Predavanja/RendomShit/SredenBroj.cpp.obj: CXX_COMPILER__SredenBroj_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/SredenBroj.cpp || cmake_object_order_depends_target_SredenBroj
+  DEP_FILE = CMakeFiles\SredenBroj.dir\Predavanja\RendomShit\SredenBroj.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SredenBroj.dir
-  OBJECT_FILE_DIR = CMakeFiles\SredenBroj.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\SredenBroj.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6300,7 +6300,7 @@ build CMakeFiles/SredenBroj.dir/RendomShit/SredenBroj.cpp.obj: CXX_COMPILER__Sre
 #############################################
 # Link the executable SredenBroj.exe
 
-build SredenBroj.exe: CXX_EXECUTABLE_LINKER__SredenBroj_Debug CMakeFiles/SredenBroj.dir/RendomShit/SredenBroj.cpp.obj
+build SredenBroj.exe: CXX_EXECUTABLE_LINKER__SredenBroj_Debug CMakeFiles/SredenBroj.dir/Predavanja/RendomShit/SredenBroj.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SredenBroj.dir
@@ -6319,11 +6319,11 @@ build SredenBroj.exe: CXX_EXECUTABLE_LINKER__SredenBroj_Debug CMakeFiles/SredenB
 
 build cmake_object_order_depends_target_SredenBroj2: phony || CMakeFiles/SredenBroj2.dir
 
-build CMakeFiles/SredenBroj2.dir/RendomShit/SredenBroj2.cpp.obj: CXX_COMPILER__SredenBroj2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/SredenBroj2.cpp || cmake_object_order_depends_target_SredenBroj2
-  DEP_FILE = CMakeFiles\SredenBroj2.dir\RendomShit\SredenBroj2.cpp.obj.d
+build CMakeFiles/SredenBroj2.dir/Predavanja/RendomShit/SredenBroj2.cpp.obj: CXX_COMPILER__SredenBroj2_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/SredenBroj2.cpp || cmake_object_order_depends_target_SredenBroj2
+  DEP_FILE = CMakeFiles\SredenBroj2.dir\Predavanja\RendomShit\SredenBroj2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\SredenBroj2.dir
-  OBJECT_FILE_DIR = CMakeFiles\SredenBroj2.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\SredenBroj2.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6333,7 +6333,7 @@ build CMakeFiles/SredenBroj2.dir/RendomShit/SredenBroj2.cpp.obj: CXX_COMPILER__S
 #############################################
 # Link the executable SredenBroj2.exe
 
-build SredenBroj2.exe: CXX_EXECUTABLE_LINKER__SredenBroj2_Debug CMakeFiles/SredenBroj2.dir/RendomShit/SredenBroj2.cpp.obj
+build SredenBroj2.exe: CXX_EXECUTABLE_LINKER__SredenBroj2_Debug CMakeFiles/SredenBroj2.dir/Predavanja/RendomShit/SredenBroj2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\SredenBroj2.dir
@@ -6352,11 +6352,11 @@ build SredenBroj2.exe: CXX_EXECUTABLE_LINKER__SredenBroj2_Debug CMakeFiles/Srede
 
 build cmake_object_order_depends_target_Kval1: phony || CMakeFiles/Kval1.dir
 
-build CMakeFiles/Kval1.dir/RendomShit/Kval1.cpp.obj: CXX_COMPILER__Kval1_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/Kval1.cpp || cmake_object_order_depends_target_Kval1
-  DEP_FILE = CMakeFiles\Kval1.dir\RendomShit\Kval1.cpp.obj.d
+build CMakeFiles/Kval1.dir/Predavanja/RendomShit/Kval1.cpp.obj: CXX_COMPILER__Kval1_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/Kval1.cpp || cmake_object_order_depends_target_Kval1
+  DEP_FILE = CMakeFiles\Kval1.dir\Predavanja\RendomShit\Kval1.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Kval1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Kval1.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\Kval1.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6366,7 +6366,7 @@ build CMakeFiles/Kval1.dir/RendomShit/Kval1.cpp.obj: CXX_COMPILER__Kval1_unscann
 #############################################
 # Link the executable Kval1.exe
 
-build Kval1.exe: CXX_EXECUTABLE_LINKER__Kval1_Debug CMakeFiles/Kval1.dir/RendomShit/Kval1.cpp.obj
+build Kval1.exe: CXX_EXECUTABLE_LINKER__Kval1_Debug CMakeFiles/Kval1.dir/Predavanja/RendomShit/Kval1.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Kval1.dir
@@ -6385,11 +6385,11 @@ build Kval1.exe: CXX_EXECUTABLE_LINKER__Kval1_Debug CMakeFiles/Kval1.dir/RendomS
 
 build cmake_object_order_depends_target_Pikseli: phony || CMakeFiles/Pikseli.dir
 
-build CMakeFiles/Pikseli.dir/RendomShit/Pikseli.cpp.obj: CXX_COMPILER__Pikseli_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/Pikseli.cpp || cmake_object_order_depends_target_Pikseli
-  DEP_FILE = CMakeFiles\Pikseli.dir\RendomShit\Pikseli.cpp.obj.d
+build CMakeFiles/Pikseli.dir/Predavanja/RendomShit/Pikseli.cpp.obj: CXX_COMPILER__Pikseli_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/Pikseli.cpp || cmake_object_order_depends_target_Pikseli
+  DEP_FILE = CMakeFiles\Pikseli.dir\Predavanja\RendomShit\Pikseli.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Pikseli.dir
-  OBJECT_FILE_DIR = CMakeFiles\Pikseli.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\Pikseli.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6399,7 +6399,7 @@ build CMakeFiles/Pikseli.dir/RendomShit/Pikseli.cpp.obj: CXX_COMPILER__Pikseli_u
 #############################################
 # Link the executable Pikseli.exe
 
-build Pikseli.exe: CXX_EXECUTABLE_LINKER__Pikseli_Debug CMakeFiles/Pikseli.dir/RendomShit/Pikseli.cpp.obj
+build Pikseli.exe: CXX_EXECUTABLE_LINKER__Pikseli_Debug CMakeFiles/Pikseli.dir/Predavanja/RendomShit/Pikseli.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Pikseli.dir
@@ -6418,11 +6418,11 @@ build Pikseli.exe: CXX_EXECUTABLE_LINKER__Pikseli_Debug CMakeFiles/Pikseli.dir/R
 
 build cmake_object_order_depends_target_Factoriel: phony || CMakeFiles/Factoriel.dir
 
-build CMakeFiles/Factoriel.dir/RendomShit/Factoriel.cpp.obj: CXX_COMPILER__Factoriel_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/Factoriel.cpp || cmake_object_order_depends_target_Factoriel
-  DEP_FILE = CMakeFiles\Factoriel.dir\RendomShit\Factoriel.cpp.obj.d
+build CMakeFiles/Factoriel.dir/Predavanja/RendomShit/Factoriel.cpp.obj: CXX_COMPILER__Factoriel_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/Factoriel.cpp || cmake_object_order_depends_target_Factoriel
+  DEP_FILE = CMakeFiles\Factoriel.dir\Predavanja\RendomShit\Factoriel.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Factoriel.dir
-  OBJECT_FILE_DIR = CMakeFiles\Factoriel.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\Factoriel.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6432,7 +6432,7 @@ build CMakeFiles/Factoriel.dir/RendomShit/Factoriel.cpp.obj: CXX_COMPILER__Facto
 #############################################
 # Link the executable Factoriel.exe
 
-build Factoriel.exe: CXX_EXECUTABLE_LINKER__Factoriel_Debug CMakeFiles/Factoriel.dir/RendomShit/Factoriel.cpp.obj
+build Factoriel.exe: CXX_EXECUTABLE_LINKER__Factoriel_Debug CMakeFiles/Factoriel.dir/Predavanja/RendomShit/Factoriel.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Factoriel.dir
@@ -6451,11 +6451,11 @@ build Factoriel.exe: CXX_EXECUTABLE_LINKER__Factoriel_Debug CMakeFiles/Factoriel
 
 build cmake_object_order_depends_target_BrDeliteliCifrBr: phony || CMakeFiles/BrDeliteliCifrBr.dir
 
-build CMakeFiles/BrDeliteliCifrBr.dir/RendomShit/BrDeliteliCifrBr.cpp.obj: CXX_COMPILER__BrDeliteliCifrBr_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/BrDeliteliCifrBr.cpp || cmake_object_order_depends_target_BrDeliteliCifrBr
-  DEP_FILE = CMakeFiles\BrDeliteliCifrBr.dir\RendomShit\BrDeliteliCifrBr.cpp.obj.d
+build CMakeFiles/BrDeliteliCifrBr.dir/Predavanja/RendomShit/BrDeliteliCifrBr.cpp.obj: CXX_COMPILER__BrDeliteliCifrBr_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/BrDeliteliCifrBr.cpp || cmake_object_order_depends_target_BrDeliteliCifrBr
+  DEP_FILE = CMakeFiles\BrDeliteliCifrBr.dir\Predavanja\RendomShit\BrDeliteliCifrBr.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\BrDeliteliCifrBr.dir
-  OBJECT_FILE_DIR = CMakeFiles\BrDeliteliCifrBr.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\BrDeliteliCifrBr.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6465,7 +6465,7 @@ build CMakeFiles/BrDeliteliCifrBr.dir/RendomShit/BrDeliteliCifrBr.cpp.obj: CXX_C
 #############################################
 # Link the executable BrDeliteliCifrBr.exe
 
-build BrDeliteliCifrBr.exe: CXX_EXECUTABLE_LINKER__BrDeliteliCifrBr_Debug CMakeFiles/BrDeliteliCifrBr.dir/RendomShit/BrDeliteliCifrBr.cpp.obj
+build BrDeliteliCifrBr.exe: CXX_EXECUTABLE_LINKER__BrDeliteliCifrBr_Debug CMakeFiles/BrDeliteliCifrBr.dir/Predavanja/RendomShit/BrDeliteliCifrBr.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BrDeliteliCifrBr.dir
@@ -6484,11 +6484,11 @@ build BrDeliteliCifrBr.exe: CXX_EXECUTABLE_LINKER__BrDeliteliCifrBr_Debug CMakeF
 
 build cmake_object_order_depends_target_PodredenBr: phony || CMakeFiles/PodredenBr.dir
 
-build CMakeFiles/PodredenBr.dir/RendomShit/PodredenBr.cpp.obj: CXX_COMPILER__PodredenBr_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/RendomShit/PodredenBr.cpp || cmake_object_order_depends_target_PodredenBr
-  DEP_FILE = CMakeFiles\PodredenBr.dir\RendomShit\PodredenBr.cpp.obj.d
+build CMakeFiles/PodredenBr.dir/Predavanja/RendomShit/PodredenBr.cpp.obj: CXX_COMPILER__PodredenBr_unscanned_Debug C$:/Users/Media/CLionProjects/SP2023/Predavanja/RendomShit/PodredenBr.cpp || cmake_object_order_depends_target_PodredenBr
+  DEP_FILE = CMakeFiles\PodredenBr.dir\Predavanja\RendomShit\PodredenBr.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\PodredenBr.dir
-  OBJECT_FILE_DIR = CMakeFiles\PodredenBr.dir\RendomShit
+  OBJECT_FILE_DIR = CMakeFiles\PodredenBr.dir\Predavanja\RendomShit
 
 
 # =============================================================================
@@ -6498,7 +6498,7 @@ build CMakeFiles/PodredenBr.dir/RendomShit/PodredenBr.cpp.obj: CXX_COMPILER__Pod
 #############################################
 # Link the executable PodredenBr.exe
 
-build PodredenBr.exe: CXX_EXECUTABLE_LINKER__PodredenBr_Debug CMakeFiles/PodredenBr.dir/RendomShit/PodredenBr.cpp.obj
+build PodredenBr.exe: CXX_EXECUTABLE_LINKER__PodredenBr_Debug CMakeFiles/PodredenBr.dir/Predavanja/RendomShit/PodredenBr.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\PodredenBr.dir
